@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Local map database (per-machine, generated)
+map/objects.db
+map/token.txt
+
+# Bot runtime state
+bot/bot_status.json
+bot/bot_config.json
+bot/buildings/bag_cache.json
+
+# APK / reverse engineering
+*.apk
+*.jar
+*.zip
+*.smali
+apktool_out/
+apktool_new/
+base/
+artifacts/
+
+# Sniff / dump files
+battle_ws_sniff*.txt
+bestiary_http.txt
+advices.txt
+amity.txt
+
+# Area / research dumps
+area_dump.json
+area_moscow.json
+area_sniff_result.json
+apollyon_area.txt
+
+# Analysis / diag scripts (local research only)
+analyze*.py
+diag*.py
+
+# Local planning docs
+PLAN.md
+ENGINE_V3_PLAN.md
+MASTER_PLAN.md
+STATE.md
+BATTLE_ENGINE_IMPL.md
+RESEARCH_JS.md

@@ -1,0 +1,1550 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Orna Map</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css"/>
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css"/>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --bg:        #0d0d0f;
+    --panel:     rgba(15, 15, 20, 0.82);
+    --border:    rgba(255,255,255,0.08);
+    --text:      #e0e0e8;
+    --muted:     #666878;
+    --accent:    #7c6ef5;
+    --accent2:   #4fc3f7;
+    --green:     #4caf50;
+    --yellow:    #ffd54f;
+    --red:       #ef5350;
+    --radius:    10px;
+    --blur:      12px;
+  }
+
+  html, body { height: 100%; background: var(--bg); color: var(--text); font-family: 'Inter', system-ui, sans-serif; }
+
+  #map { position: absolute; inset: 0; z-index: 0; }
+  #map.opt-selecting { cursor: crosshair !important; }
+  #map.crw-selecting { cursor: crosshair !important; }
+
+  select.opt-input { appearance: auto; cursor: pointer; }
+
+  #crw-status {
+    font-size: 11px;
+    color: var(--muted);
+    text-align: center;
+    padding: 4px 0;
+  }
+
+  /* ── Sidebar ── */
+  #sidebar {
+    position: absolute;
+    top: 16px; left: 16px;
+    width: 264px;
+    z-index: 1000;
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    backdrop-filter: blur(var(--blur));
+    -webkit-backdrop-filter: blur(var(--blur));
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    max-height: calc(100vh - 32px);
+    overflow-y: auto;
+  }
+
+  #sidebar h1 {
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    color: var(--text);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  #sidebar h1 span.dot {
+    width: 8px; height: 8px;
+    border-radius: 50%;
+    background: var(--accent);
+    box-shadow: 0 0 6px var(--accent);
+    display: inline-block;
+  }
+
+  .stat-row {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: var(--muted);
+  }
+  .stat-row strong { color: var(--text); font-weight: 500; }
+
+  .section-label {
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 6px;
+  }
+
+  /* ── Filter pills ── */
+  #filters { display: flex; flex-wrap: wrap; gap: 6px; }
+
+  .pill {
+    font-size: 11px;
+    padding: 4px 10px;
+    border-radius: 20px;
+    border: 1px solid var(--border);
+    background: rgba(255,255,255,0.04);
+    color: var(--muted);
+    cursor: pointer;
+    transition: all 0.15s;
+    user-select: none;
+    white-space: nowrap;
+  }
+  .pill:hover { border-color: rgba(255,255,255,0.2); color: var(--text); }
+  .pill.active {
+    background: rgba(124,110,245,0.18);
+    border-color: rgba(124,110,245,0.5);
+    color: var(--accent);
+  }
+  .pill.active:hover { background: rgba(124,110,245,0.26); }
+
+  /* ── Age toggle ── */
+  .toggle-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+    color: var(--muted);
+  }
+  .toggle {
+    width: 32px; height: 18px;
+    background: rgba(255,255,255,0.1);
+    border-radius: 9px;
+    cursor: pointer;
+    position: relative;
+    transition: background 0.2s;
+    flex-shrink: 0;
+  }
+  .toggle.on { background: var(--accent); }
+  .toggle::after {
+    content: '';
+    position: absolute;
+    width: 12px; height: 12px;
+    background: white;
+    border-radius: 50%;
+    top: 3px; left: 3px;
+    transition: left 0.2s;
+  }
+  .toggle.on::after { left: 17px; }
+
+  /* ── Updated time ── */
+  #updated { font-size: 11px; color: var(--muted); text-align: center; }
+
+  /* ── Cluster overrides ── */
+  .marker-cluster-small,
+  .marker-cluster-medium,
+  .marker-cluster-large {
+    background: rgba(124,110,245,0.15) !important;
+  }
+  .marker-cluster-small div,
+  .marker-cluster-medium div,
+  .marker-cluster-large div {
+    background: rgba(124,110,245,0.45) !important;
+    color: #fff !important;
+    font-weight: 600;
+    font-size: 12px;
+  }
+
+  /* ── Popup ── */
+  .leaflet-popup-content-wrapper {
+    background: var(--panel) !important;
+    border: 1px solid var(--border) !important;
+    backdrop-filter: blur(var(--blur));
+    border-radius: var(--radius) !important;
+    color: var(--text) !important;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.6) !important;
+  }
+  .leaflet-popup-tip { background: rgba(15,15,20,0.9) !important; }
+  .leaflet-popup-content { font-size: 13px; line-height: 1.6; }
+  .popup-name { font-weight: 600; margin-bottom: 4px; }
+  .popup-meta { font-size: 11px; color: var(--muted); }
+  .popup-meta span { display: inline-block; margin-right: 8px; }
+  .popup-fresh { color: #4caf50; }
+  .popup-old   { color: #ef5350; }
+
+  /* ── Sprite markers ── */
+  .orna-sprite-icon { background: none !important; border: none !important; }
+
+  /* ── Scrollbar ── */
+  #sidebar::-webkit-scrollbar { width: 4px; }
+  #sidebar::-webkit-scrollbar-track { background: transparent; }
+  #sidebar::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.1); border-radius: 2px; }
+
+  /* ── Portal Optimizer ── */
+  .divider { border-top: 1px solid var(--border); margin: 0 -16px; }
+
+  .opt-toggle-btn {
+    width: 100%;
+    padding: 7px 12px;
+    border-radius: 6px;
+    border: 1px solid var(--border);
+    background: rgba(255,255,255,0.04);
+    color: var(--muted);
+    font-size: 12px;
+    cursor: pointer;
+    transition: all 0.15s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+  }
+  .opt-toggle-btn:hover { border-color: rgba(255,255,255,0.2); color: var(--text); }
+  .opt-toggle-btn.active {
+    background: rgba(79,195,247,0.12);
+    border-color: rgba(79,195,247,0.4);
+    color: var(--accent2);
+  }
+
+  .opt-hint {
+    font-size: 11px;
+    color: var(--muted);
+    line-height: 1.5;
+    background: rgba(79,195,247,0.06);
+    border: 1px solid rgba(79,195,247,0.15);
+    border-radius: 6px;
+    padding: 7px 10px;
+  }
+
+  input.opt-input {
+    width: 100%;
+    margin-top: 5px;
+    background: rgba(255,255,255,0.06);
+    border: 1px solid var(--border);
+    color: var(--text);
+    border-radius: 6px;
+    padding: 5px 10px;
+    font-size: 12px;
+    outline: none;
+    transition: border-color 0.15s;
+  }
+  input.opt-input:focus { border-color: rgba(124,110,245,0.5); }
+
+  .opt-run-btn {
+    width: 100%;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid rgba(124,110,245,0.3);
+    background: rgba(124,110,245,0.1);
+    color: var(--accent);
+    font-size: 12px;
+    cursor: pointer;
+    transition: all 0.15s;
+  }
+  .opt-run-btn:hover:not(:disabled) { background: rgba(124,110,245,0.2); }
+  .opt-run-btn:disabled { opacity: 0.35; cursor: not-allowed; }
+
+  .opt-result-box {
+    background: rgba(255,255,255,0.03);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 10px 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .opt-result-box .r-row {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: var(--muted);
+  }
+  .opt-result-box .r-row strong { color: var(--text); font-weight: 500; }
+  .opt-result-box .r-row.coords-row { align-items: center; gap: 6px; }
+
+  .copy-btn {
+    font-size: 10px;
+    padding: 2px 8px;
+    border-radius: 4px;
+    border: 1px solid var(--border);
+    background: rgba(255,255,255,0.06);
+    color: var(--muted);
+    cursor: pointer;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .copy-btn:hover { color: var(--text); }
+  .copy-btn.copied { color: var(--green); border-color: rgba(76,175,80,0.4); }
+
+  .warn-btn {
+    width: 100%;
+    padding: 7px;
+    border-radius: 6px;
+    border: 1px solid rgba(239,83,80,0.35);
+    background: rgba(239,83,80,0.07);
+    color: var(--red);
+    font-size: 11px;
+    cursor: pointer;
+    transition: all 0.15s;
+    margin-top: 4px;
+  }
+  .warn-btn:hover { background: rgba(239,83,80,0.14); }
+
+  /* ── GPS Modal ── */
+  #gps-modal {
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0,0,0,0.72);
+    backdrop-filter: blur(4px);
+  }
+  #gps-modal.open { display: flex; }
+  .modal-box {
+    background: #18181f;
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 24px;
+    max-width: 330px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    box-shadow: 0 16px 64px rgba(0,0,0,0.8);
+  }
+  .modal-title { font-size: 15px; font-weight: 600; color: var(--red); }
+  .modal-warn { font-size: 12px; color: var(--muted); line-height: 1.7; }
+  .modal-warn b { color: var(--text); }
+  .modal-check {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 13px;
+    color: var(--text);
+    cursor: pointer;
+    user-select: none;
+  }
+  .modal-check input[type=checkbox] { width: 16px; height: 16px; cursor: pointer; accent-color: var(--accent); }
+  .modal-actions { display: flex; gap: 8px; }
+  .modal-cancel {
+    flex: 1; padding: 8px; border-radius: 6px;
+    border: 1px solid var(--border); background: rgba(255,255,255,0.04);
+    color: var(--muted); font-size: 13px; cursor: pointer;
+  }
+  .modal-cancel:hover { color: var(--text); }
+  .modal-ok {
+    flex: 1; padding: 8px; border-radius: 6px;
+    border: 1px solid rgba(239,83,80,0.4); background: rgba(239,83,80,0.1);
+    color: var(--red); font-size: 13px; cursor: pointer; transition: all 0.15s;
+  }
+  .modal-ok:hover:not(:disabled) { background: rgba(239,83,80,0.2); }
+  .modal-ok:disabled { opacity: 0.35; cursor: not-allowed; }
+</style>
+</head>
+<body>
+
+<div id="map"></div>
+
+<!-- ── Sidebar ── -->
+<div id="sidebar">
+  <h1><span class="dot"></span> Orna Map</h1>
+
+  <div>
+    <div class="stat-row"><span>Объектов</span><strong id="stat-total">—</strong></div>
+    <div class="stat-row" style="margin-top:4px"><span>Видимых</span><strong id="stat-visible">—</strong></div>
+  </div>
+
+  <div>
+    <div class="section-label">Тип</div>
+    <div id="filters"></div>
+  </div>
+
+  <div>
+    <div class="section-label">Показать</div>
+    <div class="toggle-row">
+      <span>Только свежие (≤7 дней)</span>
+      <div class="toggle" id="toggle-fresh" onclick="toggleFresh()"></div>
+    </div>
+    <div class="toggle-row" style="margin-top:8px">
+      <span>Затухание по возрасту</span>
+      <div class="toggle on" id="toggle-fade" onclick="toggleFade()"></div>
+    </div>
+  </div>
+
+  <div id="updated"></div>
+
+  <div id="local-tools" style="display:none; flex-direction:column; gap:14px;">
+  <!-- ── Portal Optimizer ── -->
+  <div class="divider"></div>
+
+  <button class="opt-toggle-btn" id="opt-toggle-btn" onclick="toggleOptimizerMode()">
+    ⬡ Оптимизатор портала
+  </button>
+
+  <div id="opt-panel" style="display:none; flex-direction:column; gap:12px;">
+
+    <div class="opt-hint">
+      <b style="color:var(--accent2)">Клик</b> по данжу — выбрать/снять.<br>
+      Алгоритм найдёт точку где все выбранные доступны и бонусных данжей максимум.
+    </div>
+
+    <div class="stat-row">
+      <span>Выбрано данжей</span>
+      <strong id="opt-count">0</strong>
+    </div>
+
+    <div>
+      <div class="section-label">Обзор персонажа (м)</div>
+      <input class="opt-input" type="number" id="opt-radius" value="1000"
+             min="10" max="9999" step="50">
+      <div style="font-size:10px;color:var(--muted);margin-top:4px">
+        0 = авто (минимально необходимый)
+      </div>
+    </div>
+
+    <button class="opt-run-btn" id="opt-find-btn" onclick="runOptimizer()" disabled>
+      Найти оптимальную точку
+    </button>
+
+    <div id="opt-result" class="opt-result-box" style="display:none">
+      <div class="r-row"><span>Мин. обзор</span><strong id="opt-mec-r">—</strong> м</div>
+      <div class="r-row"><span>Всего данжей</span><strong id="opt-covered">—</strong></div>
+      <div class="r-row"><span>Бонусных</span><strong id="opt-bonus">—</strong></div>
+      <div class="r-row coords-row" style="justify-content:flex-start; gap:6px; margin-top:2px;">
+        <span id="opt-coords" style="font-size:11px;font-family:monospace;color:var(--muted);flex:1;word-break:break-all">—</span>
+        <button class="copy-btn" id="copy-btn" onclick="copyCoords()">copy</button>
+      </div>
+      <div class="toggle-row" style="margin-top:6px">
+        <span>Круги обзора</span>
+        <div class="toggle on" id="toggle-circles" onclick="toggleCirclesVisibility()"></div>
+      </div>
+      <!-- shown only when running via map/serve.py -->
+      <button class="warn-btn" id="opt-set-gps-btn" style="display:none" onclick="openGpsModal()">
+        📍 Установить GPS эмулятора
+      </button>
+    </div>
+
+  </div>
+
+  <!-- ── Cluster Debug ── -->
+  <div class="divider"></div>
+
+  <button class="opt-toggle-btn" id="cldbg-toggle-btn" onclick="toggleClusterDebug()">
+    🔬 Отладка кластеров
+  </button>
+
+  <div id="cldbg-panel" style="display:none; flex-direction:column; gap:12px;">
+    <div>
+      <div class="section-label">Радиус обзора (м)</div>
+      <input class="opt-input" type="number" id="cldbg-radius" value="216" min="10" max="2000" step="10">
+    </div>
+    <div>
+      <div class="section-label">Типы объектов</div>
+      <div id="cldbg-type-pills" style="display:flex;flex-wrap:wrap;gap:5px;margin-top:6px"></div>
+    </div>
+    <div>
+      <div class="section-label">Область</div>
+      <div style="display:flex;gap:5px;flex-wrap:wrap;margin-top:6px">
+        <div class="pill active" id="cldbg-area-world" onclick="setCldbgArea('world')">🌍 Весь мир</div>
+        <div class="pill" id="cldbg-area-view"  onclick="setCldbgArea('view')">📐 Текущий вид</div>
+        <div class="pill" id="cldbg-area-draw"  onclick="setCldbgArea('draw')">✏ Нарисовать</div>
+      </div>
+      <div id="cldbg-draw-hint" style="display:none;font-size:10px;color:var(--muted);margin-top:5px;line-height:1.5">Кликни первый угол на карте</div>
+    </div>
+    <button class="opt-run-btn" onclick="runClusterDebug()">🔍 Кластеризовать</button>
+    <div id="cldbg-stats" style="display:none;font-size:11px;color:var(--muted);text-align:center"></div>
+    <button class="opt-run-btn" id="cldbg-clear-btn" onclick="clearClusterDebugLayers()" style="display:none;border-color:rgba(239,83,80,0.3);color:var(--red)">✕ Сбросить</button>
+  </div>
+
+  <!-- ── Crawler ── -->
+  <div class="divider"></div>
+
+  <button class="opt-toggle-btn" id="crw-toggle-btn" onclick="toggleCrawlerMode()">
+    🚶 Краулер
+  </button>
+
+  <div id="crw-panel" style="display:none; flex-direction:column; gap:12px;">
+
+    <div class="opt-hint" id="crw-hint">
+      <b style="color:var(--green)">Клик</b> по объекту на карте — установить цель.
+    </div>
+
+    <div class="stat-row">
+      <span>Цель</span>
+      <strong id="crw-target-name" style="max-width:140px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">не выбрана</strong>
+    </div>
+
+    <div>
+      <div class="section-label">Скорость (м/с)</div>
+      <input class="opt-input" type="number" id="crw-speed" value="10" min="1" max="200" step="1">
+    </div>
+
+    <div>
+      <div class="section-label">Устройство</div>
+      <select class="opt-input" id="crw-device">
+        <option value="emulator-5554">emulator-5554 (основной)</option>
+        <option value="emulator-5556" selected>emulator-5556 (твин)</option>
+      </select>
+    </div>
+
+    <button class="opt-run-btn" id="crw-start-btn" onclick="toggleCrawl()" disabled>
+      ▶ Старт
+    </button>
+
+    <div id="crw-status" style="display:none"></div>
+
+  </div>
+  </div><!-- /local-tools -->
+</div>
+
+<!-- ── GPS Warning Modal ── -->
+<div id="gps-modal">
+  <div class="modal-box">
+    <div class="modal-title">⚠ Установка GPS эмулятора</div>
+    <div class="modal-warn">
+      Эмулятор сменит координаты.<br><br>
+      <b>УБЕДИТЕСЬ ЧТО ИГРА ЗАКРЫТА</b> — открытая игра может не воспринять смену
+      локации корректно и вызвать проблемы.
+    </div>
+    <label class="modal-check">
+      <input type="checkbox" id="gps-confirm-check"
+             onchange="document.getElementById('gps-ok-btn').disabled = !this.checked">
+      Игра закрыта, продолжить
+    </label>
+    <div class="modal-actions">
+      <button class="modal-cancel" onclick="closeGpsModal()">Отмена</button>
+      <button class="modal-ok" id="gps-ok-btn" disabled onclick="doSetGps()">Установить</button>
+    </div>
+  </div>
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+<script>
+// ── Config ──────────────────────────────────────────────────────────────────
+
+const DATA_URL  = 'dungeons.json';
+const FRESH_DAYS = 7;
+const STALE_DAYS = 30;
+
+const CTX_COLORS = {
+  worldraid:       '#ef5350',
+  balormemoryraid: '#ff7043',
+  dungeon:         '#7c6ef5',
+  monument:        '#ffd54f',
+  chest:           '#4caf50',
+  fortress:        '#26c6da',
+  keep:            '#ab47bc',
+  default:         '#90a4ae',
+};
+
+// Объекты, считающиеся «данжем» при подсчёте покрытия оптимизатора
+const DUNGEON_TYPES = new Set([
+  'dungeon',
+  'dragon_roost',
+  'valley_of_gods',
+]);
+
+// ── State ────────────────────────────────────────────────────────────────────
+
+let allObjects   = [];
+let activeTypes  = new Set(['all']);
+let freshOnly    = false;
+let fadeEnabled  = true;
+let markerMap    = {};
+let clusterGroup;
+
+// Crawler state
+let crawlerMode    = false;
+let crawlerTarget  = null;
+let crawlerPos     = null;   // {lat, lon} current position
+let crawlerTimer   = null;
+let crawlerPosTimer = null;  // position polling interval
+let crawlerRunning = false;
+let playerMarker   = null;
+
+const CRAWL_TICK_MS = 3000;
+const CRAWL_POS_POLL_MS = 5000;
+
+// Optimizer state
+let optimizerMode    = false;
+let selectedDungeons = new Map();   // uuid → obj
+let portalMarker     = null;
+let portalCircles    = [];
+let showPortalCircles = true;
+let lastResult       = null;
+let localMode        = false;       // true when served by map/serve.py
+
+// ── Map init ─────────────────────────────────────────────────────────────────
+
+const map = L.map('map', { zoomControl: false });
+
+L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+  attribution: '&copy; <a href="https://carto.com/">CARTO</a> | &copy; <a href="https://www.openstreetmap.org/copyright">OSM</a>',
+  maxZoom: 19,
+  subdomains: 'abcd',
+}).addTo(map);
+
+L.control.zoom({ position: 'bottomright' }).addTo(map);
+
+clusterGroup = L.markerClusterGroup({ maxClusterRadius: 48 });
+map.addLayer(clusterGroup);
+
+// ── Detect local mode (map/serve.py running) ─────────────────────────────────
+
+(async () => {
+  try {
+    const ctrl = new AbortController();
+    const tid  = setTimeout(() => ctrl.abort(), 600);
+    const r = await fetch('/api/ping', { signal: ctrl.signal });
+    clearTimeout(tid);
+    if (r.ok) {
+      localMode = true;
+      document.getElementById('opt-set-gps-btn').style.display = '';
+      document.getElementById('local-tools').style.display = 'flex';
+    }
+  } catch { /* GitHub Pages or other static host */ }
+})();
+
+// ── Helpers ──────────────────────────────────────────────────────────────────
+
+function ctxColor(context) {
+  for (const [key, color] of Object.entries(CTX_COLORS)) {
+    if (context.startsWith(key)) return color;
+  }
+  return CTX_COLORS.default;
+}
+
+function ctxLabel(context) {
+  return context
+    .replace(/raid$/, '')
+    .replace(/memory$/, ' mem')
+    .replace(/([a-z])([A-Z])/g, '$1 $2')
+    .toLowerCase()
+    .trim() || context;
+}
+
+function ageFactor(lastSeen) {
+  const ageDays = (Date.now() - lastSeen * 1000) / 86400000;
+  if (ageDays < 1)          return 1.0;
+  if (ageDays > STALE_DAYS) return 0.15;
+  return Math.max(0.15, 1 - (ageDays / STALE_DAYS) * 0.85);
+}
+
+function makeIcon(obj) {
+  const color    = ctxColor(obj.context);
+  const opacity  = fadeEnabled ? ageFactor(obj.last_seen) : 1.0;
+  const selected = optimizerMode && selectedDungeons.has(obj.uuid);
+
+  if (obj.sprite) {
+    const sz = 28;
+    const ring = selected
+      ? `box-shadow:0 0 0 3px #4caf50,0 0 10px #4caf50;border-radius:4px;`
+      : obj.is_boss
+        ? `box-shadow:0 0 0 2px ${color},0 0 8px ${color};border-radius:4px;`
+        : '';
+    return L.divIcon({
+      html: `<div style="width:${sz}px;height:${sz}px;opacity:${opacity};
+                         background:${color};border-radius:50%;${ring}
+                         display:flex;align-items:center;justify-content:center">
+               <img src="${obj.sprite}" width="${sz}" height="${sz}"
+                 style="display:block;filter:drop-shadow(0 1px 4px rgba(0,0,0,0.85))"
+                 onerror="this.style.display='none'">
+             </div>`,
+      className: 'orna-sprite-icon',
+      iconSize:   [sz, sz],
+      iconAnchor: [sz/2, sz/2],
+    });
+  }
+
+  const size = obj.is_boss ? 14 : 10;
+  const glow = selected
+    ? `box-shadow:0 0 0 3px #4caf50;`
+    : obj.is_boss ? `box-shadow:0 0 8px ${color};` : '';
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${size+8}" height="${size+8}">
+    <circle cx="${(size+8)/2}" cy="${(size+8)/2}" r="${size/2}"
+      fill="${color}" fill-opacity="${opacity}"
+      stroke="${color}" stroke-width="1.5" stroke-opacity="${Math.min(1,opacity+0.2)}"/>
+  </svg>`;
+  return L.divIcon({
+    html: `<div style="opacity:${opacity};${glow}">${svg}</div>`,
+    className: '',
+    iconSize:   [size+8, size+8],
+    iconAnchor: [(size+8)/2, (size+8)/2],
+  });
+}
+
+function fmtAge(ts) {
+  const d = (Date.now() - ts * 1000) / 86400000;
+  if (d < 1)  return `<span class="popup-fresh">${Math.round(d*24)}ч назад</span>`;
+  if (d < 7)  return `<span class="popup-fresh">${Math.round(d)}д назад</span>`;
+  if (d < 30) return `${Math.round(d)}д назад`;
+  return `<span class="popup-old">${Math.round(d)}д назад</span>`;
+}
+
+// ── Filters ──────────────────────────────────────────────────────────────────
+
+function buildFilters(objects) {
+  const types = [...new Set(objects.map(o => o.context))].sort();
+  const container = document.getElementById('filters');
+  container.innerHTML = '';
+  container.appendChild(makePill('all', 'все'));
+  for (const t of types) container.appendChild(makePill(t, ctxLabel(t)));
+}
+
+function makePill(type, label) {
+  const el = document.createElement('div');
+  el.className = 'pill' + (activeTypes.has(type) ? ' active' : '');
+  el.textContent = label;
+  el.dataset.type = type;
+  el.onclick = () => {
+    if (type === 'all') {
+      activeTypes = new Set(['all']);
+    } else {
+      activeTypes.delete('all');
+      if (activeTypes.has(type)) {
+        activeTypes.delete(type);
+        if (activeTypes.size === 0) activeTypes.add('all');
+      } else {
+        activeTypes.add(type);
+      }
+    }
+    document.querySelectorAll('.pill').forEach(p => {
+      p.classList.toggle('active', activeTypes.has(p.dataset.type));
+    });
+    render();
+  };
+  return el;
+}
+
+function isVisible(obj) {
+  if (freshOnly) {
+    if ((Date.now() - obj.last_seen * 1000) / 86400000 > FRESH_DAYS) return false;
+  }
+  if (!activeTypes.has('all') && !activeTypes.has(obj.context)) return false;
+  return true;
+}
+
+// ── Render ───────────────────────────────────────────────────────────────────
+
+function render() {
+  clusterGroup.clearLayers();
+  markerMap = {};
+  let visible = 0;
+
+  for (const obj of allObjects) {
+    if (!isVisible(obj)) continue;
+    visible++;
+
+    const marker = L.marker([obj.lat, obj.lon], { icon: makeIcon(obj) });
+    marker._ornaObj = obj;
+
+    if (crawlerMode) {
+      marker.on('click', function(e) {
+        L.DomEvent.stopPropagation(e);
+        setCrawlerTarget(obj);
+      });
+    } else if (optimizerMode) {
+      // В режиме оптимизатора: клик = выделение, попапа нет
+      marker.on('click', function(e) {
+        L.DomEvent.stopPropagation(e);
+        toggleDungeonSelection(obj, marker);
+      });
+    } else {
+      marker.bindPopup(`
+        <div class="popup-name">${obj.name || '—'}</div>
+        <div class="popup-meta">
+          <span>tier ${obj.tier || '?'}</span>
+          <span>${ctxLabel(obj.context)}</span>
+        </div>
+        <div class="popup-meta" style="margin-top:4px">
+          <span>обновлено: ${fmtAge(obj.last_seen)}</span>
+        </div>
+      `, { maxWidth: 220 });
+    }
+
+    clusterGroup.addLayer(marker);
+    markerMap[obj.uuid] = marker;
+  }
+
+  document.getElementById('stat-visible').textContent = visible;
+}
+
+// ── Toggles ──────────────────────────────────────────────────────────────────
+
+function toggleFresh() {
+  freshOnly = !freshOnly;
+  document.getElementById('toggle-fresh').classList.toggle('on', freshOnly);
+  render();
+}
+
+function toggleFade() {
+  fadeEnabled = !fadeEnabled;
+  document.getElementById('toggle-fade').classList.toggle('on', fadeEnabled);
+  render();
+}
+
+// ── Load data ────────────────────────────────────────────────────────────────
+
+async function load() {
+  try {
+    const resp = await fetch(DATA_URL + '?t=' + Date.now());
+    if (!resp.ok) throw new Error(resp.status);
+    const data = await resp.json();
+
+    allObjects = data.objects || [];
+    document.getElementById('stat-total').textContent = allObjects.length;
+
+    if (data.generated) {
+      const d = new Date(data.generated * 1000);
+      document.getElementById('updated').textContent =
+        'обновлено ' + d.toLocaleString('ru', { day:'numeric', month:'short', hour:'2-digit', minute:'2-digit' });
+    }
+
+    buildFilters(allObjects);
+    render();
+
+    if (allObjects.length > 0) {
+      const lats = allObjects.map(o => o.lat);
+      const lons = allObjects.map(o => o.lon);
+      map.fitBounds(
+        L.latLngBounds([Math.min(...lats), Math.min(...lons)], [Math.max(...lats), Math.max(...lons)]),
+        { padding: [40, 40] }
+      );
+    } else {
+      map.setView([0, 0], 3);
+    }
+  } catch (e) {
+    console.error('load error:', e);
+    document.getElementById('updated').textContent = 'ошибка загрузки данных';
+    map.setView([0, 0], 3);
+  }
+}
+
+load();
+
+// ═══════════════════════════════════════════════════════════════════════════════
+// Portal Optimizer
+// ═══════════════════════════════════════════════════════════════════════════════
+
+function toggleOptimizerMode() {
+  if (crawlerMode) toggleCrawlerMode();
+  optimizerMode = !optimizerMode;
+  document.getElementById('opt-toggle-btn').classList.toggle('active', optimizerMode);
+  const panel = document.getElementById('opt-panel');
+  panel.style.display = optimizerMode ? 'flex' : 'none';
+  document.getElementById('map').classList.toggle('opt-selecting', optimizerMode);
+
+  if (!optimizerMode) {
+    selectedDungeons.clear();
+    document.getElementById('opt-count').textContent = '0';
+    document.getElementById('opt-find-btn').disabled = true;
+  }
+  render(); // перерисовать — включает/выключает клик-выделение на данжах
+}
+
+function toggleDungeonSelection(obj, marker) {
+  if (selectedDungeons.has(obj.uuid)) {
+    selectedDungeons.delete(obj.uuid);
+  } else {
+    selectedDungeons.set(obj.uuid, obj);
+  }
+  // Update just this marker's icon without re-rendering everything
+  if (marker) marker.setIcon(makeIcon(obj));
+  document.getElementById('opt-count').textContent = selectedDungeons.size;
+  document.getElementById('opt-find-btn').disabled = selectedDungeons.size === 0;
+}
+
+// ── Coordinate helpers ────────────────────────────────────────────────────────
+
+function toXY(lat, lon, oLat, oLon) {
+  const R = 6371000;
+  return [
+    (lon - oLon) * (Math.PI / 180) * R * Math.cos(oLat * Math.PI / 180),
+    (lat - oLat) * (Math.PI / 180) * R,
+  ];
+}
+
+function fromXY(x, y, oLat, oLon) {
+  const R = 6371000;
+  return [
+    oLat + (y / R) * (180 / Math.PI),
+    oLon + (x / (R * Math.cos(oLat * Math.PI / 180))) * (180 / Math.PI),
+  ];
+}
+
+// ── Minimum Enclosing Circle (Welzl) ─────────────────────────────────────────
+
+function _circ1(p)    { return { cx: p[0], cy: p[1], r: 0 }; }
+function _circ2(a, b) { return { cx: (a[0]+b[0])/2, cy: (a[1]+b[1])/2, r: Math.hypot(b[0]-a[0], b[1]-a[1])/2 }; }
+function _circ3(a, b, c) {
+  const ax = b[0]-a[0], ay = b[1]-a[1];
+  const bx = c[0]-a[0], by = c[1]-a[1];
+  const D  = 2 * (ax*by - ay*bx);
+  if (Math.abs(D) < 1e-10) {
+    // Collinear — pick the pair that's farthest apart
+    return [_circ2(a,b), _circ2(a,c), _circ2(b,c)].reduce((best, ci) => ci.r > best.r ? ci : best);
+  }
+  const ux = (by*(ax*ax+ay*ay) - ay*(bx*bx+by*by)) / D;
+  const uy = (ax*(bx*bx+by*by) - bx*(ax*ax+ay*ay)) / D;
+  return { cx: a[0]+ux, cy: a[1]+uy, r: Math.hypot(ux, uy) };
+}
+function _inCircle(p, c) { return (p[0]-c.cx)**2 + (p[1]-c.cy)**2 <= (c.r + 1e-6)**2; }
+
+function _welzl(P, R) {
+  if (P.length === 0 || R.length === 3) {
+    if (R.length === 0) return { cx:0, cy:0, r:0 };
+    if (R.length === 1) return _circ1(R[0]);
+    if (R.length === 2) return _circ2(R[0], R[1]);
+    return _circ3(R[0], R[1], R[2]);
+  }
+  const p = P[P.length - 1];
+  const d = _welzl(P.slice(0, -1), R);
+  if (_inCircle(p, d)) return d;
+  return _welzl(P.slice(0, -1), [...R, p]);
+}
+
+function minimumEnclosingCircle(pts) {
+  if (pts.length === 0) return { cx:0, cy:0, r:0 };
+  // Shuffle for expected linear time
+  const s = [...pts].sort(() => Math.random() - 0.5);
+  return _welzl(s, []);
+}
+
+// ── Grid search ───────────────────────────────────────────────────────────────
+
+function runOptimizer() {
+  const required = [...selectedDungeons.values()];
+  if (required.length === 0) return;
+
+  const userR = parseFloat(document.getElementById('opt-radius').value) || 0;
+
+  // Origin = centroid of required dungeons
+  const oLat = required.reduce((s, o) => s + o.lat, 0) / required.length;
+  const oLon = required.reduce((s, o) => s + o.lon, 0) / required.length;
+
+  const reqXY  = required.map(o => toXY(o.lat, o.lon, oLat, oLon));
+
+  // Только dungeon-типы для подсчёта покрытия (добавляй в DUNGEON_TYPES вверху)
+  const allDunXY = allObjects
+    .filter(o => DUNGEON_TYPES.has(o.context))
+    .map(o => toXY(o.lat, o.lon, oLat, oLon));
+
+  // Step 1: minimum enclosing circle of required
+  const mec    = minimumEnclosingCircle(reqXY);
+  const mecR   = Math.max(0, mec.r);
+
+  // Step 2: effective radius — user's view radius, clamped to at least mecR
+  const effR = userR > 0 ? Math.max(mecR, userR) : mecR;
+
+  if (userR > 0 && userR < mecR) {
+    // User set a radius that's too small — show warning in result
+    document.getElementById('opt-result').style.display = '';
+    document.getElementById('opt-mec-r').textContent   = Math.ceil(mecR);
+    document.getElementById('opt-covered').textContent = '—';
+    document.getElementById('opt-bonus').textContent   = '—';
+    document.getElementById('opt-coords').textContent  = `❌ Обзор ${userR}м меньше минимума ${Math.ceil(mecR)}м`;
+    return;
+  }
+
+  // Step 3: grid search for maximum coverage
+  // Search area: effR - mecR of slack around MEC center, plus tiny tolerance
+  const slack  = effR - mecR;
+  const margin = slack + Math.min(30, mecR * 0.03); // wiggle even in auto mode
+  const step   = Math.max(3, effR / 60);
+
+  let bestCx = mec.cx, bestCy = mec.cy;
+  let bestCount = countInRadius(allDunXY, mec.cx, mec.cy, effR);
+
+  for (let dx = -margin; dx <= margin; dx += step) {
+    for (let dy = -margin; dy <= margin; dy += step) {
+      const cx = mec.cx + dx, cy = mec.cy + dy;
+      // Hard constraint: all required must be within effR
+      if (!reqXY.every(p => Math.hypot(p[0]-cx, p[1]-cy) <= effR + 1e-6)) continue;
+      const cnt = countInRadius(allDunXY, cx, cy, effR);
+      if (cnt > bestCount) { bestCount = cnt; bestCx = cx; bestCy = cy; }
+    }
+  }
+
+  const [lat, lon] = fromXY(bestCx, bestCy, oLat, oLon);
+  lastResult = {
+    lat, lon,
+    mecR:     Math.ceil(mecR),
+    effR:     Math.ceil(effR),
+    total:    bestCount,
+    req:      required.length,
+    bonus:    Math.max(0, bestCount - required.length),
+  };
+  showPortalResult(lastResult);
+}
+
+function countInRadius(pts, cx, cy, r) {
+  return pts.filter(p => Math.hypot(p[0]-cx, p[1]-cy) <= r).length;
+}
+
+// ── Show result ───────────────────────────────────────────────────────────────
+
+function showPortalResult(res) {
+  document.getElementById('opt-result').style.display = '';
+  document.getElementById('opt-mec-r').textContent    = res.mecR;
+  document.getElementById('opt-covered').textContent  = res.total;
+  document.getElementById('opt-bonus').textContent    = '+' + res.bonus;
+  document.getElementById('opt-coords').textContent   =
+    `${res.lat.toFixed(6)}, ${res.lon.toFixed(6)}`;
+
+  // Portal star marker
+  if (portalMarker) portalMarker.remove();
+  const portalIcon = L.divIcon({
+    html: `<div style="filter:drop-shadow(0 0 8px #ffd54f);width:38px;height:38px;display:flex;align-items:center;justify-content:center">
+             <svg viewBox="0 0 38 38" width="38" height="38">
+               <polygon points="19,2 23,14 36,14 26,22 29,36 19,27 9,36 12,22 2,14 15,14"
+                 fill="#ffd54f" fill-opacity="0.92" stroke="#fff8" stroke-width="0.8"/>
+             </svg>
+           </div>`,
+    className: '',
+    iconSize:   [38, 38],
+    iconAnchor: [19, 19],
+  });
+
+  portalMarker = L.marker([res.lat, res.lon], { icon: portalIcon, zIndexOffset: 2000 })
+    .bindPopup(`
+      <div class="popup-name">⭐ Оптимальная точка портала</div>
+      <div class="popup-meta">
+        <span>Мин. обзор: ${res.mecR}м</span><br>
+        <span>Данжей в зоне: ${res.total} (+${res.bonus} бонусных)</span><br>
+        <span style="font-family:monospace;font-size:10px">${res.lat.toFixed(6)}, ${res.lon.toFixed(6)}</span>
+      </div>
+    `, { maxWidth: 240 })
+    .addTo(map);
+
+  map.panTo([res.lat, res.lon]);
+
+  // Draw circles (checkbox starts enabled)
+  showPortalCircles = true;
+  document.getElementById('toggle-circles').classList.add('on');
+  drawPortalCircles(res);
+}
+
+function drawPortalCircles(res) {
+  portalCircles.forEach(c => c.remove());
+  portalCircles = [];
+  if (!showPortalCircles || !res) return;
+
+  // Dashed yellow circle = minimum required radius (MEC)
+  portalCircles.push(L.circle([res.lat, res.lon], {
+    radius:      res.mecR,
+    color:       '#ffd54f',
+    weight:      2,
+    dashArray:   '6 4',
+    fill:        false,
+    opacity:     0.85,
+  }).addTo(map));
+
+  // Solid blue circle = effective user radius (only if larger than MEC)
+  if (res.effR > res.mecR + 5) {
+    portalCircles.push(L.circle([res.lat, res.lon], {
+      radius:      res.effR,
+      color:       '#4fc3f7',
+      weight:      1.5,
+      fill:        true,
+      fillOpacity: 0.04,
+      opacity:     0.5,
+    }).addTo(map));
+  }
+}
+
+function toggleCirclesVisibility() {
+  showPortalCircles = !showPortalCircles;
+  document.getElementById('toggle-circles').classList.toggle('on', showPortalCircles);
+  drawPortalCircles(lastResult);
+}
+
+// ── Copy coords ───────────────────────────────────────────────────────────────
+
+function copyCoords() {
+  if (!lastResult) return;
+  const text = `${lastResult.lat.toFixed(6)}, ${lastResult.lon.toFixed(6)}`;
+  navigator.clipboard.writeText(text).then(() => {
+    const btn = document.getElementById('copy-btn');
+    btn.textContent = '✓';
+    btn.classList.add('copied');
+    setTimeout(() => { btn.textContent = 'copy'; btn.classList.remove('copied'); }, 1500);
+  });
+}
+
+// ── GPS Modal ─────────────────────────────────────────────────────────────────
+
+function openGpsModal() {
+  document.getElementById('gps-confirm-check').checked = false;
+  document.getElementById('gps-ok-btn').disabled = true;
+  document.getElementById('gps-modal').classList.add('open');
+}
+
+function closeGpsModal() {
+  document.getElementById('gps-modal').classList.remove('open');
+}
+
+async function doSetGps() {
+  if (!lastResult) return;
+  closeGpsModal();
+  try {
+    const r = await fetch(`/api/set-gps?lat=${lastResult.lat}&lon=${lastResult.lon}`);
+    const data = await r.json();
+    if (data.ok) {
+      alert(`✓ GPS установлен: ${lastResult.lat.toFixed(6)}, ${lastResult.lon.toFixed(6)}`);
+    } else {
+      alert(`Ошибка установки GPS:\n${data.error}`);
+    }
+  } catch (e) {
+    alert(`Ошибка: ${e.message}`);
+  }
+}
+
+// Close modal on backdrop click
+document.getElementById('gps-modal').addEventListener('click', function(e) {
+  if (e.target === this) closeGpsModal();
+});
+
+// ═══════════════════════════════════════════════════════════════════════════════
+// Crawler
+// ═══════════════════════════════════════════════════════════════════════════════
+
+function toggleCrawlerMode() {
+  if (optimizerMode) toggleOptimizerMode();
+  crawlerMode = !crawlerMode;
+  document.getElementById('crw-toggle-btn').classList.toggle('active', crawlerMode);
+  const panel = document.getElementById('crw-panel');
+  panel.style.display = crawlerMode ? 'flex' : 'none';
+  document.getElementById('map').classList.toggle('crw-selecting', crawlerMode);
+  if (!crawlerMode) {
+    stopCrawl();
+    if (crawlerPosTimer) { clearInterval(crawlerPosTimer); crawlerPosTimer = null; }
+  } else {
+    fetchPlayerPos();
+    crawlerPosTimer = setInterval(fetchPlayerPos, CRAWL_POS_POLL_MS);
+  }
+  render();
+}
+
+function setCrawlerTarget(obj) {
+  crawlerTarget = obj;
+  document.getElementById('crw-target-name').textContent = obj.name || obj.context;
+  document.getElementById('crw-start-btn').disabled = false;
+}
+
+function updatePlayerMarker(lat, lon) {
+  const icon = L.divIcon({
+    html: `<div style="width:16px;height:16px;background:#4caf50;border:3px solid #fff;
+                       border-radius:50%;box-shadow:0 0 10px #4caf50,0 0 0 1px #4caf5088"></div>`,
+    className: '',
+    iconSize:   [16, 16],
+    iconAnchor: [8, 8],
+  });
+  if (playerMarker) {
+    playerMarker.setLatLng([lat, lon]);
+    playerMarker.setIcon(icon);
+  } else {
+    playerMarker = L.marker([lat, lon], { icon, zIndexOffset: 3000 })
+      .bindPopup('🟢 Персонаж')
+      .addTo(map);
+  }
+}
+
+async function fetchPlayerPos() {
+  if (!localMode) return;
+  const device = document.getElementById('crw-device').value;
+  try {
+    const r = await fetch(`/api/player-pos?device=${encodeURIComponent(device)}`);
+    const data = await r.json();
+    if (data.ok) {
+      crawlerPos = { lat: data.lat, lon: data.lon };
+      updatePlayerMarker(crawlerPos.lat, crawlerPos.lon);
+    }
+  } catch {}
+}
+
+function toggleCrawl() {
+  if (crawlerRunning) stopCrawl();
+  else startCrawl();
+}
+
+async function startCrawl() {
+  if (!crawlerTarget) return;
+  if (!crawlerPos) await fetchPlayerPos();
+  if (!crawlerPos) {
+    setCrawlStatus('❌ Позиция неизвестна — serve.py запущен?');
+    document.getElementById('crw-status').style.display = '';
+    return;
+  }
+  crawlerRunning = true;
+  const btn = document.getElementById('crw-start-btn');
+  btn.textContent = '⏹ Стоп';
+  btn.style.borderColor = 'rgba(239,83,80,0.4)';
+  btn.style.color = 'var(--red)';
+  updatePlayerMarker(crawlerPos.lat, crawlerPos.lon);
+  setCrawlStatus('Движение...');
+  scheduleCrawlerTick();
+}
+
+function scheduleCrawlerTick() {
+  if (!crawlerRunning) return;
+  crawlerTimer = setTimeout(async () => {
+    await crawlerTick();
+    scheduleCrawlerTick();
+  }, CRAWL_TICK_MS);
+}
+
+function stopCrawl() {
+  crawlerRunning = false;
+  if (crawlerTimer) { clearTimeout(crawlerTimer); crawlerTimer = null; }
+  const btn = document.getElementById('crw-start-btn');
+  if (btn) {
+    btn.textContent = '▶ Старт';
+    btn.style.borderColor = '';
+    btn.style.color = '';
+  }
+}
+
+function setCrawlStatus(msg) {
+  const el = document.getElementById('crw-status');
+  if (!el) return;
+  el.style.display = msg ? '' : 'none';
+  el.textContent = msg;
+}
+
+function haversine(lat1, lon1, lat2, lon2) {
+  const R = 6371000;
+  const φ1 = lat1 * Math.PI / 180, φ2 = lat2 * Math.PI / 180;
+  const dφ = (lat2 - lat1) * Math.PI / 180;
+  const dλ = (lon2 - lon1) * Math.PI / 180;
+  const a = Math.sin(dφ/2)**2 + Math.cos(φ1) * Math.cos(φ2) * Math.sin(dλ/2)**2;
+  return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+}
+
+async function crawlerTick() {
+  if (!crawlerRunning || !crawlerPos || !crawlerTarget) return;
+  const speed    = parseFloat(document.getElementById('crw-speed').value) || 10;
+  const device   = document.getElementById('crw-device').value;
+  const stepDist = speed * (CRAWL_TICK_MS / 1000);
+  const dist     = haversine(crawlerPos.lat, crawlerPos.lon, crawlerTarget.lat, crawlerTarget.lon);
+
+  let newLat, newLon;
+  if (dist <= stepDist) {
+    newLat = crawlerTarget.lat;
+    newLon = crawlerTarget.lon;
+    crawlerPos = { lat: newLat, lon: newLon };
+    await setGpsDevice(newLat, newLon, device);
+    stopCrawl();
+    setCrawlStatus(`✓ Прибыл: ${newLat.toFixed(5)}, ${newLon.toFixed(5)}`);
+    document.getElementById('crw-status').style.display = '';
+    return;
+  }
+
+  const ratio = stepDist / dist;
+  newLat = crawlerPos.lat + (crawlerTarget.lat - crawlerPos.lat) * ratio;
+  newLon = crawlerPos.lon + (crawlerTarget.lon - crawlerPos.lon) * ratio;
+  crawlerPos = { lat: newLat, lon: newLon };
+  await setGpsDevice(newLat, newLon, device);
+  setCrawlStatus(`${Math.round(dist)}м до цели`);
+}
+
+// ═══════════════════════════════════════════════════════════════════════════════
+// Cluster Debug
+// ═══════════════════════════════════════════════════════════════════════════════
+
+let clusterDebugMode   = false;
+let clusterDebugLayers = [];
+let cldbgHidMarkers    = false;
+
+let cldbgArea        = 'world';
+let cldbgDrawing     = false;
+let cldbgPolyPoints  = [];    // [[lat,lon], ...]  vertices so far
+let cldbgPolyLayer   = null;  // final L.polygon
+let cldbgPolyPreview = null;  // L.polyline of drawn edges
+let cldbgPolyRubber  = null;  // rubberband line to cursor
+let cldbgPolyDots    = [];    // vertex circle markers
+let _cldbgClickTimer = null;
+
+const CLUSTER_PALETTE = [
+  '#ef5350','#7c6ef5','#4fc3f7','#4caf50','#ffd54f',
+  '#ff7043','#ab47bc','#26c6da','#ffca28','#66bb6a',
+];
+
+const CLDBG_DEFAULTS = new Set(['dungeon','dragon_roost','monument','underworldportal']);
+let cldbgSelectedTypes = new Set(CLDBG_DEFAULTS);
+
+function buildCldbgPills() {
+  const unique = [...new Set(allObjects.map(o => o.context).filter(Boolean))].sort();
+  const container = document.getElementById('cldbg-type-pills');
+  container.innerHTML = '';
+  unique.forEach(ctx => {
+    const pill = document.createElement('div');
+    pill.className = 'pill' + (cldbgSelectedTypes.has(ctx) ? ' active' : '');
+    pill.textContent = ctx;
+    pill.onclick = () => {
+      if (cldbgSelectedTypes.has(ctx)) cldbgSelectedTypes.delete(ctx);
+      else cldbgSelectedTypes.add(ctx);
+      pill.classList.toggle('active', cldbgSelectedTypes.has(ctx));
+    };
+    container.appendChild(pill);
+  });
+}
+
+function toggleClusterDebug() {
+  clusterDebugMode = !clusterDebugMode;
+  document.getElementById('cldbg-toggle-btn').classList.toggle('active', clusterDebugMode);
+  const panel = document.getElementById('cldbg-panel');
+  panel.style.display = clusterDebugMode ? 'flex' : 'none';
+  if (clusterDebugMode) buildCldbgPills();
+  else clearClusterDebugLayers();
+}
+
+function clearClusterDebugLayers() {
+  const savedPolyPoints = cldbgPolyPoints.slice();
+  clusterDebugLayers.forEach(l => { try { map.removeLayer(l); } catch(e) {} });
+  clusterDebugLayers = [];
+  if (cldbgHidMarkers) { map.addLayer(clusterGroup); cldbgHidMarkers = false; }
+  _clearPolyDraw();
+  cldbgPolyPoints = savedPolyPoints;  // restore finished polygon, _clearPolyDraw kills it
+  if (cldbgPolyLayer) { map.removeLayer(cldbgPolyLayer); cldbgPolyLayer = null; }
+  document.getElementById('cldbg-stats').style.display = 'none';
+  document.getElementById('cldbg-clear-btn').style.display = 'none';
+}
+
+function _clearPolyDraw() {
+  if (cldbgDrawing) {
+    map.off('click', _onCldbgClick);
+    map.off('dblclick', _onCldbgDblClick);
+    map.off('mousemove', _onCldbgMouseMove);
+    cldbgDrawing = false;
+  }
+  if (_cldbgClickTimer) { clearTimeout(_cldbgClickTimer); _cldbgClickTimer = null; }
+  if (cldbgPolyPreview) { map.removeLayer(cldbgPolyPreview); cldbgPolyPreview = null; }
+  if (cldbgPolyRubber)  { map.removeLayer(cldbgPolyRubber);  cldbgPolyRubber  = null; }
+  cldbgPolyDots.forEach(d => map.removeLayer(d));
+  cldbgPolyDots = [];
+  cldbgPolyPoints = [];
+}
+
+function setCldbgArea(mode) {
+  _clearPolyDraw();
+  cldbgArea = mode;
+  ['world','view','draw'].forEach(m =>
+    document.getElementById(`cldbg-area-${m}`).classList.toggle('active', m === mode)
+  );
+  const hint = document.getElementById('cldbg-draw-hint');
+  if (mode === 'draw') {
+    if (cldbgPolyLayer) { map.removeLayer(cldbgPolyLayer); cldbgPolyLayer = null; }
+    hint.textContent = 'Кликни вершины полигона · двойной клик — замкнуть';
+    hint.style.display = '';
+    cldbgDrawing = true;
+    map.on('click',     _onCldbgClick);
+    map.on('dblclick',  _onCldbgDblClick);
+    map.on('mousemove', _onCldbgMouseMove);
+  } else {
+    hint.style.display = 'none';
+  }
+}
+
+function _onCldbgClick(e) {
+  // debounce: dblclick fires two clicks — ignore the second
+  if (_cldbgClickTimer) { clearTimeout(_cldbgClickTimer); _cldbgClickTimer = null; return; }
+  _cldbgClickTimer = setTimeout(() => {
+    _cldbgClickTimer = null;
+    if (!cldbgDrawing) return;
+    const pt = [e.latlng.lat, e.latlng.lng];
+    cldbgPolyPoints.push(pt);
+
+    // vertex dot
+    cldbgPolyDots.push(
+      L.circleMarker(pt, { radius: 4, color: '#7c6ef5', fillColor: '#7c6ef5', fillOpacity: 1, weight: 1.5 }).addTo(map)
+    );
+
+    // update preview polyline
+    if (cldbgPolyPreview) map.removeLayer(cldbgPolyPreview);
+    if (cldbgPolyPoints.length > 1)
+      cldbgPolyPreview = L.polyline(cldbgPolyPoints, { color: 'rgba(124,110,245,0.8)', weight: 1.5, dashArray: '4 3' }).addTo(map);
+
+    const n = cldbgPolyPoints.length;
+    document.getElementById('cldbg-draw-hint').textContent =
+      n < 3 ? `${n} вершин — нужно ≥ 3` : `${n} вершин · двойной клик — замкнуть`;
+  }, 220);
+}
+
+function _onCldbgDblClick(e) {
+  L.DomEvent.stop(e);
+  if (_cldbgClickTimer) { clearTimeout(_cldbgClickTimer); _cldbgClickTimer = null; }
+  if (cldbgPolyPoints.length < 3) return;
+  _closePolygon();
+}
+
+function _onCldbgMouseMove(e) {
+  if (!cldbgDrawing || cldbgPolyPoints.length === 0) return;
+  const last = cldbgPolyPoints[cldbgPolyPoints.length - 1];
+  if (cldbgPolyRubber) map.removeLayer(cldbgPolyRubber);
+  cldbgPolyRubber = L.polyline([last, [e.latlng.lat, e.latlng.lng]], {
+    color: 'rgba(124,110,245,0.4)', weight: 1, dashArray: '3 3',
+  }).addTo(map);
+}
+
+function _closePolygon() {
+  const pts = cldbgPolyPoints.slice();  // save before _clearPolyDraw resets the array
+  _clearPolyDraw();
+  cldbgPolyPoints = pts;  // restore for _filterByArea
+  cldbgPolyLayer = L.polygon(pts, {
+    color: 'rgba(124,110,245,0.7)', fillColor: 'rgba(124,110,245,0.08)', weight: 1.5,
+  }).addTo(map);
+  document.getElementById('cldbg-draw-hint').textContent = `Полигон готов · ${pts.length} вершин`;
+  document.getElementById('cldbg-draw-hint').style.display = '';
+}
+
+function _pointInPoly(point, poly) {
+  // ray casting, poly = [[lat,lon],...]
+  let inside = false;
+  const [y, x] = point;
+  for (let i = 0, j = poly.length - 1; i < poly.length; j = i++) {
+    const [yi, xi] = poly[i], [yj, xj] = poly[j];
+    if ((yi > y) !== (yj > y) && x < (xj - xi) * (y - yi) / (yj - yi) + xi)
+      inside = !inside;
+  }
+  return inside;
+}
+
+function _filterByArea(pts) {
+  if (cldbgArea === 'view') {
+    const b = map.getBounds();
+    return pts.filter(p => b.contains([p.lat, p.lon]));
+  }
+  if (cldbgArea === 'draw' && cldbgPolyPoints.length >= 3)
+    return pts.filter(p => _pointInPoly([p.lat, p.lon], cldbgPolyPoints));
+  return pts;
+}
+
+function greedyCluster(points, radius) {
+  const uncovered = [...points];
+  const clusters  = [];
+  while (uncovered.length > 0) {
+    const seed = uncovered[0];
+    const members = [], remaining = [];
+    for (const p of uncovered)
+      (haversine(seed.lat, seed.lon, p.lat, p.lon) <= radius ? members : remaining).push(p);
+    const lat = members.reduce((s, p) => s + p.lat, 0) / members.length;
+    const lon = members.reduce((s, p) => s + p.lon, 0) / members.length;
+    clusters.push({ center: { lat, lon }, members });
+    uncovered.length = 0; uncovered.push(...remaining);
+  }
+  return clusters;
+}
+
+function nearestNeighborTSP(points) {
+  if (points.length <= 1) return [...points];
+  const visited = new Set([0]);
+  const route   = [points[0]];
+  while (route.length < points.length) {
+    const last = route[route.length - 1];
+    let bestIdx = -1, bestDist = Infinity;
+    for (let i = 0; i < points.length; i++) {
+      if (visited.has(i)) continue;
+      const d = haversine(last.lat, last.lon, points[i].lat, points[i].lon);
+      if (d < bestDist) { bestDist = d; bestIdx = i; }
+    }
+    visited.add(bestIdx); route.push(points[bestIdx]);
+  }
+  return route;
+}
+
+function runClusterDebug() {
+  clearClusterDebugLayers();
+  if (map.hasLayer(clusterGroup)) { map.removeLayer(clusterGroup); cldbgHidMarkers = true; }
+  if (cldbgArea === 'draw' && cldbgPolyPoints.length >= 3) {
+    cldbgPolyLayer = L.polygon(cldbgPolyPoints, {
+      color: 'rgba(124,110,245,0.7)', fillColor: 'rgba(124,110,245,0.08)', weight: 1.5,
+    }).addTo(map);
+  }
+
+  const radius  = parseFloat(document.getElementById('cldbg-radius').value) || 216;
+  const pts     = _filterByArea(allObjects.filter(o => cldbgSelectedTypes.has(o.context)));
+  const statsEl = document.getElementById('cldbg-stats');
+
+  if (pts.length === 0) {
+    statsEl.textContent = 'Нет объектов для выбранного типа / области';
+    statsEl.style.display = '';
+    document.getElementById('cldbg-clear-btn').style.display = '';
+    return;
+  }
+
+  pts.forEach(p => {
+    const color = ctxColor(p.context);
+    clusterDebugLayers.push(
+      L.circleMarker([p.lat, p.lon], {
+        radius: 5, color, fillColor: color, fillOpacity: 0.7, weight: 1.5,
+      }).bindPopup(`<b>${p.name}</b><br><span style="font-size:11px;color:#888">${p.context}</span>`).addTo(map)
+    );
+  });
+
+  const clusters = greedyCluster(pts, radius);
+
+  clusters.forEach((cl, i) => {
+    const color = CLUSTER_PALETTE[i % CLUSTER_PALETTE.length];
+    clusterDebugLayers.push(
+      L.circle([cl.center.lat, cl.center.lon], {
+        radius, color, fillColor: color, fillOpacity: 0.08, weight: 1.5, opacity: 0.55,
+      }).addTo(map)
+    );
+    const icon = L.divIcon({
+      html: `<div style="width:22px;height:22px;background:${color};border:2px solid #fff;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:700;color:#000;box-shadow:0 0 8px ${color}88">${i + 1}</div>`,
+      className: '', iconSize: [22, 22], iconAnchor: [11, 11],
+    });
+    clusterDebugLayers.push(
+      L.marker([cl.center.lat, cl.center.lon], { icon })
+        .bindPopup(`<b>Точка ${i + 1}</b><br>${cl.members.length} объектов<br><span style="font-size:11px;color:#888">${cl.center.lat.toFixed(5)}, ${cl.center.lon.toFixed(5)}</span>`)
+        .addTo(map)
+    );
+  });
+
+  if (clusters.length > 1) {
+    const route = nearestNeighborTSP(clusters.map(c => c.center));
+    const lls   = [...route.map(p => [p.lat, p.lon]), [route[0].lat, route[0].lon]];
+    clusterDebugLayers.push(
+      L.polyline(lls, { color: 'rgba(255,255,255,0.35)', weight: 1.5, dashArray: '6 4' }).addTo(map)
+    );
+    let dist = 0;
+    for (let i = 0; i < route.length - 1; i++)
+      dist += haversine(route[i].lat, route[i].lon, route[i+1].lat, route[i+1].lon);
+    dist += haversine(route[route.length-1].lat, route[route.length-1].lon, route[0].lat, route[0].lon);
+    statsEl.textContent = `${clusters.length} точек · ${pts.length} объектов · маршрут ${Math.round(dist)} м`;
+  } else {
+    statsEl.textContent = `${clusters.length} точек · ${pts.length} объектов`;
+  }
+
+  statsEl.style.display = '';
+  document.getElementById('cldbg-clear-btn').style.display = '';
+}
+
+async function setGpsDevice(lat, lon, device) {
+  if (!localMode) return;
+  try {
+    const r = await fetch(`/api/set-gps?lat=${lat}&lon=${lon}&device=${encodeURIComponent(device)}`);
+    const data = await r.json();
+    if (!data.ok) {
+      stopCrawl();
+      setCrawlStatus(`❌ GPS: ${data.error}`);
+      document.getElementById('crw-status').style.display = '';
+    }
+  } catch (e) {
+    stopCrawl();
+    setCrawlStatus(`❌ ${e.message}`);
+    document.getElementById('crw-status').style.display = '';
+  }
+}
+</script>
+</body>
+</html>
