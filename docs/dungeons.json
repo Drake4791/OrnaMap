@@ -1,5 +1,5 @@
 {
-  "generated": 1779404489,
+  "generated": 1779404503,
   "count": 3569,
   "objects": [
     {
@@ -16,7 +16,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779064052,
-      "last_seen": 1779404486
+      "last_seen": 1779404501
     },
     {
       "id": 2612,
@@ -32,7 +32,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779064246,
-      "last_seen": 1779404486
+      "last_seen": 1779404501
     },
     {
       "id": 2642,
@@ -48,23 +48,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779064315,
-      "last_seen": 1779404486
-    },
-    {
-      "id": 2635,
-      "uuid": "6fc1acc9-2e61-4a11-a50c-f7434b37e643",
-      "name": "Дадли",
-      "context": "npc",
-      "type": "npc",
-      "type_label": "",
-      "tier": 3,
-      "sprite": "img/npcs/dwarf.png",
-      "lat": 51.68593372042618,
-      "lon": 35.58079696680853,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1779064310,
-      "last_seen": 1779404486
+      "last_seen": 1779404501
     },
     {
       "id": 2623,
@@ -80,7 +64,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779064265,
-      "last_seen": 1779404486
+      "last_seen": 1779404501
     },
     {
       "id": 2572,
@@ -96,7 +80,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779064052,
-      "last_seen": 1779404486
+      "last_seen": 1779404501
     },
     {
       "id": 2624,
@@ -112,7 +96,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779064265,
-      "last_seen": 1779404486
+      "last_seen": 1779404501
     },
     {
       "id": 2614,
@@ -128,7 +112,151 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779064246,
-      "last_seen": 1779404486
+      "last_seen": 1779404501
+    },
+    {
+      "id": 2610,
+      "uuid": "24e646ad-7d79-49ff-b586-3662627d3a00",
+      "name": "Борр",
+      "context": "npc",
+      "type": "npc",
+      "type_label": "",
+      "tier": 10,
+      "sprite": "img/npcs/borr.png",
+      "lat": 51.67499619825498,
+      "lon": 35.607550408328706,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1779064205,
+      "last_seen": 1779404501
+    },
+    {
+      "id": 2564,
+      "uuid": "97ac6aa2-4f45-440d-8cc4-d9e744d4719b",
+      "name": "Сэр Балин",
+      "context": "npc",
+      "type": "npc",
+      "type_label": "",
+      "tier": 7,
+      "sprite": "img/npcs/balin.png",
+      "lat": 51.663664823080815,
+      "lon": 35.60075300719465,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1779064023,
+      "last_seen": 1779404501
+    },
+    {
+      "id": 2635,
+      "uuid": "6fc1acc9-2e61-4a11-a50c-f7434b37e643",
+      "name": "Дадли",
+      "context": "npc",
+      "type": "npc",
+      "type_label": "",
+      "tier": 3,
+      "sprite": "img/npcs/dwarf.png",
+      "lat": 51.68593372042618,
+      "lon": 35.58079696680853,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1779064310,
+      "last_seen": 1779404500
+    },
+    {
+      "id": 3344,
+      "uuid": "48c2b811-d4c7-48fb-8a0e-c06cdc9cf188",
+      "name": "Мифрил",
+      "context": "discovery_item",
+      "type": "discovery_item",
+      "type_label": "",
+      "tier": 0,
+      "sprite": "img/materials/mythril.png",
+      "lat": 51.65715203161395,
+      "lon": 35.9359205813986,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1779206875,
+      "last_seen": 1779404500
+    },
+    {
+      "id": 2565,
+      "uuid": "poi:e8034893-ce98-4771-9be4-0c9aff12c717",
+      "name": "Башня Эос",
+      "context": "tower",
+      "type": "tower",
+      "type_label": "",
+      "tier": 0,
+      "sprite": "img/towers/4_3.png",
+      "lat": 51.66715379943362,
+      "lon": 35.59029597370586,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1779064052,
+      "last_seen": 1779404500
+    },
+    {
+      "id": 2563,
+      "uuid": "975ef833-08b2-4bc3-bb1d-6966548dc5d3",
+      "name": "Сэр Балин",
+      "context": "npc",
+      "type": "npc",
+      "type_label": "",
+      "tier": 7,
+      "sprite": "img/npcs/balin.png",
+      "lat": 51.666477984582436,
+      "lon": 35.59847974826268,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1779064023,
+      "last_seen": 1779404500
+    },
+    {
+      "id": 2611,
+      "uuid": "07b91ca3-dade-4993-b7d8-aff49f084d14",
+      "name": "Хорус",
+      "context": "npc",
+      "type": "npc",
+      "type_label": "",
+      "tier": 7,
+      "sprite": "img/npcs/winged_m.png",
+      "lat": 51.677845449190926,
+      "lon": 35.574974487833735,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1779064228,
+      "last_seen": 1779404500
+    },
+    {
+      "id": 2608,
+      "uuid": "50efe8dc-e1e2-49e2-b6e3-9eda62474f70",
+      "name": "Гейл из Воителей Бури",
+      "context": "npc",
+      "type": "npc",
+      "type_label": "",
+      "tier": 4,
+      "sprite": "img/npcs/storm_knight_gale.png",
+      "lat": 51.674843082801985,
+      "lon": 35.576461777280414,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1779064205,
+      "last_seen": 1779404500
+    },
+    {
+      "id": 2604,
+      "uuid": "poi:3b023521-90c5-44d1-a4db-e0f3c9d7ebf8",
+      "name": "Башня Темис",
+      "context": "tower",
+      "type": "tower",
+      "type_label": "",
+      "tier": 0,
+      "sprite": "img/towers/2_3.png",
+      "lat": 51.672990581682946,
+      "lon": 35.602712318322695,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1779064186,
+      "last_seen": 1779404500
     },
     {
       "id": 2613,
@@ -147,102 +275,6 @@
       "last_seen": 1779404486
     },
     {
-      "id": 2610,
-      "uuid": "24e646ad-7d79-49ff-b586-3662627d3a00",
-      "name": "Борр",
-      "context": "npc",
-      "type": "npc",
-      "type_label": "",
-      "tier": 10,
-      "sprite": "img/npcs/borr.png",
-      "lat": 51.67499619825498,
-      "lon": 35.607550408328706,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1779064205,
-      "last_seen": 1779404486
-    },
-    {
-      "id": 3344,
-      "uuid": "48c2b811-d4c7-48fb-8a0e-c06cdc9cf188",
-      "name": "Мифрил",
-      "context": "discovery_item",
-      "type": "discovery_item",
-      "type_label": "",
-      "tier": 0,
-      "sprite": "img/materials/mythril.png",
-      "lat": 51.65715203161395,
-      "lon": 35.9359205813986,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1779206875,
-      "last_seen": 1779404486
-    },
-    {
-      "id": 2565,
-      "uuid": "poi:e8034893-ce98-4771-9be4-0c9aff12c717",
-      "name": "Башня Эос",
-      "context": "tower",
-      "type": "tower",
-      "type_label": "",
-      "tier": 0,
-      "sprite": "img/towers/4_3.png",
-      "lat": 51.66715379943362,
-      "lon": 35.59029597370586,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1779064052,
-      "last_seen": 1779404486
-    },
-    {
-      "id": 2563,
-      "uuid": "975ef833-08b2-4bc3-bb1d-6966548dc5d3",
-      "name": "Сэр Балин",
-      "context": "npc",
-      "type": "npc",
-      "type_label": "",
-      "tier": 7,
-      "sprite": "img/npcs/balin.png",
-      "lat": 51.666477984582436,
-      "lon": 35.59847974826268,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1779064023,
-      "last_seen": 1779404486
-    },
-    {
-      "id": 2611,
-      "uuid": "07b91ca3-dade-4993-b7d8-aff49f084d14",
-      "name": "Хорус",
-      "context": "npc",
-      "type": "npc",
-      "type_label": "",
-      "tier": 7,
-      "sprite": "img/npcs/winged_m.png",
-      "lat": 51.677845449190926,
-      "lon": 35.574974487833735,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1779064228,
-      "last_seen": 1779404486
-    },
-    {
-      "id": 2608,
-      "uuid": "50efe8dc-e1e2-49e2-b6e3-9eda62474f70",
-      "name": "Гейл из Воителей Бури",
-      "context": "npc",
-      "type": "npc",
-      "type_label": "",
-      "tier": 4,
-      "sprite": "img/npcs/storm_knight_gale.png",
-      "lat": 51.674843082801985,
-      "lon": 35.576461777280414,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1779064205,
-      "last_seen": 1779404486
-    },
-    {
       "id": 2616,
       "uuid": "poi:1f77c7f8-dc9a-4e38-9f3f-f4174aa939e1",
       "name": "Башня Прометея",
@@ -256,22 +288,6 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779064265,
-      "last_seen": 1779404486
-    },
-    {
-      "id": 2604,
-      "uuid": "poi:3b023521-90c5-44d1-a4db-e0f3c9d7ebf8",
-      "name": "Башня Темис",
-      "context": "tower",
-      "type": "tower",
-      "type_label": "",
-      "tier": 0,
-      "sprite": "img/towers/2_3.png",
-      "lat": 51.672990581682946,
-      "lon": 35.602712318322695,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1779064186,
       "last_seen": 1779404486
     },
     {
@@ -1457,22 +1473,6 @@
       "is_raid": 0,
       "first_seen": 1778776287,
       "last_seen": 1779403991
-    },
-    {
-      "id": 2564,
-      "uuid": "97ac6aa2-4f45-440d-8cc4-d9e744d4719b",
-      "name": "Сэр Балин",
-      "context": "npc",
-      "type": "npc",
-      "type_label": "",
-      "tier": 7,
-      "sprite": "img/npcs/balin.png",
-      "lat": 51.663664823080815,
-      "lon": 35.60075300719465,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1779064023,
-      "last_seen": 1779403990
     },
     {
       "id": 2573,
