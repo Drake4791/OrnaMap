@@ -1,6 +1,6 @@
 {
-  "generated": 1779566447,
-  "count": 3635,
+  "generated": 1779566492,
+  "count": 3757,
   "objects": [
     {
       "uuid": "59af82ec-a0f5-4303-82d7-7373aea33041",
@@ -15,7 +15,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "75035f88-5196-4da8-92e8-9776d4a4b979",
@@ -30,7 +30,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "65d8b22e-1f71-4bc7-8803-a4cfaa608856",
@@ -45,7 +45,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "19c698e3-f08b-4a28-b415-8e2e68c5e9bf",
@@ -60,7 +60,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "7cb2092f-15a5-4ca1-ab0f-7f4dafba351f",
@@ -75,7 +75,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "74e0df15-4af6-48d6-9f27-a8c76a2420da",
@@ -90,7 +90,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "fb1e16c9-505a-4a35-b74f-36ea7d6b24cb",
@@ -105,7 +105,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "4415bf7f-f670-415b-a8f7-54ec452114b5",
@@ -120,7 +120,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "5b05f3d1-0f7f-40a4-b5e6-dd655f701509",
@@ -135,7 +135,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "a392a2a4-1732-4834-b1c9-90b6e61a4886",
@@ -150,7 +150,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "7ae27d7e-162a-4c8b-b06d-8c217bbbb72f",
@@ -165,7 +165,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "be612d58-7d6e-459c-8b53-61010fd27dcf",
@@ -180,7 +180,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "b1657e8b-2e85-4b06-ab4b-2d9eaa727130",
@@ -195,7 +195,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "6ba68419-f5b2-44b9-8ffb-d10334a4c868",
@@ -210,7 +210,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "3049ce91-3d23-4e05-9382-7bfdfd92a4d3",
@@ -225,7 +225,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "8d0aa82e-8505-4f7d-b198-3d0502895e38",
@@ -240,97 +240,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
-    },
-    {
-      "uuid": "7923176c-57a7-499a-ae56-795f969a6f4b",
-      "name": "Степь Вазгопадцу Подземелье",
-      "context": "dungeon",
-      "type": "5",
-      "type_label": "",
-      "tier": 1,
-      "sprite": "img/shops/dungeon.png",
-      "lat": 51.65444669506,
-      "lon": 35.682458989623,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1779566446,
-      "last_seen": 1779566446
-    },
-    {
-      "uuid": "7c936486-ed92-4f7b-bc97-4d10fe53deab",
-      "name": "Гостиница",
-      "context": "inn",
-      "type": "4",
-      "type_label": "",
-      "tier": 1,
-      "sprite": "img/shops/inn.png",
-      "lat": 51.65720006822,
-      "lon": 35.682425763242,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1779566446,
-      "last_seen": 1779566446
-    },
-    {
-      "uuid": "30b08ed0-e0ec-4031-bf0e-d844ab34f3f9",
-      "name": "Селище Горхенву Магазин",
-      "context": "shop",
-      "type": "0",
-      "type_label": "",
-      "tier": 1,
-      "sprite": "img/shops/shop.png",
-      "lat": 51.652357867728,
-      "lon": 35.680775050597,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1779566446,
-      "last_seen": 1779566446
-    },
-    {
-      "uuid": "ce0df26f-0a44-4972-aa5f-c68decf639f3",
-      "name": "Портал хаоса",
-      "context": "chaos_portal",
-      "type": "5",
-      "type_label": "",
-      "tier": 6,
-      "sprite": "img/shops/chaos_portal.png",
-      "lat": 51.656366697242,
-      "lon": 35.680702235452,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1779566446,
-      "last_seen": 1779566446
-    },
-    {
-      "uuid": "a66b3a2d-6741-4142-9c9e-5f686fb54345",
-      "name": "Алхимик",
-      "context": "alchemist",
-      "type": "6",
-      "type_label": "",
-      "tier": 1,
-      "sprite": "img/shops/alchemist.png",
-      "lat": 51.658682780614,
-      "lon": 35.68066780675,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1779566446,
-      "last_seen": 1779566446
-    },
-    {
-      "uuid": "517eaf65-b9e4-4537-b3c9-2824d4163592",
-      "name": "Кузница",
-      "context": "blacksmith",
-      "type": "1",
-      "type_label": "",
-      "tier": 1,
-      "sprite": "img/shops/blacksmith.png",
-      "lat": 51.659141115504,
-      "lon": 35.680598306157,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "c8b7c717-9ad6-4077-8028-b20908bd4b38",
@@ -345,7 +255,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "2e678684-0972-4eaf-8035-259ce8e82b44",
@@ -360,7 +270,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "baa5ce13-7453-40a1-ba96-519af327bb72",
@@ -375,7 +285,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "f26f836f-59b9-461f-82a3-50b82804084f",
@@ -390,7 +300,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "39e8b60a-b8c7-4ef9-8e84-3d8431efe035",
@@ -405,7 +315,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "d8f8d6f8-3e7e-4c5b-9db9-e35a8f735d85",
@@ -420,7 +330,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "1c1c3453-0ef1-4468-ae86-6b8971f21df5",
@@ -435,7 +345,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "eb5902d8-13f9-4bb5-ac17-27cf2686699c",
@@ -450,7 +360,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "1fb1ce6e-c551-4cf6-aca6-485a9f979de7",
@@ -465,7 +375,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "50305a14-48ad-4198-93e0-318ea8ad832f",
@@ -480,7 +390,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "c7e446c7-9e71-48aa-b992-8b5192a81814",
@@ -495,7 +405,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "0ad072a1-18a7-43b8-85b5-58fbe1d11621",
@@ -510,7 +420,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "e6626be5-be63-4d82-8d4a-70a01ddf446f",
@@ -525,7 +435,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "43706502-3897-49fc-bab0-f7774ac9c35e",
@@ -540,7 +450,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "cef1d209-8fab-46f4-ae7c-1e6d1b75c990",
@@ -555,7 +465,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "5643d7b5-9d70-402b-a8c3-a65b2e05273c",
@@ -570,7 +480,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "b5413322-18bf-4814-88e5-baad8dcf6289",
@@ -585,7 +495,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "69264363-9c2f-4c4c-abfd-65ea21f41a5d",
@@ -600,7 +510,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "374bd80b-e2f3-4820-9d65-e1b46b1e5dc8",
@@ -615,7 +525,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "516560c3-dec4-4d2c-ab57-9302d2b25b4a",
@@ -630,7 +540,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "16881409-dd16-45d0-a9ee-1c5c1eca1e88",
@@ -645,7 +555,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "28716b83-8d08-4b80-a3c2-417eb8d71333",
@@ -660,7 +570,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "1ad2db72-ac30-4549-a4d5-464fef4a04cd",
@@ -675,7 +585,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "5b6a7367-314b-4192-b369-b0495bb37cb6",
@@ -690,7 +600,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "96640995-9af5-4a23-a9ee-e5889ad7f78e",
@@ -705,7 +615,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "76b7473e-6d8f-4f20-a8aa-21e43683dd59",
@@ -720,7 +630,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "20bc0ed8-f1fd-4b5f-af39-40f590bad8e9",
@@ -735,7 +645,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "5bea8344-eaac-4030-a9de-1917b036b0e3",
@@ -750,7 +660,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "f55e71ed-e28b-4db4-a206-0dcbd612d690",
@@ -765,7 +675,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "988b3a05-571d-4206-983d-cd0ed67ce10c",
@@ -780,7 +690,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "f73e575d-0b0d-4509-8811-4ef215c2b108",
@@ -795,7 +705,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "4846e049-5008-43a3-abe0-ba29e5006099",
@@ -810,7 +720,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "f377eefb-6662-4dc6-ac41-62f6d2966b8e",
@@ -825,7 +735,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "d2274f72-b00b-4ba1-85d2-15beb25756d2",
@@ -840,7 +750,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "e21b93a8-6fbb-476d-8014-21daf7538001",
@@ -855,7 +765,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "ed83a3fd-74bc-4b02-bdb5-74eba51ec30e",
@@ -870,7 +780,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "3b62122b-8018-46f7-a3b3-66389280b570",
@@ -885,7 +795,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "042a1fb6-254e-4429-a1c5-942a4191ec03",
@@ -900,7 +810,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "5974eaa1-3ec5-4032-8f75-b38b5de2d2ae",
@@ -915,7 +825,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "2956ec14-8a41-4b0f-b950-4e13540bbaba",
@@ -930,7 +840,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "711c30c0-8fb5-404e-8671-01f8b66d97d2",
@@ -945,7 +855,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "9176dab3-dc4a-409f-86ca-850d84f1bc6b",
@@ -960,7 +870,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "c2a05f70-578d-4993-b028-69cf0b4e243f",
@@ -975,7 +885,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "4c41ff97-9217-401e-88ba-943b6c8d0374",
@@ -990,7 +900,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "8a2dbf7b-c891-4195-a5ce-04994b964e0c",
@@ -1005,7 +915,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "3398a0ee-b694-4620-be33-43f7d70bc72b",
@@ -1020,7 +930,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "50fa29bd-529d-42c1-a491-943ee6207be4",
@@ -1035,7 +945,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "590c1316-dc86-4e2f-b7d5-204785b67f8f",
@@ -1050,7 +960,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "5b421533-2f38-4ec4-93bc-9f10ed23b5ed",
@@ -1065,7 +975,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "7971480f-fc27-4c64-a32a-99e64929f9d4",
@@ -1080,7 +990,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "58e9f49b-07b3-4bfd-99e3-ced4c7ae0420",
@@ -1095,7 +1005,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "b135f319-f660-4776-bcaf-ebb8a53d3040",
@@ -1110,7 +1020,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "f9746041-f477-42b3-b766-e63e8dd9bc38",
@@ -1125,7 +1035,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "64d31415-bcdf-4c82-9069-54c61106a277",
@@ -1140,7 +1050,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "4dd7c496-31b7-4b16-af87-eb4309cb56b6",
@@ -1155,7 +1065,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "6b45cd87-4c4d-4424-beb7-10096c8f8a9e",
@@ -1170,7 +1080,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "081e0ce5-d689-432d-bc59-5f0db05d0887",
@@ -1185,7 +1095,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "60a3e4ac-f52e-4c54-b6cf-09c684314fad",
@@ -1200,7 +1110,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "d32b0c83-202a-44d7-8385-ad65979b3a41",
@@ -1215,7 +1125,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "5d8872b2-2e7b-4f51-aea4-42b764414b62",
@@ -1230,7 +1140,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "0ee8a295-b2c1-4581-a8e9-c13a1b9cbfd4",
@@ -1245,7 +1155,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "be373fb8-d917-46c6-994a-2ef6c0307c73",
@@ -1260,7 +1170,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "92aca3be-56ff-4d42-81ea-df18f09ef691",
@@ -1275,7 +1185,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "8d8406e4-03e6-414b-9788-79897f2f0c82",
@@ -1290,7 +1200,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "9a4c0d37-2454-4bfb-b615-362059d1468b",
@@ -1305,7 +1215,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "9903616d-78f3-4164-98cd-a5c12868efcd",
@@ -1320,7 +1230,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "68210c94-846b-4adc-a092-9135cff5aebb",
@@ -1335,7 +1245,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "d83d89eb-51b5-4e5a-8a21-71da820ca4a2",
@@ -1350,7 +1260,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "ec0031d6-30b3-4020-a5c9-a7e9176399ed",
@@ -1365,7 +1275,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "4fde3802-0805-4b4e-a57d-0c2d519a694f",
@@ -1380,7 +1290,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "ff38ac89-ad1d-407e-a7a8-37a6d5699a00",
@@ -1395,7 +1305,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "cba78f20-ac8a-416d-93c3-b3519a853384",
@@ -1410,7 +1320,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "3e942478-a1ab-455b-8c09-1896ec890d10",
@@ -1425,7 +1335,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "ae7b6c57-70bb-460b-abad-acf04019f698",
@@ -1440,7 +1350,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "61b6c96a-64dd-4632-9c1a-668e30cd9c3f",
@@ -1455,7 +1365,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "752c58d5-0419-4019-a3fb-966528663d5c",
@@ -1470,7 +1380,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "1d0736ca-df3e-4ee7-9270-d9770334c2a4",
@@ -1485,7 +1395,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "a5970982-9d66-48a3-b6d2-b3f32958f4a0",
@@ -1500,7 +1410,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "3f27755b-02cd-4348-8520-9aa2c694d945",
@@ -1515,7 +1425,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "65ec2de7-3811-4b20-b8f6-1598c4e1839b",
@@ -1530,7 +1440,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "b9193c67-ab50-410c-9a37-f8540b8ea610",
@@ -1545,7 +1455,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "97fcf3e2-2046-4863-8383-902d93c77d8a",
@@ -1560,7 +1470,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "20481beb-b135-47b5-8e41-3e3d6430be17",
@@ -1575,7 +1485,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "f660beef-7a13-42e5-ba09-f7471a03cc9e",
@@ -1590,7 +1500,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "7c80cc9c-c407-448a-a1bf-a387e53ab314",
@@ -1605,7 +1515,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "804e1b7a-5d60-4668-8faf-21f35484cb0c",
@@ -1620,7 +1530,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "e8520599-0dfb-4cda-8e23-cc915c136022",
@@ -1635,7 +1545,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "f89d0104-a004-45e4-b7d5-43bbc907e9e8",
@@ -1650,7 +1560,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "d8dccb8f-3778-4dae-9ed8-7bbcd0dd0e0d",
@@ -1665,7 +1575,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "297c5b7c-5ef3-4c7b-b405-ce6bf12e29b0",
@@ -1680,7 +1590,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "ca2362c8-4093-4168-9ae7-2cce3765b5e0",
@@ -1695,7 +1605,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "b2d03e15-83ee-4c5e-a2cf-aaeb55fb8cd0",
@@ -1710,7 +1620,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "51ba77ba-aad5-4c9c-82e9-312d5c885e3f",
@@ -1725,7 +1635,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "e9d5d015-5300-48bb-ac02-5beb8ec3579c",
@@ -1740,7 +1650,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "bdbb06b9-8b41-4884-807c-f7a9b823c605",
@@ -1755,7 +1665,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "91b9505a-1c48-4c23-b6e6-3f4db0959ab4",
@@ -1770,7 +1680,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "a778dd00-8f49-4f6f-bd2d-b6c8ee09288e",
@@ -1785,7 +1695,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "1ff1e8d1-c205-48d2-8e05-3576947dda94",
@@ -1800,7 +1710,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "f2a8a406-6f84-48f8-921f-9a59588945fd",
@@ -1815,7 +1725,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "7f61d2cc-2305-449b-8f11-8bec705c6273",
@@ -1830,7 +1740,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "e53bfc94-3ec9-4088-a9fc-8fd009e72d57",
@@ -1845,7 +1755,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "8ba885ea-82e7-44f3-a011-57a9364d289c",
@@ -1860,7 +1770,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "b11b1817-6297-4de5-b27b-e5ab6dd6a7f2",
@@ -1875,7 +1785,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "b93fbe58-c03d-4ed6-b8f1-6e12f4479ac2",
@@ -1890,7 +1800,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "747bc706-5c46-404f-be9b-2a78ebf52422",
@@ -1905,7 +1815,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "174fc7ad-2ff3-49f0-b40b-f80a8d04c928",
@@ -1920,7 +1830,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "300f3cbf-15df-4eb1-be19-91954f5ea02d",
@@ -1935,7 +1845,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "d7b76682-fb54-4d97-bc15-d5452327c6c5",
@@ -1950,7 +1860,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "e24d62ac-bb64-4ecb-8a89-fdffb9c2695a",
@@ -1965,7 +1875,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "4a2281ec-7d3e-4164-a28f-646257a7a1e2",
@@ -1980,7 +1890,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "06c1680d-97a2-4668-816f-e915bf07d13a",
@@ -1995,7 +1905,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "6d5e5b67-585a-4536-8300-7629e51e4917",
@@ -2010,7 +1920,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "6aa98c8a-ee87-4702-85c9-936e6e743044",
@@ -2025,7 +1935,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "492ad127-74bd-4955-9553-5b6f4d539d75",
@@ -2040,7 +1950,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "f731060f-7c27-450f-b77f-e12ad8b7146f",
@@ -2055,7 +1965,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "ddf59ec8-7535-4bdb-bbf0-d9f2bdd50b20",
@@ -2070,7 +1980,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "e39e3bb6-e07b-4761-84a2-b820488f990a",
@@ -2085,7 +1995,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "9ba8366d-5025-47ad-b79f-bf50ddc1680e",
@@ -2100,7 +2010,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "0210b7a0-c75e-4377-aa4f-3e77bdef1178",
@@ -2115,7 +2025,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "b6cee305-35b0-48a5-b2b8-fdb9100fa025",
@@ -2130,7 +2040,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "39c3765d-0999-4af5-981a-dc103941aaf9",
@@ -2145,7 +2055,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "aebae4d1-20e7-476b-9561-5b0132bc9c3c",
@@ -2160,7 +2070,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "bf71f301-e012-43e9-8196-7130ca774380",
@@ -2175,7 +2085,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "1df702ce-8105-478d-bc52-b79ba9b144d1",
@@ -2190,7 +2100,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "f246c162-833f-4128-8ec3-f2be8b1248bd",
@@ -2205,7 +2115,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "c85fbe56-829d-4b11-b2e8-057256fe7d41",
@@ -2220,7 +2130,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "bcba75b9-8621-4ed0-995f-20b16b3853f0",
@@ -2235,7 +2145,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "1a88b4f2-a0b2-4a3b-8166-6cd723fac412",
@@ -2250,7 +2160,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "651ff630-7a17-42e7-b2be-d1d7815ca232",
@@ -2265,7 +2175,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "74e28072-addb-49e3-a1e1-5a1a3c07d815",
@@ -2280,7 +2190,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "94649e3d-2c9d-4b62-9f4b-7d9599d96993",
@@ -2295,7 +2205,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "d557261b-6d5e-42e4-b6fa-b492bab041b2",
@@ -2310,7 +2220,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "15215226-c9f8-44a5-8ccb-6c5a9c83166a",
@@ -2325,7 +2235,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "ff5df0fb-6928-41ee-ae10-d8602b7de611",
@@ -2340,7 +2250,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "5fdc2287-08da-442f-9f96-6ed13dc66836",
@@ -2355,7 +2265,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "06bb28dd-bce3-453d-b9bb-79071f0ca58e",
@@ -2370,7 +2280,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
     },
     {
       "uuid": "eaa32adc-51eb-4176-92aa-448df87a1f24",
@@ -2385,7 +2295,1957 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566446
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "9f6c0e32-97a1-4918-ab3c-1c975fa3e45e",
+      "name": "Кокатрис гиблых",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 8,
+      "sprite": "img/bosses/fey_cockatrice.png",
+      "lat": 51.652184217913,
+      "lon": 35.688120800668,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "662c6260-7205-4fe2-a370-1fb0615b6121",
+      "name": "Химера гиблых",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 10,
+      "sprite": "img/bosses/fey_chimera.png",
+      "lat": 51.655799154189,
+      "lon": 35.693127508327,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "20a39577-d02a-42aa-a3d5-922591660aea",
+      "name": "Дурак",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 9,
+      "sprite": "img/bosses/fool_arisen.png",
+      "lat": 51.654749573874,
+      "lon": 35.685104040458,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "2cb0a91e-6c29-4914-a4bf-903cd340fbf8",
+      "name": "Второй всадник",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 8,
+      "sprite": "img/bosses/horseman_pestilence.png",
+      "lat": 51.652382435034,
+      "lon": 35.68654980543,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "6a614a9a-0951-4c89-b9ae-411ef5317e12",
+      "name": "Разочарованный Аполлион",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 10,
+      "sprite": "img/bosses/apollyon_spirit.png",
+      "lat": 51.655572194752,
+      "lon": 35.687891183306,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "b1f46ec2-31c1-4612-a402-112c8ff434e2",
+      "name": "Последний всадник",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 10,
+      "sprite": "img/bosses/horseman_death.png",
+      "lat": 51.65405388902,
+      "lon": 35.68790314912,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "97669d66-974b-45f5-b8ba-f84bf1a8f4cc",
+      "name": "Последний всадник",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 10,
+      "sprite": "img/bosses/horseman_death.png",
+      "lat": 51.653131711614,
+      "lon": 35.687935572446,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "c3b6270b-55f6-415a-b7a7-b17be69e42b8",
+      "name": "Разочарованный Аполлион",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 10,
+      "sprite": "img/bosses/apollyon_spirit.png",
+      "lat": 51.652717047187,
+      "lon": 35.688008589378,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "9472d570-868e-4f9f-8364-b6c04e32b6b8",
+      "name": "Последний всадник",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 10,
+      "sprite": "img/bosses/horseman_death.png",
+      "lat": 51.654440048172,
+      "lon": 35.68823454337,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "03ac49c2-b964-43df-8f7b-4f6eefe73cb4",
+      "name": "Химера гиблых",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 10,
+      "sprite": "img/bosses/fey_chimera.png",
+      "lat": 51.655463494169,
+      "lon": 35.688404044078,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "382935aa-8be0-4bd5-8c77-690b7fde4d36",
+      "name": "Пепельный Феникс",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 10,
+      "sprite": "img/bosses/ashen_phoenix.png",
+      "lat": 51.654749116455,
+      "lon": 35.688483174286,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "ebb866ef-b362-40b2-8265-e166a84e3ccb",
+      "name": "Разочарованный Аполлион",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 10,
+      "sprite": "img/bosses/apollyon_spirit.png",
+      "lat": 51.65286099863,
+      "lon": 35.688495600941,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "771849f0-8d31-45a2-ae7b-d7e4173455af",
+      "name": "Третий всадник",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 9,
+      "sprite": "img/bosses/horseman_war.png",
+      "lat": 51.655176318569,
+      "lon": 35.688619118938,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "fd0544df-324c-4728-b637-104a6ecbb83a",
+      "name": "Кокатрис гиблых",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 8,
+      "sprite": "img/bosses/fey_cockatrice.png",
+      "lat": 51.655664345417,
+      "lon": 35.688677963878,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "8046e0cf-59d0-48f0-a1a2-41335301e6fd",
+      "name": "Восставший колдун Тревельян",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 9,
+      "sprite": "img/bosses/trevelyan.png",
+      "lat": 51.655862267702,
+      "lon": 35.68873201733,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "b14428a9-c5bc-4e96-9a39-cb71880eaced",
+      "name": "Второй всадник",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 8,
+      "sprite": "img/bosses/horseman_pestilence.png",
+      "lat": 51.653713724099,
+      "lon": 35.688931254567,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "dfc7ceef-3877-4417-a3bd-dbc1b26ca3c8",
+      "name": "Разочарованный Аполлион",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 10,
+      "sprite": "img/bosses/apollyon_spirit.png",
+      "lat": 51.653169735167,
+      "lon": 35.688993422518,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "beac6ef6-fcc5-4313-ad34-f20cb43a1f18",
+      "name": "Третий всадник",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 9,
+      "sprite": "img/bosses/horseman_war.png",
+      "lat": 51.653606641857,
+      "lon": 35.688996727611,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "f760942c-832b-4388-86eb-0a12977581eb",
+      "name": "Разочарованный Аполлион",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 10,
+      "sprite": "img/bosses/apollyon_spirit.png",
+      "lat": 51.65903415755,
+      "lon": 35.689154483475,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "77dc549d-5be0-4bba-aaf4-a9d7f09ab555",
+      "name": "Последний всадник",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 10,
+      "sprite": "img/bosses/horseman_death.png",
+      "lat": 51.652318811886,
+      "lon": 35.689158496451,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "aeda9086-76d1-4429-83b9-9217639a095f",
+      "name": "Разочарованный Аполлион",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 10,
+      "sprite": "img/bosses/apollyon_spirit.png",
+      "lat": 51.658928322059,
+      "lon": 35.689204385303,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "b1fcb346-137a-4ea8-9c52-75e7f311b7a6",
+      "name": "Разочарованный Аполлион",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 10,
+      "sprite": "img/bosses/apollyon_spirit.png",
+      "lat": 51.655981978132,
+      "lon": 35.689362448168,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "289d80d6-0c1e-4b6f-9fa9-c6a760caaa02",
+      "name": "Последний всадник",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 10,
+      "sprite": "img/bosses/horseman_death.png",
+      "lat": 51.65335186785,
+      "lon": 35.68937993856,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "64b5c0d4-5261-474a-8735-e4880914ce44",
+      "name": "Йети гиблых",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 9,
+      "sprite": "img/bosses/fey_yeti.png",
+      "lat": 51.658006065958,
+      "lon": 35.689572981289,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "a360a677-8f40-4fd6-9a43-11cf35177460",
+      "name": "Последний всадник",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 10,
+      "sprite": "img/bosses/horseman_death.png",
+      "lat": 51.653918289934,
+      "lon": 35.68962314542,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "6a765110-810a-4673-bbce-0f2283dfef97",
+      "name": "Второй всадник",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 8,
+      "sprite": "img/bosses/horseman_pestilence.png",
+      "lat": 51.655300525865,
+      "lon": 35.689805345888,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "8ad4979f-75fd-4398-82a8-28303914dab2",
+      "name": "Второй всадник",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 8,
+      "sprite": "img/bosses/horseman_pestilence.png",
+      "lat": 51.65893672898,
+      "lon": 35.689959305141,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "bdb51d4c-49f8-48b7-8cdf-550bc141e3b1",
+      "name": "Последний всадник",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 10,
+      "sprite": "img/bosses/horseman_death.png",
+      "lat": 51.658004562085,
+      "lon": 35.689970073556,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "9e086564-6d15-4b48-b79c-dc91a07fd046",
+      "name": "Третий всадник",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 9,
+      "sprite": "img/bosses/horseman_war.png",
+      "lat": 51.65443029267,
+      "lon": 35.689977024238,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "ab96c1c8-4e3c-434e-b788-30329d1f0edc",
+      "name": "Пепельный Феникс",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 10,
+      "sprite": "img/bosses/ashen_phoenix.png",
+      "lat": 51.655821039338,
+      "lon": 35.690025333325,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "285783ea-acab-403e-941a-9efa54d402e1",
+      "name": "Химера гиблых",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 10,
+      "sprite": "img/bosses/fey_chimera.png",
+      "lat": 51.653766890987,
+      "lon": 35.690354719008,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "f6993915-0c5a-4339-b320-f36d2ea7e153",
+      "name": "Пепельный Феникс",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 10,
+      "sprite": "img/bosses/ashen_phoenix.png",
+      "lat": 51.653547919728,
+      "lon": 35.690375149884,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "be6361a7-c2ac-4ffc-8fa1-568cb26449fb",
+      "name": "Йети гиблых",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 9,
+      "sprite": "img/bosses/fey_yeti.png",
+      "lat": 51.658316738266,
+      "lon": 35.690564671594,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "509cc2fb-9a7f-4e78-886d-e4f625eb45c2",
+      "name": "Пепельный Феникс",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 10,
+      "sprite": "img/bosses/ashen_phoenix.png",
+      "lat": 51.658318525432,
+      "lon": 35.690678427767,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "f70ba014-1ad9-42c8-b3ef-30d4c00b506e",
+      "name": "Разочарованный Аполлион",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 10,
+      "sprite": "img/bosses/apollyon_spirit.png",
+      "lat": 51.655442047691,
+      "lon": 35.690738990499,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "feb90431-f899-4d4f-9cc6-4346dd291a0a",
+      "name": "Второй всадник",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 8,
+      "sprite": "img/bosses/horseman_pestilence.png",
+      "lat": 51.65849674821,
+      "lon": 35.690744701654,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "aef87e88-7830-4be4-871e-d0d927d20852",
+      "name": "Второй всадник",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 8,
+      "sprite": "img/bosses/horseman_pestilence.png",
+      "lat": 51.657973819693,
+      "lon": 35.690768624896,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "10905000-298f-45c9-bafb-a7026e48ba15",
+      "name": "Кокатрис гиблых",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 8,
+      "sprite": "img/bosses/fey_cockatrice.png",
+      "lat": 51.660011287365,
+      "lon": 35.690806432872,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "c5c677ae-3c05-44d8-b468-22e2ea369285",
+      "name": "Пепельный Феникс",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 10,
+      "sprite": "img/bosses/ashen_phoenix.png",
+      "lat": 51.660003503111,
+      "lon": 35.690844524098,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "e784f852-faad-46db-8bed-32b0ba5f415f",
+      "name": "Разочарованный Аполлион",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 10,
+      "sprite": "img/bosses/apollyon_spirit.png",
+      "lat": 51.65419845975,
+      "lon": 35.69108776599,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "d9b2a9c5-d620-4aa5-9d6f-a892089ce1e2",
+      "name": "Кокатрис гиблых",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 8,
+      "sprite": "img/bosses/fey_cockatrice.png",
+      "lat": 51.658466635842,
+      "lon": 35.691203525419,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "a1a5ade9-a95c-4b34-9c9d-349f4d562ec0",
+      "name": "Второй всадник",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 8,
+      "sprite": "img/bosses/horseman_pestilence.png",
+      "lat": 51.654455475917,
+      "lon": 35.691404659382,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "166b3dec-5b4e-47b8-b6f8-4c536eb00f8e",
+      "name": "Второй всадник",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 8,
+      "sprite": "img/bosses/horseman_pestilence.png",
+      "lat": 51.652119777108,
+      "lon": 35.691542834167,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "8d3f974f-5a1b-40fa-87ae-ba4a8110460d",
+      "name": "Восставший Иггдрасиль",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 10,
+      "sprite": "img/bosses/yggdrasil.png",
+      "lat": 51.653002368975,
+      "lon": 35.691607288778,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "28473fd2-589d-4ce0-b27f-98eaccaa816a",
+      "name": "Второй всадник",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 8,
+      "sprite": "img/bosses/horseman_pestilence.png",
+      "lat": 51.653457122255,
+      "lon": 35.691688107024,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "41edab4a-1b4f-4a78-8bf7-7bda668c0438",
+      "name": "Химера гиблых",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 10,
+      "sprite": "img/bosses/fey_chimera.png",
+      "lat": 51.654952076216,
+      "lon": 35.691697809959,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "1d2dd364-3de0-4f59-94c5-7a63a23f33b9",
+      "name": "Третий всадник",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 9,
+      "sprite": "img/bosses/horseman_war.png",
+      "lat": 51.658826466298,
+      "lon": 35.691737999124,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "465b3d19-97e0-415a-a481-edf90951a81c",
+      "name": "Восставший Иггдрасиль",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 10,
+      "sprite": "img/bosses/yggdrasil.png",
+      "lat": 51.652712192616,
+      "lon": 35.691753024197,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "c87bc9b7-6125-40c8-bcf4-2c56c353526e",
+      "name": "Химера гиблых",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 10,
+      "sprite": "img/bosses/fey_chimera.png",
+      "lat": 51.654094246696,
+      "lon": 35.691842011452,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "712b0669-861f-49cd-9452-a5d9df306640",
+      "name": "Пепельный Феникс",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 10,
+      "sprite": "img/bosses/ashen_phoenix.png",
+      "lat": 51.659912393277,
+      "lon": 35.691869350267,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "95911af2-f571-42a9-93c4-f93f9b0139c2",
+      "name": "Восставшая Морриган",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 10,
+      "sprite": "img/bosses/arisen_morrigan.png",
+      "lat": 51.660542620166,
+      "lon": 35.691926033283,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "8e438d64-179f-48c5-8f08-15db3f6954be",
+      "name": "Второй всадник",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 8,
+      "sprite": "img/bosses/horseman_pestilence.png",
+      "lat": 51.656644642307,
+      "lon": 35.69205070551,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "f7984262-e13f-49ae-b9a1-fb77f7e05747",
+      "name": "Восставший Иггдрасиль",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 10,
+      "sprite": "img/bosses/yggdrasil.png",
+      "lat": 51.660280552786,
+      "lon": 35.692092021689,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "ef5d0be4-79ba-4d99-a7a0-8872843d398d",
+      "name": "Пепельный Феникс",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 10,
+      "sprite": "img/bosses/ashen_phoenix.png",
+      "lat": 51.659542230343,
+      "lon": 35.69212199799,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "ebe8c71d-ac46-4271-9d5f-86d0b7d416f6",
+      "name": "Второй всадник",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 8,
+      "sprite": "img/bosses/horseman_pestilence.png",
+      "lat": 51.653342903626,
+      "lon": 35.692209268759,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "4d2d4adc-ffd8-488b-b576-46014f34e8bd",
+      "name": "Последний всадник",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 10,
+      "sprite": "img/bosses/horseman_death.png",
+      "lat": 51.658712760943,
+      "lon": 35.692238809142,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "4648e864-cc44-400a-aa0f-904957084c85",
+      "name": "Последний всадник",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 10,
+      "sprite": "img/bosses/horseman_death.png",
+      "lat": 51.653422434596,
+      "lon": 35.692269158682,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "d58e8d1e-f06e-4bfe-8c8b-a2ba174a17ee",
+      "name": "Последний всадник",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 10,
+      "sprite": "img/bosses/horseman_death.png",
+      "lat": 51.652782518223,
+      "lon": 35.692628720316,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "fcb711b7-90ad-45ca-ab4f-ef84de2943e5",
+      "name": "Разочарованный Аполлион",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 10,
+      "sprite": "img/bosses/apollyon_spirit.png",
+      "lat": 51.658056046211,
+      "lon": 35.692699433977,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "90946f33-7f03-41fd-b59b-392fdf9d7b8b",
+      "name": "Последний всадник",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 10,
+      "sprite": "img/bosses/horseman_death.png",
+      "lat": 51.656053117669,
+      "lon": 35.69272140728,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "2ba73fdb-e2a6-4c15-9f1f-c6ead1fe9e71",
+      "name": "Химера гиблых",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 10,
+      "sprite": "img/bosses/fey_chimera.png",
+      "lat": 51.658172012535,
+      "lon": 35.6927592334,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "c8b87287-4636-4117-b922-8faf87925c15",
+      "name": "Кокатрис гиблых",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 8,
+      "sprite": "img/bosses/fey_cockatrice.png",
+      "lat": 51.651766221746,
+      "lon": 35.692913593228,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "cd51548a-7c05-4293-93b4-ce6b17ff0749",
+      "name": "Химера гиблых",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 10,
+      "sprite": "img/bosses/fey_chimera.png",
+      "lat": 51.655830596682,
+      "lon": 35.692997597569,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "f042f2e8-fd7b-4e10-ac3a-d67dfab3a518",
+      "name": "Последний всадник",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 10,
+      "sprite": "img/bosses/horseman_death.png",
+      "lat": 51.653699846263,
+      "lon": 35.693072291285,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "cd4c2022-35e9-4379-b747-38d28a138ae9",
+      "name": "Кокатрис гиблых",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 8,
+      "sprite": "img/bosses/fey_cockatrice.png",
+      "lat": 51.653011548556,
+      "lon": 35.693079464115,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "ecc0b9f8-2dc2-429b-821b-25a85b392548",
+      "name": "Химера гиблых",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 10,
+      "sprite": "img/bosses/fey_chimera.png",
+      "lat": 51.654020254991,
+      "lon": 35.6931355794,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "af3d760f-25a2-4687-ab47-fb2e006c627a",
+      "name": "Второй всадник",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 8,
+      "sprite": "img/bosses/horseman_pestilence.png",
+      "lat": 51.654950725094,
+      "lon": 35.69324705452,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "24ad04d5-99c4-4860-bc37-f519f82faf9c",
+      "name": "Химера гиблых",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 10,
+      "sprite": "img/bosses/fey_chimera.png",
+      "lat": 51.655047639267,
+      "lon": 35.693254631788,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "686af45a-39a5-45fe-bbce-d2bde63163bf",
+      "name": "Последний всадник",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 10,
+      "sprite": "img/bosses/horseman_death.png",
+      "lat": 51.652693333739,
+      "lon": 35.693318531541,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "408b6435-5043-4a0a-9a5b-d1228beabd66",
+      "name": "Разочарованный Аполлион",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 10,
+      "sprite": "img/bosses/apollyon_spirit.png",
+      "lat": 51.658829105958,
+      "lon": 35.693324855365,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "c97711d9-5bef-40d0-8323-5e4b66221272",
+      "name": "Разочарованный Аполлион",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 10,
+      "sprite": "img/bosses/apollyon_spirit.png",
+      "lat": 51.652382615587,
+      "lon": 35.693401279859,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "cae9d3e7-69c6-468b-aa8f-b1bc247ef594",
+      "name": "Химера гиблых",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 10,
+      "sprite": "img/bosses/fey_chimera.png",
+      "lat": 51.653567771647,
+      "lon": 35.69348991675,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "2d2e4fb7-7dea-4863-9da5-ef9a6d38f2f0",
+      "name": "Второй всадник",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 8,
+      "sprite": "img/bosses/horseman_pestilence.png",
+      "lat": 51.654948074213,
+      "lon": 35.69358836248,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "77ccf66c-5ae5-4a8f-9367-a356c7138c8f",
+      "name": "Химера гиблых",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 10,
+      "sprite": "img/bosses/fey_chimera.png",
+      "lat": 51.655609297573,
+      "lon": 35.693783668309,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "95b8db72-9c4d-4e5a-858b-7686e2e25918",
+      "name": "Химера гиблых",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 10,
+      "sprite": "img/bosses/fey_chimera.png",
+      "lat": 51.652798681966,
+      "lon": 35.693892481627,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "b654e217-fef0-47c5-b0c3-0ee5e57b7e60",
+      "name": "Последний всадник",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 10,
+      "sprite": "img/bosses/horseman_death.png",
+      "lat": 51.655779605546,
+      "lon": 35.693964828706,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "21ee2cdc-2748-45a7-9ece-0f1b4ce28449",
+      "name": "Пепельный Феникс",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 10,
+      "sprite": "img/bosses/ashen_phoenix.png",
+      "lat": 51.659594814844,
+      "lon": 35.694005747716,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "3443e296-9af3-4dc0-a1c8-be620619e3a4",
+      "name": "Химера гиблых",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 10,
+      "sprite": "img/bosses/fey_chimera.png",
+      "lat": 51.659661324149,
+      "lon": 35.694021727666,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "ece26485-45e2-4bdc-ada0-2eb980b4dfc8",
+      "name": "Второй всадник",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 8,
+      "sprite": "img/bosses/horseman_pestilence.png",
+      "lat": 51.65589326872,
+      "lon": 35.694157988442,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "1c9679f4-1569-43fa-84ce-cb5091904d9a",
+      "name": "Кокатрис гиблых",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 8,
+      "sprite": "img/bosses/fey_cockatrice.png",
+      "lat": 51.658033822105,
+      "lon": 35.694325170074,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "09b1e5ef-3183-4f73-952d-5b2ff3f7596e",
+      "name": "Второй всадник",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 8,
+      "sprite": "img/bosses/horseman_pestilence.png",
+      "lat": 51.656374775162,
+      "lon": 35.69434503266,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "1aa5783b-e18e-4470-8aa5-354d6775bb8a",
+      "name": "Последний всадник",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 10,
+      "sprite": "img/bosses/horseman_death.png",
+      "lat": 51.65598763377,
+      "lon": 35.694520567172,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "7d3a3f1d-ab2c-48e7-a3df-0a1e4665302f",
+      "name": "Химера гиблых",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 10,
+      "sprite": "img/bosses/fey_chimera.png",
+      "lat": 51.654163648975,
+      "lon": 35.69452086602,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "7f769444-1fea-4c4b-b36a-696b8588e93a",
+      "name": "Разочарованный Аполлион",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 10,
+      "sprite": "img/bosses/apollyon_spirit.png",
+      "lat": 51.658072080672,
+      "lon": 35.694645607919,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "80fa2ba5-5fc0-4abc-9083-34332ca9a8d5",
+      "name": "Третий всадник",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 9,
+      "sprite": "img/bosses/horseman_war.png",
+      "lat": 51.659510976022,
+      "lon": 35.694664721761,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "fc5d5035-bb70-489f-94d7-d13ca9418533",
+      "name": "Последний всадник",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 10,
+      "sprite": "img/bosses/horseman_death.png",
+      "lat": 51.652468220094,
+      "lon": 35.694690585026,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "ea0146dd-b1a1-4693-900e-8763424b62f3",
+      "name": "Химера гиблых",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 10,
+      "sprite": "img/bosses/fey_chimera.png",
+      "lat": 51.655480989449,
+      "lon": 35.694783642035,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "e9ca2f9a-8dee-497c-b53e-3e40579ce2b8",
+      "name": "Последний всадник",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 10,
+      "sprite": "img/bosses/horseman_death.png",
+      "lat": 51.659203066374,
+      "lon": 35.694947260336,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "38410e19-b3cb-4d11-8c4d-22617c5c176f",
+      "name": "Восставший Иггдрасиль",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 10,
+      "sprite": "img/bosses/yggdrasil.png",
+      "lat": 51.659063061483,
+      "lon": 35.695075992433,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "92b540d7-91fa-4a61-9d3d-c96baa5371b8",
+      "name": "Второй всадник",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 8,
+      "sprite": "img/bosses/horseman_pestilence.png",
+      "lat": 51.652941785121,
+      "lon": 35.695274103692,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "abf55bf5-f494-4757-93d0-e6db8a1259fc",
+      "name": "Последний всадник",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 10,
+      "sprite": "img/bosses/horseman_death.png",
+      "lat": 51.655931960679,
+      "lon": 35.695286551704,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "6cd2e03f-f49d-4a0b-aa1a-83bdee5a0d2c",
+      "name": "Разочарованный Аполлион",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 10,
+      "sprite": "img/bosses/apollyon_spirit.png",
+      "lat": 51.65808208504,
+      "lon": 35.695554999555,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "9b27f475-f80e-48f2-9bb4-3efb6ee48d64",
+      "name": "Последний всадник",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 10,
+      "sprite": "img/bosses/horseman_death.png",
+      "lat": 51.652582658031,
+      "lon": 35.695828726858,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "e477aae1-92ef-468a-a8f2-07116fe1543d",
+      "name": "Восставший Иггдрасиль",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 10,
+      "sprite": "img/bosses/yggdrasil.png",
+      "lat": 51.660149577355,
+      "lon": 35.69592444375,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "b0b90f54-b680-47e5-9d8c-a4870a4f1f90",
+      "name": "Разочарованный Аполлион",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 10,
+      "sprite": "img/bosses/apollyon_spirit.png",
+      "lat": 51.660076791277,
+      "lon": 35.695949128452,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "d31f5310-be3f-4582-b3a2-0da561f83eac",
+      "name": "Последний всадник",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 10,
+      "sprite": "img/bosses/horseman_death.png",
+      "lat": 51.65640706192,
+      "lon": 35.69598357141,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "81c34795-b8db-4b4a-9693-17f360365583",
+      "name": "Последний всадник",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 10,
+      "sprite": "img/bosses/horseman_death.png",
+      "lat": 51.654786921657,
+      "lon": 35.696059680943,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "ab6c8751-16da-4c4c-9dac-de73009d09b1",
+      "name": "Химера гиблых",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 10,
+      "sprite": "img/bosses/fey_chimera.png",
+      "lat": 51.653607183903,
+      "lon": 35.696143698696,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "00bcd176-5f48-419b-9b62-7652f2564e40",
+      "name": "Химера гиблых",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 10,
+      "sprite": "img/bosses/fey_chimera.png",
+      "lat": 51.654592183694,
+      "lon": 35.696194851234,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "1205ee6c-e952-46de-9bbc-cac69b1a8ca4",
+      "name": "Разочарованный Аполлион",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 10,
+      "sprite": "img/bosses/apollyon_spirit.png",
+      "lat": 51.653944723133,
+      "lon": 35.696316397323,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "5be17683-5064-4541-9098-a7d43e7c442c",
+      "name": "Последний всадник",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 10,
+      "sprite": "img/bosses/horseman_death.png",
+      "lat": 51.653950000503,
+      "lon": 35.696317883955,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "ac984c74-b498-4719-926d-987ecc2d1f9f",
+      "name": "Последний всадник",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 10,
+      "sprite": "img/bosses/horseman_death.png",
+      "lat": 51.65635627075,
+      "lon": 35.696402361254,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "c013f3f8-c9da-44ae-b564-d16a4c8c213b",
+      "name": "Последний всадник",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 10,
+      "sprite": "img/bosses/horseman_death.png",
+      "lat": 51.653490607576,
+      "lon": 35.69643329706,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "163b2e79-6333-4888-bfbd-c3a28017408b",
+      "name": "Второй всадник",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 8,
+      "sprite": "img/bosses/horseman_pestilence.png",
+      "lat": 51.6551157511,
+      "lon": 35.696507863247,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "1f1f4bb9-8b5d-4c0c-be6d-5d32b906cc21",
+      "name": "Химера гиблых",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 10,
+      "sprite": "img/bosses/fey_chimera.png",
+      "lat": 51.652967915544,
+      "lon": 35.696511564527,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "8363fcd8-3c2d-45e8-b1c0-cbb3f79c3748",
+      "name": "Кокатрис гиблых",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 8,
+      "sprite": "img/bosses/fey_cockatrice.png",
+      "lat": 51.654432203842,
+      "lon": 35.696629209361,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "e71b33b7-6e5c-45f9-a4b8-2fb6dea9856d",
+      "name": "Последний всадник",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 10,
+      "sprite": "img/bosses/horseman_death.png",
+      "lat": 51.652503386214,
+      "lon": 35.696809805687,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "e7e28be4-b7c6-46a1-bcf2-0382e408bbde",
+      "name": "Последний всадник",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 10,
+      "sprite": "img/bosses/horseman_death.png",
+      "lat": 51.65532582132,
+      "lon": 35.697134419608,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "dc367aa4-f3ef-4476-83af-5a9d04fdb39b",
+      "name": "Последний всадник",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 10,
+      "sprite": "img/bosses/horseman_death.png",
+      "lat": 51.655789659329,
+      "lon": 35.697219888471,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "bc3765d0-4c2a-47c6-a7cb-fffc3a394541",
+      "name": "Второй всадник",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 8,
+      "sprite": "img/bosses/horseman_pestilence.png",
+      "lat": 51.6535409967,
+      "lon": 35.697256349399,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "d98a348d-0a98-461c-8262-7cef901eb06d",
+      "name": "Химера гиблых",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 10,
+      "sprite": "img/bosses/fey_chimera.png",
+      "lat": 51.655234322964,
+      "lon": 35.69729011294,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "de1b1e71-68f3-4d8f-a1fc-278b0cb41e28",
+      "name": "Последний всадник",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 10,
+      "sprite": "img/bosses/horseman_death.png",
+      "lat": 51.654288251674,
+      "lon": 35.69758406666,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "3121597f-1968-4b1b-ba7f-b265701d99a2",
+      "name": "Второй всадник",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 8,
+      "sprite": "img/bosses/horseman_pestilence.png",
+      "lat": 51.653255194145,
+      "lon": 35.697616307004,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "99ac45cb-7294-4aad-8d25-0fcb38af692f",
+      "name": "Сестра Маха",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 8,
+      "sprite": "img/bosses/macha.png",
+      "lat": 51.654966050773,
+      "lon": 35.697719428986,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "c1dcc7c4-4142-4ccd-901c-4e504334af88",
+      "name": "Химера гиблых",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 10,
+      "sprite": "img/bosses/fey_chimera.png",
+      "lat": 51.655789315953,
+      "lon": 35.697891686992,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "52f7b650-7db1-40ff-a16d-c70718288045",
+      "name": "Третий всадник",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 9,
+      "sprite": "img/bosses/horseman_war.png",
+      "lat": 51.653072379289,
+      "lon": 35.698020735386,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "40207d12-714c-4064-893b-756fcd4b4bee",
+      "name": "Кокатрис гиблых",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 8,
+      "sprite": "img/bosses/fey_cockatrice.png",
+      "lat": 51.653103797524,
+      "lon": 35.698032068101,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "9f129cea-7a61-430e-89d6-24ff398f7af3",
+      "name": "Последний всадник",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 10,
+      "sprite": "img/bosses/horseman_death.png",
+      "lat": 51.655824836121,
+      "lon": 35.698161178785,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "c602033e-9a79-4808-959b-41a79f310ad9",
+      "name": "Кокатрис гиблых",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 8,
+      "sprite": "img/bosses/fey_cockatrice.png",
+      "lat": 51.655399822818,
+      "lon": 35.69818153198,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "35888662-1770-4e67-bb44-2a3dd220d49d",
+      "name": "Кокатрис гиблых",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 8,
+      "sprite": "img/bosses/fey_cockatrice.png",
+      "lat": 51.654814339517,
+      "lon": 35.698185163699,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "ba5c34fd-3476-46df-9211-a658c0af4fb2",
+      "name": "Химера гиблых",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 10,
+      "sprite": "img/bosses/fey_chimera.png",
+      "lat": 51.655587811006,
+      "lon": 35.698327406344,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "b043a72f-5a48-43b1-af1e-a25f5e4cfef7",
+      "name": "Кокатрис гиблых",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 8,
+      "sprite": "img/bosses/fey_cockatrice.png",
+      "lat": 51.655342230985,
+      "lon": 35.698408089797,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "0d764a12-6d6c-449d-adfc-51b3e1421fed",
+      "name": "Второй всадник",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 8,
+      "sprite": "img/bosses/horseman_pestilence.png",
+      "lat": 51.656343246146,
+      "lon": 35.698538621815,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "6a233490-8b76-40c8-bb3f-c0ce6edf10df",
+      "name": "Кокатрис гиблых",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 8,
+      "sprite": "img/bosses/fey_cockatrice.png",
+      "lat": 51.656437901335,
+      "lon": 35.698581706536,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1779566490,
+      "last_seen": 1779566490
+    },
+    {
+      "uuid": "7923176c-57a7-499a-ae56-795f969a6f4b",
+      "name": "Степь Вазгопадцу Подземелье",
+      "context": "dungeon",
+      "type": "5",
+      "type_label": "",
+      "tier": 1,
+      "sprite": "img/shops/dungeon.png",
+      "lat": 51.65444669506,
+      "lon": 35.682458989623,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1779566446,
+      "last_seen": 1779566489
+    },
+    {
+      "uuid": "7c936486-ed92-4f7b-bc97-4d10fe53deab",
+      "name": "Гостиница",
+      "context": "inn",
+      "type": "4",
+      "type_label": "",
+      "tier": 1,
+      "sprite": "img/shops/inn.png",
+      "lat": 51.65720006822,
+      "lon": 35.682425763242,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1779566446,
+      "last_seen": 1779566489
+    },
+    {
+      "uuid": "30b08ed0-e0ec-4031-bf0e-d844ab34f3f9",
+      "name": "Селище Горхенву Магазин",
+      "context": "shop",
+      "type": "0",
+      "type_label": "",
+      "tier": 1,
+      "sprite": "img/shops/shop.png",
+      "lat": 51.652357867728,
+      "lon": 35.680775050597,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1779566446,
+      "last_seen": 1779566489
+    },
+    {
+      "uuid": "ce0df26f-0a44-4972-aa5f-c68decf639f3",
+      "name": "Портал хаоса",
+      "context": "chaos_portal",
+      "type": "5",
+      "type_label": "",
+      "tier": 6,
+      "sprite": "img/shops/chaos_portal.png",
+      "lat": 51.656366697242,
+      "lon": 35.680702235452,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1779566446,
+      "last_seen": 1779566489
+    },
+    {
+      "uuid": "a66b3a2d-6741-4142-9c9e-5f686fb54345",
+      "name": "Алхимик",
+      "context": "alchemist",
+      "type": "6",
+      "type_label": "",
+      "tier": 1,
+      "sprite": "img/shops/alchemist.png",
+      "lat": 51.658682780614,
+      "lon": 35.68066780675,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1779566446,
+      "last_seen": 1779566489
+    },
+    {
+      "uuid": "517eaf65-b9e4-4537-b3c9-2824d4163592",
+      "name": "Кузница",
+      "context": "blacksmith",
+      "type": "1",
+      "type_label": "",
+      "tier": 1,
+      "sprite": "img/shops/blacksmith.png",
+      "lat": 51.659141115504,
+      "lon": 35.680598306157,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1779566446,
+      "last_seen": 1779566489
     },
     {
       "uuid": "48579815-beeb-4a14-9fd8-9a8ca30b01fb",
@@ -2400,7 +4260,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566442,
-      "last_seen": 1779566442
+      "last_seen": 1779566489
     },
     {
       "uuid": "348b7583-2c0f-4f74-9122-3bbb996f1ab4",
@@ -2415,7 +4275,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566442,
-      "last_seen": 1779566442
+      "last_seen": 1779566489
     },
     {
       "uuid": "3cc7041d-8e79-49be-a71f-12a14e740feb",
@@ -2430,7 +4290,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566442,
-      "last_seen": 1779566442
+      "last_seen": 1779566489
     },
     {
       "uuid": "ebba92a0-52a7-4812-a151-986eb7cfb2ef",
@@ -2445,7 +4305,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566442,
-      "last_seen": 1779566442
+      "last_seen": 1779566489
     },
     {
       "uuid": "cbd74f91-161e-41aa-a79a-5a5717711cdb",
@@ -2460,7 +4320,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566442,
-      "last_seen": 1779566442
+      "last_seen": 1779566489
     },
     {
       "uuid": "poi:767c6f5f-b3a0-42a8-8fbc-8aee0a75ca74",
@@ -2475,7 +4335,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566442,
-      "last_seen": 1779566442
+      "last_seen": 1779566489
     },
     {
       "uuid": "0bbae3a5-f9ef-49c6-a3dd-d5d83fb110ea",
@@ -2490,7 +4350,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566442,
-      "last_seen": 1779566442
+      "last_seen": 1779566489
     },
     {
       "uuid": "445be39d-d242-460d-949f-f6c1193a36a8",
@@ -2505,7 +4365,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566442,
-      "last_seen": 1779566442
+      "last_seen": 1779566489
     },
     {
       "uuid": "853bf032-bb90-4dac-9f10-5b7c6775ce2f",
@@ -2520,7 +4380,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566442,
-      "last_seen": 1779566442
+      "last_seen": 1779566489
     },
     {
       "uuid": "0f603d4e-3d37-4b20-a3ad-5c18843107bc",
@@ -2535,7 +4395,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566442,
-      "last_seen": 1779566442
+      "last_seen": 1779566489
     },
     {
       "uuid": "1e429777-d8aa-46bc-bdd0-534af28b2136",
@@ -2550,7 +4410,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566442,
-      "last_seen": 1779566442
+      "last_seen": 1779566489
     },
     {
       "uuid": "poi:80607490-f18c-4432-97e2-8d9217b03e39",
@@ -2565,7 +4425,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566442,
-      "last_seen": 1779566442
+      "last_seen": 1779566489
     },
     {
       "uuid": "f624e2af-67f0-410a-b86b-8d3a87acf3ef",
@@ -2580,7 +4440,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566442,
-      "last_seen": 1779566442
+      "last_seen": 1779566489
     },
     {
       "uuid": "4e29c35a-038e-4b92-b7a8-c2f51b07df40",
@@ -2595,7 +4455,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566442,
-      "last_seen": 1779566442
+      "last_seen": 1779566489
     },
     {
       "id": 1303,
@@ -41078,22 +42938,6 @@
       "last_seen": 1779063956
     },
     {
-      "id": 2074,
-      "uuid": "9f6c0e32-97a1-4918-ab3c-1c975fa3e45e",
-      "name": "Кокатрис гиблых",
-      "context": "worldraid",
-      "type": "",
-      "type_label": "",
-      "tier": 8,
-      "sprite": "img/bosses/fey_cockatrice.png",
-      "lat": 51.652184217913,
-      "lon": 35.688120800668,
-      "is_boss": 1,
-      "is_raid": 1,
-      "first_seen": 1779063444,
-      "last_seen": 1779063922
-    },
-    {
       "id": 2073,
       "uuid": "bd5a6c79-7ece-4188-a0e4-8c71f6d01654",
       "name": "Химера гиблых",
@@ -41424,22 +43268,6 @@
       "sprite": "img/bosses/horseman_death.png",
       "lat": 51.655601933829,
       "lon": 35.693140098506,
-      "is_boss": 1,
-      "is_raid": 1,
-      "first_seen": 1779063444,
-      "last_seen": 1779063903
-    },
-    {
-      "id": 2085,
-      "uuid": "662c6260-7205-4fe2-a370-1fb0615b6121",
-      "name": "Химера гиблых",
-      "context": "worldraid",
-      "type": "",
-      "type_label": "",
-      "tier": 10,
-      "sprite": "img/bosses/fey_chimera.png",
-      "lat": 51.655799154189,
-      "lon": 35.693127508327,
       "is_boss": 1,
       "is_raid": 1,
       "first_seen": 1779063444,
