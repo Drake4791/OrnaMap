@@ -1,6 +1,6 @@
 {
-  "generated": 1779672223,
-  "count": 3777,
+  "generated": 1779672254,
+  "count": 3815,
   "objects": [
     {
       "id": 3580,
@@ -16,7 +16,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779672192,
-      "last_seen": 1779672222
+      "last_seen": 1779672252
     },
     {
       "id": 3579,
@@ -32,7 +32,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779672192,
-      "last_seen": 1779672222
+      "last_seen": 1779672252
     },
     {
       "id": 3578,
@@ -48,7 +48,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779672192,
-      "last_seen": 1779672222
+      "last_seen": 1779672252
     },
     {
       "id": 3577,
@@ -64,7 +64,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779672192,
-      "last_seen": 1779672222
+      "last_seen": 1779672252
     },
     {
       "id": 3576,
@@ -80,7 +80,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779672192,
-      "last_seen": 1779672222
+      "last_seen": 1779672252
     },
     {
       "id": 3575,
@@ -96,7 +96,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779672192,
-      "last_seen": 1779672222
+      "last_seen": 1779672252
     },
     {
       "id": 3574,
@@ -112,7 +112,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779672192,
-      "last_seen": 1779672222
+      "last_seen": 1779672252
     },
     {
       "id": 3573,
@@ -128,7 +128,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779672192,
-      "last_seen": 1779672222
+      "last_seen": 1779672252
     },
     {
       "id": 3572,
@@ -144,7 +144,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779672192,
-      "last_seen": 1779672222
+      "last_seen": 1779672252
     },
     {
       "id": 3571,
@@ -160,7 +160,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779672192,
-      "last_seen": 1779672222
+      "last_seen": 1779672252
     },
     {
       "id": 3570,
@@ -176,7 +176,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779672192,
-      "last_seen": 1779672222
+      "last_seen": 1779672252
     },
     {
       "id": 3589,
@@ -192,7 +192,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779672222,
-      "last_seen": 1779672222
+      "last_seen": 1779672252
     },
     {
       "id": 3588,
@@ -208,7 +208,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779672222,
-      "last_seen": 1779672222
+      "last_seen": 1779672252
     },
     {
       "id": 3587,
@@ -224,7 +224,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779672222,
-      "last_seen": 1779672222
+      "last_seen": 1779672252
     },
     {
       "id": 3586,
@@ -240,7 +240,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779672222,
-      "last_seen": 1779672222
+      "last_seen": 1779672252
     },
     {
       "id": 3585,
@@ -256,7 +256,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779672222,
-      "last_seen": 1779672222
+      "last_seen": 1779672252
     },
     {
       "id": 3584,
@@ -272,7 +272,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779672222,
-      "last_seen": 1779672222
+      "last_seen": 1779672252
     },
     {
       "id": 3583,
@@ -288,7 +288,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779672222,
-      "last_seen": 1779672222
+      "last_seen": 1779672252
     },
     {
       "id": 3582,
@@ -304,7 +304,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779672222,
-      "last_seen": 1779672222
+      "last_seen": 1779672252
     },
     {
       "id": 3581,
@@ -320,7 +320,615 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779672222,
-      "last_seen": 1779672222
+      "last_seen": 1779672252
+    },
+    {
+      "id": 3627,
+      "uuid": "830c8f3a-12b5-4eac-b4a6-dc3198be83ee",
+      "name": "Гиллис",
+      "context": "npc",
+      "type": "npc",
+      "type_label": "",
+      "tier": 3,
+      "sprite": "img/npcs/wise_man1.png",
+      "lat": 51.66334432023285,
+      "lon": 35.62762977286112,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1779672252,
+      "last_seen": 1779672252
+    },
+    {
+      "id": 3626,
+      "uuid": "8a34b26c-c3c7-4f53-85e0-0b0b9b9f3c87",
+      "name": "Кейд",
+      "context": "npc",
+      "type": "npc",
+      "type_label": "",
+      "tier": 5,
+      "sprite": "img/npcs/inventor.png",
+      "lat": 51.64234085509509,
+      "lon": 35.68439265241004,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1779672252,
+      "last_seen": 1779672252
+    },
+    {
+      "id": 3625,
+      "uuid": "89383ed2-bbc6-45d0-839b-61d4242a4c66",
+      "name": "Беатрис",
+      "context": "npc",
+      "type": "npc",
+      "type_label": "",
+      "tier": 2,
+      "sprite": "img/npcs/magic_woman1.png",
+      "lat": 51.64391369283098,
+      "lon": 35.65236204002195,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1779672252,
+      "last_seen": 1779672252
+    },
+    {
+      "id": 3624,
+      "uuid": "1b22c983-5886-46ba-b32e-51ac8bc338d3",
+      "name": "Гиллис",
+      "context": "npc",
+      "type": "npc",
+      "type_label": "",
+      "tier": 3,
+      "sprite": "img/npcs/wise_man1.png",
+      "lat": 51.66655458993904,
+      "lon": 35.67374762010373,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1779672252,
+      "last_seen": 1779672252
+    },
+    {
+      "id": 3623,
+      "uuid": "b5163cda-8778-4f80-a189-e326fbe1d16d",
+      "name": "Гвин из Аннуна",
+      "context": "npc",
+      "type": "npc",
+      "type_label": "",
+      "tier": 9,
+      "sprite": "img/npcs/gwyn.png",
+      "lat": 51.666245313295924,
+      "lon": 35.62270270463877,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1779672252,
+      "last_seen": 1779672252
+    },
+    {
+      "id": 3622,
+      "uuid": "60ecd90f-8b6a-4459-846e-fb52149ecd32",
+      "name": "Гермес",
+      "context": "npc",
+      "type": "npc",
+      "type_label": "",
+      "tier": 1,
+      "sprite": "img/npcs/merchant.png",
+      "lat": 51.66501892771427,
+      "lon": 35.68317833461417,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1779672252,
+      "last_seen": 1779672252
+    },
+    {
+      "id": 3621,
+      "uuid": "4398dc51-a5cd-43c2-8e4c-ecd58bf679d6",
+      "name": "Легионер Булыга",
+      "context": "npc",
+      "type": "npc",
+      "type_label": "",
+      "tier": 4,
+      "sprite": "img/npcs/legionnaire_boulder.png",
+      "lat": 51.68021037529449,
+      "lon": 35.68015083513293,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1779672252,
+      "last_seen": 1779672252
+    },
+    {
+      "id": 3620,
+      "uuid": "fda67369-aad8-4407-8179-ee258a0a6e4a",
+      "name": "Карл",
+      "context": "npc",
+      "type": "npc",
+      "type_label": "",
+      "tier": 1,
+      "sprite": "img/npcs/man1.png",
+      "lat": 51.66985749297256,
+      "lon": 35.6333442056478,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1779672252,
+      "last_seen": 1779672252
+    },
+    {
+      "id": 3619,
+      "uuid": "1da81ab5-c160-4ae0-a96c-d659fcc191f6",
+      "name": "Высший эльф Далан",
+      "context": "npc",
+      "type": "npc",
+      "type_label": "",
+      "tier": 3,
+      "sprite": "img/npcs/high_elf.png",
+      "lat": 51.67479908942724,
+      "lon": 35.619756230705164,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1779672252,
+      "last_seen": 1779672252
+    },
+    {
+      "id": 3618,
+      "uuid": "5d1c20b2-bbee-4606-a917-1ffdb8463e92",
+      "name": "Гермес",
+      "context": "npc",
+      "type": "npc",
+      "type_label": "",
+      "tier": 1,
+      "sprite": "img/npcs/merchant.png",
+      "lat": 51.670439877964476,
+      "lon": 35.63254927265582,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1779672252,
+      "last_seen": 1779672252
+    },
+    {
+      "id": 3617,
+      "uuid": "e367e3e5-7159-404f-97d6-89f8532bde07",
+      "name": "Хорус",
+      "context": "npc",
+      "type": "npc",
+      "type_label": "",
+      "tier": 7,
+      "sprite": "img/npcs/winged_m.png",
+      "lat": 51.67970471055835,
+      "lon": 35.679095222117596,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1779672252,
+      "last_seen": 1779672252
+    },
+    {
+      "id": 3616,
+      "uuid": "039088f7-86e5-437f-864b-cd3431244b57",
+      "name": "Руж",
+      "context": "npc",
+      "type": "npc",
+      "type_label": "",
+      "tier": 6,
+      "sprite": "img/npcs/rouge.png",
+      "lat": 51.682838309288144,
+      "lon": 35.64572427812378,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1779672252,
+      "last_seen": 1779672252
+    },
+    {
+      "id": 3615,
+      "uuid": "37a49503-7d80-41d5-8c73-86e4635d0fa2",
+      "name": "Мастер Нолан",
+      "context": "npc",
+      "type": "npc",
+      "type_label": "",
+      "tier": 5,
+      "sprite": "img/npcs/master_gnome.png",
+      "lat": 51.64888549558609,
+      "lon": 35.63429319215045,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1779672252,
+      "last_seen": 1779672252
+    },
+    {
+      "id": 3614,
+      "uuid": "f2a9a33f-d538-4792-bff4-cf47bfdc66f9",
+      "name": "Гиллис",
+      "context": "npc",
+      "type": "npc",
+      "type_label": "",
+      "tier": 3,
+      "sprite": "img/npcs/wise_man1.png",
+      "lat": 51.6757279992524,
+      "lon": 35.625815257016654,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1779672252,
+      "last_seen": 1779672252
+    },
+    {
+      "id": 3613,
+      "uuid": "777583ce-2ae4-4785-8e3a-3368a1bc72ba",
+      "name": "Рыцарь Финесс",
+      "context": "npc",
+      "type": "npc",
+      "type_label": "",
+      "tier": 8,
+      "sprite": "img/npcs/finesse.png",
+      "lat": 51.682486112267746,
+      "lon": 35.630602662810766,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1779672252,
+      "last_seen": 1779672252
+    },
+    {
+      "id": 3612,
+      "uuid": "2fbb7828-d308-4659-8e6e-87ad2cb97531",
+      "name": "Кейд",
+      "context": "npc",
+      "type": "npc",
+      "type_label": "",
+      "tier": 5,
+      "sprite": "img/npcs/inventor.png",
+      "lat": 51.661330146790796,
+      "lon": 35.631877463218,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1779672252,
+      "last_seen": 1779672252
+    },
+    {
+      "id": 3611,
+      "uuid": "6e68b5ff-164c-42ad-a6aa-d5a9661fb814",
+      "name": "Борр",
+      "context": "npc",
+      "type": "npc",
+      "type_label": "",
+      "tier": 10,
+      "sprite": "img/npcs/borr.png",
+      "lat": 51.666592042888354,
+      "lon": 35.62607190076293,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1779672252,
+      "last_seen": 1779672252
+    },
+    {
+      "id": 3610,
+      "uuid": "aafa51c1-851c-457d-9cf2-5e8897464044",
+      "name": "Сэр Балин",
+      "context": "npc",
+      "type": "npc",
+      "type_label": "",
+      "tier": 7,
+      "sprite": "img/npcs/balin.png",
+      "lat": 51.664668475189565,
+      "lon": 35.68505615256996,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1779672252,
+      "last_seen": 1779672252
+    },
+    {
+      "id": 3609,
+      "uuid": "7f7dec8f-ad76-4266-b459-6fa55df100ad",
+      "name": "Хорус",
+      "context": "npc",
+      "type": "npc",
+      "type_label": "",
+      "tier": 7,
+      "sprite": "img/npcs/winged_m.png",
+      "lat": 51.65296578150873,
+      "lon": 35.625055209356674,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1779672252,
+      "last_seen": 1779672252
+    },
+    {
+      "id": 3608,
+      "uuid": "627ceb99-b775-4fb1-9698-c1664937b444",
+      "name": "Энид из Аннуна",
+      "context": "npc",
+      "type": "npc",
+      "type_label": "",
+      "tier": 8,
+      "sprite": "img/npcs/enid.png",
+      "lat": 51.678683919670384,
+      "lon": 35.623770189239956,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1779672252,
+      "last_seen": 1779672252
+    },
+    {
+      "id": 3607,
+      "uuid": "88cdd8c8-b036-49cb-a9e7-eddfb82f88f9",
+      "name": "Мастер Нолан",
+      "context": "npc",
+      "type": "npc",
+      "type_label": "",
+      "tier": 5,
+      "sprite": "img/npcs/master_gnome.png",
+      "lat": 51.6477085692218,
+      "lon": 35.66154264098064,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1779672252,
+      "last_seen": 1779672252
+    },
+    {
+      "id": 3606,
+      "uuid": "97de973e-8b3d-4287-98b8-9bdcb3a651bf",
+      "name": "Энид из Аннуна",
+      "context": "npc",
+      "type": "npc",
+      "type_label": "",
+      "tier": 8,
+      "sprite": "img/npcs/enid.png",
+      "lat": 51.658504939283155,
+      "lon": 35.62816219744555,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1779672252,
+      "last_seen": 1779672252
+    },
+    {
+      "id": 3605,
+      "uuid": "c7ba869f-b7cb-44dc-bf90-388884fb174d",
+      "name": "Хорус",
+      "context": "npc",
+      "type": "npc",
+      "type_label": "",
+      "tier": 7,
+      "sprite": "img/npcs/winged_m.png",
+      "lat": 51.682627122569464,
+      "lon": 35.64610929311753,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1779672252,
+      "last_seen": 1779672252
+    },
+    {
+      "id": 3604,
+      "uuid": "7c34dd78-e53d-4797-b50f-8d826d663d42",
+      "name": "Энид из Аннуна",
+      "context": "npc",
+      "type": "npc",
+      "type_label": "",
+      "tier": 8,
+      "sprite": "img/npcs/enid.png",
+      "lat": 51.6563189460225,
+      "lon": 35.684662913476416,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1779672252,
+      "last_seen": 1779672252
+    },
+    {
+      "id": 3603,
+      "uuid": "0bbfcd28-d3b5-46c0-bcbc-77d0fefb2103",
+      "name": "Крематор из Рыцарей Инферно",
+      "context": "npc",
+      "type": "npc",
+      "type_label": "",
+      "tier": 4,
+      "sprite": "img/npcs/pyre.png",
+      "lat": 51.66425700668218,
+      "lon": 35.68649177847166,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1779672252,
+      "last_seen": 1779672252
+    },
+    {
+      "id": 3602,
+      "uuid": "e504033b-236a-4f52-8d0e-d077d7feb87e",
+      "name": "Кейд",
+      "context": "npc",
+      "type": "npc",
+      "type_label": "",
+      "tier": 5,
+      "sprite": "img/npcs/inventor.png",
+      "lat": 51.64636124254119,
+      "lon": 35.628574629931464,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1779672252,
+      "last_seen": 1779672252
+    },
+    {
+      "id": 3601,
+      "uuid": "89e7dda2-841a-4c1d-b160-c80919ede281",
+      "name": "Сэр Балин",
+      "context": "npc",
+      "type": "npc",
+      "type_label": "",
+      "tier": 7,
+      "sprite": "img/npcs/balin.png",
+      "lat": 51.645054693344804,
+      "lon": 35.6530332801492,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1779672252,
+      "last_seen": 1779672252
+    },
+    {
+      "id": 3600,
+      "uuid": "poi:76a9d889-0e69-4a3f-893b-fa0198c89f1e",
+      "name": "Монумент Итры",
+      "context": "monument",
+      "type": "monument",
+      "type_label": "",
+      "tier": 0,
+      "sprite": "img/shops/monument_ithra.png",
+      "lat": 51.680716920828885,
+      "lon": 35.63856438848584,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1779672252,
+      "last_seen": 1779672252
+    },
+    {
+      "id": 3599,
+      "uuid": "poi:8f2cbea3-2272-421b-92b8-d6bd05ff99c4",
+      "name": "Монумент Тора",
+      "context": "monument",
+      "type": "monument",
+      "type_label": "",
+      "tier": 0,
+      "sprite": "img/shops/monument_thor.png",
+      "lat": 51.6433649844302,
+      "lon": 35.662656680404176,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1779672252,
+      "last_seen": 1779672252
+    },
+    {
+      "id": 3598,
+      "uuid": "poi:7a70e6a6-ddfd-4505-80d3-fbf41a9bc6ef",
+      "name": "Монумент Итры",
+      "context": "monument",
+      "type": "monument",
+      "type_label": "",
+      "tier": 0,
+      "sprite": "img/shops/monument_ithra.png",
+      "lat": 51.67624038084172,
+      "lon": 35.676237517828994,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1779672252,
+      "last_seen": 1779672252
+    },
+    {
+      "id": 3597,
+      "uuid": "poi:3bbace90-f2fa-4c19-8744-74998ba9b883",
+      "name": "Монумент Вулкана",
+      "context": "monument",
+      "type": "monument",
+      "type_label": "",
+      "tier": 0,
+      "sprite": "img/shops/monument_vulcan.png",
+      "lat": 51.68060821102649,
+      "lon": 35.68097202538236,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1779672252,
+      "last_seen": 1779672252
+    },
+    {
+      "id": 3596,
+      "uuid": "poi:8f4e9456-2096-4735-9394-8fbfaa9b6b2e",
+      "name": "Монумент Итры",
+      "context": "monument",
+      "type": "monument",
+      "type_label": "",
+      "tier": 0,
+      "sprite": "img/shops/monument_ithra.png",
+      "lat": 51.646188791966686,
+      "lon": 35.62442274116361,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1779672252,
+      "last_seen": 1779672252
+    },
+    {
+      "id": 3595,
+      "uuid": "poi:b342d785-2b76-4de1-8da5-8799b037ce20",
+      "name": "Башня Эос",
+      "context": "tower",
+      "type": "tower",
+      "type_label": "",
+      "tier": 0,
+      "sprite": "img/towers/4_3.png",
+      "lat": 51.65846859039462,
+      "lon": 35.62050619848687,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1779672252,
+      "last_seen": 1779672252
+    },
+    {
+      "id": 3594,
+      "uuid": "poi:edb266d7-6544-408e-ba6b-250d7d9b7b46",
+      "name": "Башня Прометея",
+      "context": "tower",
+      "type": "tower",
+      "type_label": "",
+      "tier": 0,
+      "sprite": "img/towers/1_3.png",
+      "lat": 51.673575790474594,
+      "lon": 35.624915787230876,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1779672252,
+      "last_seen": 1779672252
+    },
+    {
+      "id": 3593,
+      "uuid": "poi:0f4ebe1c-5df2-48f2-b1a1-1a0b62f60894",
+      "name": "Башня Селены",
+      "context": "tower",
+      "type": "tower",
+      "type_label": "",
+      "tier": 0,
+      "sprite": "img/towers/5_3.png",
+      "lat": 51.64691412370654,
+      "lon": 35.67511535743967,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1779672252,
+      "last_seen": 1779672252
+    },
+    {
+      "id": 3592,
+      "uuid": "poi:e3642595-7bdb-499d-9f04-ef1bcd15eb7b",
+      "name": "Башня Темис",
+      "context": "tower",
+      "type": "tower",
+      "type_label": "",
+      "tier": 0,
+      "sprite": "img/towers/2_3.png",
+      "lat": 51.68205661896993,
+      "lon": 35.647210107145845,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1779672252,
+      "last_seen": 1779672252
+    },
+    {
+      "id": 3591,
+      "uuid": "poi:62fefed5-4935-43b9-a346-f0188828d0ce",
+      "name": "Башня Океануса",
+      "context": "tower",
+      "type": "tower",
+      "type_label": "",
+      "tier": 0,
+      "sprite": "img/towers/3_3.png",
+      "lat": 51.65186366877586,
+      "lon": 35.63051466108333,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1779672252,
+      "last_seen": 1779672252
+    },
+    {
+      "id": 3590,
+      "uuid": "poi:b189af09-c7d7-4866-84e6-4c3a4e9076c7",
+      "name": "Башня Эос",
+      "context": "tower",
+      "type": "tower",
+      "type_label": "",
+      "tier": 0,
+      "sprite": "img/towers/4_3.png",
+      "lat": 51.65103509875763,
+      "lon": 35.643529947403735,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1779672252,
+      "last_seen": 1779672252
     },
     {
       "id": 109,
@@ -336,7 +944,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672197
+      "last_seen": 1779672229
     },
     {
       "id": 235,
@@ -352,7 +960,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775013,
-      "last_seen": 1779672197
+      "last_seen": 1779672229
     },
     {
       "id": 213,
@@ -368,7 +976,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775013,
-      "last_seen": 1779672197
+      "last_seen": 1779672229
     },
     {
       "id": 210,
@@ -384,7 +992,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775013,
-      "last_seen": 1779672197
+      "last_seen": 1779672229
     },
     {
       "id": 207,
@@ -400,7 +1008,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775013,
-      "last_seen": 1779672197
+      "last_seen": 1779672229
     },
     {
       "id": 206,
@@ -416,7 +1024,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775013,
-      "last_seen": 1779672197
+      "last_seen": 1779672229
     },
     {
       "id": 204,
@@ -432,7 +1040,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775013,
-      "last_seen": 1779672197
+      "last_seen": 1779672229
     },
     {
       "id": 203,
@@ -448,7 +1056,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775013,
-      "last_seen": 1779672197
+      "last_seen": 1779672229
     },
     {
       "id": 202,
@@ -464,7 +1072,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775013,
-      "last_seen": 1779672197
+      "last_seen": 1779672229
     },
     {
       "id": 201,
@@ -480,7 +1088,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775013,
-      "last_seen": 1779672197
+      "last_seen": 1779672229
     },
     {
       "id": 200,
@@ -496,7 +1104,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775013,
-      "last_seen": 1779672197
+      "last_seen": 1779672229
     },
     {
       "id": 199,
@@ -512,7 +1120,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775013,
-      "last_seen": 1779672197
+      "last_seen": 1779672229
     },
     {
       "id": 198,
@@ -528,7 +1136,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775013,
-      "last_seen": 1779672197
+      "last_seen": 1779672229
     },
     {
       "id": 197,
@@ -544,7 +1152,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775013,
-      "last_seen": 1779672197
+      "last_seen": 1779672229
     },
     {
       "id": 196,
@@ -560,7 +1168,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775013,
-      "last_seen": 1779672197
+      "last_seen": 1779672229
     },
     {
       "id": 195,
@@ -576,7 +1184,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775013,
-      "last_seen": 1779672197
+      "last_seen": 1779672229
     },
     {
       "id": 194,
@@ -592,7 +1200,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775013,
-      "last_seen": 1779672197
+      "last_seen": 1779672229
     },
     {
       "id": 193,
@@ -608,7 +1216,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775013,
-      "last_seen": 1779672197
+      "last_seen": 1779672229
     },
     {
       "id": 192,
@@ -624,7 +1232,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672197
+      "last_seen": 1779672229
     },
     {
       "id": 191,
@@ -640,7 +1248,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672197
+      "last_seen": 1779672229
     },
     {
       "id": 190,
@@ -656,7 +1264,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672197
+      "last_seen": 1779672229
     },
     {
       "id": 189,
@@ -672,7 +1280,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672197
+      "last_seen": 1779672229
     },
     {
       "id": 188,
@@ -688,7 +1296,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672197
+      "last_seen": 1779672229
     },
     {
       "id": 187,
@@ -704,7 +1312,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672197
+      "last_seen": 1779672229
     },
     {
       "id": 186,
@@ -720,7 +1328,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672197
+      "last_seen": 1779672229
     },
     {
       "id": 185,
@@ -736,7 +1344,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672197
+      "last_seen": 1779672229
     },
     {
       "id": 183,
@@ -752,7 +1360,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672197
+      "last_seen": 1779672229
     },
     {
       "id": 182,
@@ -768,7 +1376,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672197
+      "last_seen": 1779672229
     },
     {
       "id": 181,
@@ -784,7 +1392,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672197
+      "last_seen": 1779672229
     },
     {
       "id": 179,
@@ -800,7 +1408,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672197
+      "last_seen": 1779672229
     },
     {
       "id": 177,
@@ -816,7 +1424,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672197
+      "last_seen": 1779672229
     },
     {
       "id": 175,
@@ -832,7 +1440,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672197
+      "last_seen": 1779672229
     },
     {
       "id": 174,
@@ -848,7 +1456,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672197
+      "last_seen": 1779672229
     },
     {
       "id": 173,
@@ -864,7 +1472,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672197
+      "last_seen": 1779672229
     },
     {
       "id": 171,
@@ -880,151 +1488,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672197
-    },
-    {
-      "id": 168,
-      "uuid": "d9450ff6-5cdf-4aab-92af-a64526484ffa",
-      "name": "Мастерская титанов",
-      "context": "titan_workshop",
-      "type": "26",
-      "type_label": "",
-      "tier": 1,
-      "sprite": "img/shops/titan_workshop.png",
-      "lat": 51.663392439058,
-      "lon": 35.655400245123,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1778775012,
-      "last_seen": 1779672197
-    },
-    {
-      "id": 160,
-      "uuid": "144c1739-81a9-4423-b3dd-278d27b9c75a",
-      "name": "Питомник вл. Drake479",
-      "context": "bestiary",
-      "type": "2",
-      "type_label": "",
-      "tier": 1,
-      "sprite": "img/shops/bestiary.png",
-      "lat": 51.66275882757,
-      "lon": 35.655215842452,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1778775012,
-      "last_seen": 1779672197
-    },
-    {
-      "id": 159,
-      "uuid": "72875aa3-ec29-41c3-a43f-e6236cecd282",
-      "name": "Питомник вл. Drake479",
-      "context": "bestiary",
-      "type": "2",
-      "type_label": "",
-      "tier": 1,
-      "sprite": "img/shops/bestiary.png",
-      "lat": 51.663210046059,
-      "lon": 35.65518198551,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1778775012,
-      "last_seen": 1779672197
-    },
-    {
-      "id": 158,
-      "uuid": "0dea84fe-927c-45a8-8604-9ae6225d1aa6",
-      "name": "Магазин вл. Drake479",
-      "context": "shop",
-      "type": "0",
-      "type_label": "",
-      "tier": 1,
-      "sprite": "img/shops/shop.png",
-      "lat": 51.662941689646,
-      "lon": 35.655149047399,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1778775012,
-      "last_seen": 1779672197
-    },
-    {
-      "id": 155,
-      "uuid": "c8611d78-176e-44ff-9160-536751a225e4",
-      "name": "Зал гильдии конкистадоров",
-      "context": "conquerors_guild",
-      "type": "35",
-      "type_label": "",
-      "tier": 1,
-      "sprite": "img/shops/conquerors_guild.png",
-      "lat": 51.663390370362,
-      "lon": 35.654972929031,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1778775012,
-      "last_seen": 1779672197
-    },
-    {
-      "id": 154,
-      "uuid": "fb1482ed-1e9c-4785-8843-cab6ead95803",
-      "name": "Зал гильдии орнаходов",
-      "context": "traveler_guild",
-      "type": "30",
-      "type_label": "",
-      "tier": 1,
-      "sprite": "img/shops/traveler_guild.png",
-      "lat": 51.662506875438,
-      "lon": 35.654972877292,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1778775012,
-      "last_seen": 1779672197
-    },
-    {
-      "id": 150,
-      "uuid": "9bd8bbaa-1f11-492d-b818-8a871c47c43f",
-      "name": "Замок вл. Drake479",
-      "context": "castle",
-      "type": "3",
-      "type_label": "",
-      "tier": 1,
-      "sprite": "img/shops/ornaversary/castle.png",
-      "lat": 51.664001953472,
-      "lon": 35.654911154484,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1778775012,
-      "last_seen": 1779672197
-    },
-    {
-      "id": 146,
-      "uuid": "8e4152b5-5c00-4477-9986-b6a34dd63f20",
-      "name": "Питомник вл. Drake479",
-      "context": "bestiary",
-      "type": "2",
-      "type_label": "",
-      "tier": 1,
-      "sprite": "img/shops/bestiary.png",
-      "lat": 51.663236068519,
-      "lon": 35.6548582387,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1778775012,
-      "last_seen": 1779672197
-    },
-    {
-      "id": 144,
-      "uuid": "8c12ed74-9763-4fda-8185-2aecd9014785",
-      "name": "Магазин вл. Drake479",
-      "context": "shop",
-      "type": "0",
-      "type_label": "",
-      "tier": 1,
-      "sprite": "img/shops/shop.png",
-      "lat": 51.662971794279,
-      "lon": 35.654806350189,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1778775012,
-      "last_seen": 1779672197
+      "last_seen": 1779672229
     },
     {
       "id": 170,
@@ -1040,215 +1504,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672197
-    },
-    {
-      "id": 165,
-      "uuid": "104bec29-9516-45ef-bb39-5300a6b35bf4",
-      "name": "Питомник вл. Drake479",
-      "context": "bestiary",
-      "type": "2",
-      "type_label": "",
-      "tier": 1,
-      "sprite": "img/shops/bestiary.png",
-      "lat": 51.660010843831,
-      "lon": 35.655265299117,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1778775012,
-      "last_seen": 1779672197
-    },
-    {
-      "id": 164,
-      "uuid": "1549dfc7-f89e-477d-a800-d6d027da6cc4",
-      "name": "Питомник вл. Drake479",
-      "context": "bestiary",
-      "type": "2",
-      "type_label": "",
-      "tier": 1,
-      "sprite": "img/shops/bestiary.png",
-      "lat": 51.659671256893,
-      "lon": 35.655256768282,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1778775012,
-      "last_seen": 1779672197
-    },
-    {
-      "id": 163,
-      "uuid": "7b2938f9-c557-4632-95d7-0b9e71c757c2",
-      "name": "Магазин",
-      "context": "shop",
-      "type": "0",
-      "type_label": "",
-      "tier": 1,
-      "sprite": "img/shops/shop.png",
-      "lat": 51.657632036358,
-      "lon": 35.655255984277,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1778775012,
-      "last_seen": 1779672197
-    },
-    {
-      "id": 162,
-      "uuid": "dc78e9fa-daac-4106-96e2-833ba7dd9721",
-      "name": "Питомник вл. Geistraja",
-      "context": "bestiary",
-      "type": "2",
-      "type_label": "",
-      "tier": 1,
-      "sprite": "img/shops/bestiary.png",
-      "lat": 51.659366251707,
-      "lon": 35.655252861305,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1778775012,
-      "last_seen": 1779672197
-    },
-    {
-      "id": 161,
-      "uuid": "bee2e635-ab53-471e-b996-989e9f343ec9",
-      "name": "Питомник вл. Drake479",
-      "context": "bestiary",
-      "type": "2",
-      "type_label": "",
-      "tier": 1,
-      "sprite": "img/shops/bestiary.png",
-      "lat": 51.659866589395,
-      "lon": 35.655219890606,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1778775012,
-      "last_seen": 1779672197
-    },
-    {
-      "id": 156,
-      "uuid": "f78a474c-a4c7-4d31-8d68-0fcae8607734",
-      "name": "Питомник вл. Geistraja",
-      "context": "bestiary",
-      "type": "2",
-      "type_label": "",
-      "tier": 1,
-      "sprite": "img/shops/bestiary.png",
-      "lat": 51.659142522396,
-      "lon": 35.655057668555,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1778775012,
-      "last_seen": 1779672197
-    },
-    {
-      "id": 153,
-      "uuid": "459114e1-9865-4150-8b58-ca2dfda85fde",
-      "name": "Питомник вл. Drake479",
-      "context": "bestiary",
-      "type": "2",
-      "type_label": "",
-      "tier": 1,
-      "sprite": "img/shops/bestiary.png",
-      "lat": 51.660106815435,
-      "lon": 35.654966939947,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1778775012,
-      "last_seen": 1779672197
-    },
-    {
-      "id": 152,
-      "uuid": "47ae0168-030a-4348-b0c9-644552ff16ee",
-      "name": "Питомник вл. Drake479",
-      "context": "bestiary",
-      "type": "2",
-      "type_label": "",
-      "tier": 1,
-      "sprite": "img/shops/bestiary.png",
-      "lat": 51.659583085093,
-      "lon": 35.654952079272,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1778775012,
-      "last_seen": 1779672197
-    },
-    {
-      "id": 151,
-      "uuid": "19582d83-4017-4c56-8ddf-1499d225d49c",
-      "name": "Питомник вл. Geistraja",
-      "context": "bestiary",
-      "type": "2",
-      "type_label": "",
-      "tier": 1,
-      "sprite": "img/shops/bestiary.png",
-      "lat": 51.658930726068,
-      "lon": 35.654945374783,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1778775012,
-      "last_seen": 1779672197
-    },
-    {
-      "id": 149,
-      "uuid": "2628ba32-383a-4f3d-aed7-cecad82e09d8",
-      "name": "Питомник вл. Geistraja",
-      "context": "bestiary",
-      "type": "2",
-      "type_label": "",
-      "tier": 1,
-      "sprite": "img/shops/bestiary.png",
-      "lat": 51.659247798996,
-      "lon": 35.654893863118,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1778775012,
-      "last_seen": 1779672197
-    },
-    {
-      "id": 148,
-      "uuid": "f2fea8aa-e549-4d5d-ade1-137c05a4d8e9",
-      "name": "Питомник вл. Geistraja",
-      "context": "bestiary",
-      "type": "2",
-      "type_label": "",
-      "tier": 1,
-      "sprite": "img/shops/bestiary.png",
-      "lat": 51.658736699803,
-      "lon": 35.654885317157,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1778775012,
-      "last_seen": 1779672197
-    },
-    {
-      "id": 147,
-      "uuid": "50173703-f35f-40c2-b961-d31e811e3d3f",
-      "name": "Питомник вл. Drake479",
-      "context": "bestiary",
-      "type": "2",
-      "type_label": "",
-      "tier": 1,
-      "sprite": "img/shops/bestiary.png",
-      "lat": 51.659799467392,
-      "lon": 35.654883918221,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1778775012,
-      "last_seen": 1779672197
-    },
-    {
-      "id": 145,
-      "uuid": "db92f7ef-21ab-44f5-88e2-7fc854cc4814",
-      "name": "Питомник вл. Drake479",
-      "context": "bestiary",
-      "type": "2",
-      "type_label": "",
-      "tier": 1,
-      "sprite": "img/shops/bestiary.png",
-      "lat": 51.659959893372,
-      "lon": 35.654837311923,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1778775012,
-      "last_seen": 1779672197
+      "last_seen": 1779672229
     },
     {
       "id": 260,
@@ -1264,7 +1520,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775013,
-      "last_seen": 1779672197
+      "last_seen": 1779672229
     },
     {
       "id": 251,
@@ -1280,7 +1536,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775013,
-      "last_seen": 1779672197
+      "last_seen": 1779672229
     },
     {
       "id": 212,
@@ -1296,7 +1552,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775013,
-      "last_seen": 1779672197
+      "last_seen": 1779672229
     },
     {
       "id": 253,
@@ -1312,7 +1568,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775013,
-      "last_seen": 1779672197
+      "last_seen": 1779672229
     },
     {
       "id": 249,
@@ -1328,7 +1584,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775013,
-      "last_seen": 1779672197
+      "last_seen": 1779672229
     },
     {
       "id": 238,
@@ -1344,7 +1600,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775013,
-      "last_seen": 1779672197
+      "last_seen": 1779672229
     },
     {
       "id": 236,
@@ -1360,7 +1616,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775013,
-      "last_seen": 1779672197
+      "last_seen": 1779672229
     },
     {
       "id": 233,
@@ -1376,7 +1632,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775013,
-      "last_seen": 1779672197
+      "last_seen": 1779672229
     },
     {
       "id": 232,
@@ -1392,7 +1648,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775013,
-      "last_seen": 1779672197
+      "last_seen": 1779672229
     },
     {
       "id": 231,
@@ -1408,7 +1664,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775013,
-      "last_seen": 1779672197
+      "last_seen": 1779672229
     },
     {
       "id": 229,
@@ -1424,7 +1680,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775013,
-      "last_seen": 1779672197
+      "last_seen": 1779672229
     },
     {
       "id": 224,
@@ -1440,7 +1696,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775013,
-      "last_seen": 1779672197
+      "last_seen": 1779672229
     },
     {
       "id": 209,
@@ -1456,7 +1712,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775013,
-      "last_seen": 1779672197
+      "last_seen": 1779672229
     },
     {
       "id": 1773,
@@ -1472,7 +1728,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778796662,
-      "last_seen": 1779672197
+      "last_seen": 1779672229
     },
     {
       "id": 1771,
@@ -1488,7 +1744,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778796662,
-      "last_seen": 1779672197
+      "last_seen": 1779672229
     },
     {
       "id": 1770,
@@ -1504,7 +1760,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778796662,
-      "last_seen": 1779672197
+      "last_seen": 1779672229
     },
     {
       "id": 270,
@@ -1520,7 +1776,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775013,
-      "last_seen": 1779672197
+      "last_seen": 1779672229
     },
     {
       "id": 266,
@@ -1536,7 +1792,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775013,
-      "last_seen": 1779672197
+      "last_seen": 1779672229
     },
     {
       "id": 264,
@@ -1552,7 +1808,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775013,
-      "last_seen": 1779672197
+      "last_seen": 1779672229
     },
     {
       "id": 262,
@@ -1568,7 +1824,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775013,
-      "last_seen": 1779672197
+      "last_seen": 1779672229
     },
     {
       "id": 259,
@@ -1584,7 +1840,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775013,
-      "last_seen": 1779672197
+      "last_seen": 1779672229
     },
     {
       "id": 255,
@@ -1600,7 +1856,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775013,
-      "last_seen": 1779672197
+      "last_seen": 1779672229
     },
     {
       "id": 1769,
@@ -1616,7 +1872,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778796662,
-      "last_seen": 1779672197
+      "last_seen": 1779672229
     },
     {
       "id": 1768,
@@ -1632,7 +1888,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778796661,
-      "last_seen": 1779672197
+      "last_seen": 1779672229
     },
     {
       "id": 248,
@@ -1648,7 +1904,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775013,
-      "last_seen": 1779672197
+      "last_seen": 1779672229
     },
     {
       "id": 247,
@@ -1664,7 +1920,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775013,
-      "last_seen": 1779672197
+      "last_seen": 1779672229
     },
     {
       "id": 246,
@@ -1680,7 +1936,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775013,
-      "last_seen": 1779672197
+      "last_seen": 1779672229
     },
     {
       "id": 245,
@@ -1696,7 +1952,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775013,
-      "last_seen": 1779672197
+      "last_seen": 1779672229
     },
     {
       "id": 244,
@@ -1712,7 +1968,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775013,
-      "last_seen": 1779672197
+      "last_seen": 1779672229
     },
     {
       "id": 243,
@@ -1728,7 +1984,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775013,
-      "last_seen": 1779672197
+      "last_seen": 1779672229
     },
     {
       "id": 242,
@@ -1744,7 +2000,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775013,
-      "last_seen": 1779672197
+      "last_seen": 1779672229
     },
     {
       "id": 241,
@@ -1760,7 +2016,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775013,
-      "last_seen": 1779672197
+      "last_seen": 1779672229
     },
     {
       "id": 240,
@@ -1776,7 +2032,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775013,
-      "last_seen": 1779672197
+      "last_seen": 1779672229
     },
     {
       "id": 239,
@@ -1792,7 +2048,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775013,
-      "last_seen": 1779672197
+      "last_seen": 1779672229
     },
     {
       "id": 234,
@@ -1808,7 +2064,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775013,
-      "last_seen": 1779672197
+      "last_seen": 1779672229
     },
     {
       "id": 230,
@@ -1824,7 +2080,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775013,
-      "last_seen": 1779672197
+      "last_seen": 1779672229
     },
     {
       "id": 228,
@@ -1840,7 +2096,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775013,
-      "last_seen": 1779672197
+      "last_seen": 1779672229
     },
     {
       "id": 225,
@@ -1856,7 +2112,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775013,
-      "last_seen": 1779672197
+      "last_seen": 1779672229
     },
     {
       "id": 223,
@@ -1872,7 +2128,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775013,
-      "last_seen": 1779672197
+      "last_seen": 1779672229
     },
     {
       "id": 222,
@@ -1888,7 +2144,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775013,
-      "last_seen": 1779672197
+      "last_seen": 1779672229
     },
     {
       "id": 221,
@@ -1904,7 +2160,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775013,
-      "last_seen": 1779672197
+      "last_seen": 1779672229
     },
     {
       "id": 220,
@@ -1920,7 +2176,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775013,
-      "last_seen": 1779672197
+      "last_seen": 1779672229
     },
     {
       "id": 219,
@@ -1936,7 +2192,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775013,
-      "last_seen": 1779672197
+      "last_seen": 1779672229
     },
     {
       "id": 218,
@@ -1952,7 +2208,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775013,
-      "last_seen": 1779672197
+      "last_seen": 1779672229
     },
     {
       "id": 217,
@@ -1968,7 +2224,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775013,
-      "last_seen": 1779672197
+      "last_seen": 1779672229
     },
     {
       "id": 216,
@@ -1984,7 +2240,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775013,
-      "last_seen": 1779672197
+      "last_seen": 1779672229
     },
     {
       "id": 214,
@@ -2000,7 +2256,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775013,
-      "last_seen": 1779672197
+      "last_seen": 1779672229
     },
     {
       "id": 211,
@@ -2016,7 +2272,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775013,
-      "last_seen": 1779672197
+      "last_seen": 1779672229
     },
     {
       "id": 208,
@@ -2032,7 +2288,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775013,
-      "last_seen": 1779672197
+      "last_seen": 1779672229
     },
     {
       "id": 205,
@@ -2048,7 +2304,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775013,
-      "last_seen": 1779672197
+      "last_seen": 1779672229
     },
     {
       "id": 184,
@@ -2064,7 +2320,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672197
+      "last_seen": 1779672229
     },
     {
       "id": 180,
@@ -2080,7 +2336,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672197
+      "last_seen": 1779672229
     },
     {
       "id": 178,
@@ -2096,7 +2352,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672197
+      "last_seen": 1779672229
     },
     {
       "id": 172,
@@ -2112,7 +2368,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672197
+      "last_seen": 1779672229
     },
     {
       "id": 169,
@@ -2128,55 +2384,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672197
-    },
-    {
-      "id": 166,
-      "uuid": "352c212d-4561-4965-b57c-b893e7e3703c",
-      "name": "Ювелир вл. ImSorry",
-      "context": "jeweller",
-      "type": "11",
-      "type_label": "",
-      "tier": 1,
-      "sprite": "img/shops/jeweller.png",
-      "lat": 51.66441130956,
-      "lon": 35.655285178241,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1778775012,
-      "last_seen": 1779672197
-    },
-    {
-      "id": 157,
-      "uuid": "300c0034-7ebf-42e8-80bf-34d018c9e4c5",
-      "name": "Магазин вл. Moredungeons",
-      "context": "shop",
-      "type": "0",
-      "type_label": "",
-      "tier": 1,
-      "sprite": "img/shops/shop.png",
-      "lat": 51.662267761268,
-      "lon": 35.655059463898,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1778775012,
-      "last_seen": 1779672197
-    },
-    {
-      "id": 167,
-      "uuid": "cfd609ab-271a-4ef2-86c0-297c4aaaddb0",
-      "name": "Травник вл. Midirion",
-      "context": "herbalist",
-      "type": "17",
-      "type_label": "",
-      "tier": 1,
-      "sprite": "img/shops/herbalist.png",
-      "lat": 51.6630522,
-      "lon": 35.6553065,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1778775012,
-      "last_seen": 1779672197
+      "last_seen": 1779672229
     },
     {
       "id": 1772,
@@ -2192,7 +2400,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778796662,
-      "last_seen": 1779672197
+      "last_seen": 1779672229
     },
     {
       "id": 267,
@@ -2208,7 +2416,615 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775013,
-      "last_seen": 1779672197
+      "last_seen": 1779672229
+    },
+    {
+      "id": 1877,
+      "uuid": "8dc0d132-2ac3-4aeb-ab80-e8d8b8a08b39",
+      "name": "Арканист",
+      "context": "arcanist",
+      "type": "7",
+      "type_label": "",
+      "tier": 1,
+      "sprite": "img/shops/arcanist.png",
+      "lat": 51.655417744328,
+      "lon": 35.662025884288,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1778804790,
+      "last_seen": 1779672229
+    },
+    {
+      "id": 269,
+      "uuid": "3067cc82-7bdb-4f58-a0b1-f0bd98294a7f",
+      "name": "Питомник",
+      "context": "bestiary",
+      "type": "2",
+      "type_label": "",
+      "tier": 1,
+      "sprite": "img/shops/bestiary.png",
+      "lat": 51.65737360109,
+      "lon": 35.661742768063,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1778775013,
+      "last_seen": 1779672229
+    },
+    {
+      "id": 268,
+      "uuid": "5494b37a-08ea-4724-91ff-8a6f59e28761",
+      "name": "Арканист",
+      "context": "arcanist",
+      "type": "7",
+      "type_label": "",
+      "tier": 1,
+      "sprite": "img/shops/arcanist.png",
+      "lat": 51.656655115167,
+      "lon": 35.661674830256,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1778775013,
+      "last_seen": 1779672229
+    },
+    {
+      "id": 263,
+      "uuid": "6c85457d-af02-457e-9dfa-3e2be566e6f1",
+      "name": "Вышний Озёрный Улус Магазин",
+      "context": "shop",
+      "type": "0",
+      "type_label": "",
+      "tier": 1,
+      "sprite": "img/shops/shop.png",
+      "lat": 51.655324087488,
+      "lon": 35.660710599574,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1778775013,
+      "last_seen": 1779672229
+    },
+    {
+      "id": 261,
+      "uuid": "c732808a-6bf8-46d8-af05-c4bed5fb9f8d",
+      "name": "Резервация Шушохенус Магазин",
+      "context": "shop",
+      "type": "0",
+      "type_label": "",
+      "tier": 1,
+      "sprite": "img/shops/shop.png",
+      "lat": 51.656732969515,
+      "lon": 35.660294627904,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1778775013,
+      "last_seen": 1779672229
+    },
+    {
+      "id": 1780,
+      "uuid": "8773ed7a-f1bc-473c-b91f-52cc014950bc",
+      "name": "Подземелье",
+      "context": "dungeon",
+      "type": "5",
+      "type_label": "",
+      "tier": 1,
+      "sprite": "img/shops/dungeon.png",
+      "lat": 51.66081249102,
+      "lon": 35.664253123497,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1778796662,
+      "last_seen": 1779672229
+    },
+    {
+      "id": 1776,
+      "uuid": "9c8d2d1e-047b-48ce-8a96-e771fa15d96b",
+      "name": "Кузница",
+      "context": "blacksmith",
+      "type": "1",
+      "type_label": "",
+      "tier": 1,
+      "sprite": "img/shops/blacksmith.png",
+      "lat": 51.660229965283,
+      "lon": 35.662879161415,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1778796662,
+      "last_seen": 1779672229
+    },
+    {
+      "id": 1868,
+      "uuid": "1bdbcf37-991e-4cdb-a5d2-bc376ac4eaaf",
+      "name": "Восточный Слизнячий Улус Гостиница",
+      "context": "inn",
+      "type": "4",
+      "type_label": "",
+      "tier": 1,
+      "sprite": "img/shops/inn.png",
+      "lat": 51.67011643614,
+      "lon": 35.665694784126,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1778804760,
+      "last_seen": 1779672229
+    },
+    {
+      "id": 1781,
+      "uuid": "2a48b41f-639a-4b2a-b58a-424b4eecabd2",
+      "name": "Пограничное Местечко Магазин",
+      "context": "shop",
+      "type": "0",
+      "type_label": "",
+      "tier": 1,
+      "sprite": "img/shops/shop.png",
+      "lat": 51.662126075151,
+      "lon": 35.664444825081,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1778796662,
+      "last_seen": 1779672229
+    },
+    {
+      "id": 1779,
+      "uuid": "af9a37bf-e925-4b29-b410-8910efd0c8bd",
+      "name": "Усадьба Шуабрзаэс Алхимик",
+      "context": "alchemist",
+      "type": "6",
+      "type_label": "",
+      "tier": 1,
+      "sprite": "img/shops/alchemist.png",
+      "lat": 51.668445342415,
+      "lon": 35.663866361497,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1778796662,
+      "last_seen": 1779672229
+    },
+    {
+      "id": 1778,
+      "uuid": "9df04d7e-15a8-4746-ad13-f1ca80929fb2",
+      "name": "Пограничное Местечко Кузница",
+      "context": "blacksmith",
+      "type": "1",
+      "type_label": "",
+      "tier": 1,
+      "sprite": "img/shops/blacksmith.png",
+      "lat": 51.662415493307,
+      "lon": 35.66327540077,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1778796662,
+      "last_seen": 1779672229
+    },
+    {
+      "id": 1777,
+      "uuid": "b5b22d5d-c252-4875-9239-13225a7a1ee4",
+      "name": "Пограничное Местечко Магазин",
+      "context": "shop",
+      "type": "0",
+      "type_label": "",
+      "tier": 1,
+      "sprite": "img/shops/shop.png",
+      "lat": 51.662502967458,
+      "lon": 35.663057805978,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1778796662,
+      "last_seen": 1779672229
+    },
+    {
+      "id": 1775,
+      "uuid": "53681da1-9428-4f42-9e90-09cd32592932",
+      "name": "Пограничное Местечко Гостиница",
+      "context": "inn",
+      "type": "4",
+      "type_label": "",
+      "tier": 1,
+      "sprite": "img/shops/inn.png",
+      "lat": 51.662801815415,
+      "lon": 35.662706639365,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1778796662,
+      "last_seen": 1779672229
+    },
+    {
+      "id": 168,
+      "uuid": "d9450ff6-5cdf-4aab-92af-a64526484ffa",
+      "name": "Мастерская титанов",
+      "context": "titan_workshop",
+      "type": "26",
+      "type_label": "",
+      "tier": 1,
+      "sprite": "img/shops/titan_workshop.png",
+      "lat": 51.663392439058,
+      "lon": 35.655400245123,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1778775012,
+      "last_seen": 1779672228
+    },
+    {
+      "id": 160,
+      "uuid": "144c1739-81a9-4423-b3dd-278d27b9c75a",
+      "name": "Питомник вл. Drake479",
+      "context": "bestiary",
+      "type": "2",
+      "type_label": "",
+      "tier": 1,
+      "sprite": "img/shops/bestiary.png",
+      "lat": 51.66275882757,
+      "lon": 35.655215842452,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1778775012,
+      "last_seen": 1779672228
+    },
+    {
+      "id": 159,
+      "uuid": "72875aa3-ec29-41c3-a43f-e6236cecd282",
+      "name": "Питомник вл. Drake479",
+      "context": "bestiary",
+      "type": "2",
+      "type_label": "",
+      "tier": 1,
+      "sprite": "img/shops/bestiary.png",
+      "lat": 51.663210046059,
+      "lon": 35.65518198551,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1778775012,
+      "last_seen": 1779672228
+    },
+    {
+      "id": 158,
+      "uuid": "0dea84fe-927c-45a8-8604-9ae6225d1aa6",
+      "name": "Магазин вл. Drake479",
+      "context": "shop",
+      "type": "0",
+      "type_label": "",
+      "tier": 1,
+      "sprite": "img/shops/shop.png",
+      "lat": 51.662941689646,
+      "lon": 35.655149047399,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1778775012,
+      "last_seen": 1779672228
+    },
+    {
+      "id": 155,
+      "uuid": "c8611d78-176e-44ff-9160-536751a225e4",
+      "name": "Зал гильдии конкистадоров",
+      "context": "conquerors_guild",
+      "type": "35",
+      "type_label": "",
+      "tier": 1,
+      "sprite": "img/shops/conquerors_guild.png",
+      "lat": 51.663390370362,
+      "lon": 35.654972929031,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1778775012,
+      "last_seen": 1779672228
+    },
+    {
+      "id": 154,
+      "uuid": "fb1482ed-1e9c-4785-8843-cab6ead95803",
+      "name": "Зал гильдии орнаходов",
+      "context": "traveler_guild",
+      "type": "30",
+      "type_label": "",
+      "tier": 1,
+      "sprite": "img/shops/traveler_guild.png",
+      "lat": 51.662506875438,
+      "lon": 35.654972877292,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1778775012,
+      "last_seen": 1779672228
+    },
+    {
+      "id": 150,
+      "uuid": "9bd8bbaa-1f11-492d-b818-8a871c47c43f",
+      "name": "Замок вл. Drake479",
+      "context": "castle",
+      "type": "3",
+      "type_label": "",
+      "tier": 1,
+      "sprite": "img/shops/ornaversary/castle.png",
+      "lat": 51.664001953472,
+      "lon": 35.654911154484,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1778775012,
+      "last_seen": 1779672228
+    },
+    {
+      "id": 146,
+      "uuid": "8e4152b5-5c00-4477-9986-b6a34dd63f20",
+      "name": "Питомник вл. Drake479",
+      "context": "bestiary",
+      "type": "2",
+      "type_label": "",
+      "tier": 1,
+      "sprite": "img/shops/bestiary.png",
+      "lat": 51.663236068519,
+      "lon": 35.6548582387,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1778775012,
+      "last_seen": 1779672228
+    },
+    {
+      "id": 144,
+      "uuid": "8c12ed74-9763-4fda-8185-2aecd9014785",
+      "name": "Магазин вл. Drake479",
+      "context": "shop",
+      "type": "0",
+      "type_label": "",
+      "tier": 1,
+      "sprite": "img/shops/shop.png",
+      "lat": 51.662971794279,
+      "lon": 35.654806350189,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1778775012,
+      "last_seen": 1779672228
+    },
+    {
+      "id": 165,
+      "uuid": "104bec29-9516-45ef-bb39-5300a6b35bf4",
+      "name": "Питомник вл. Drake479",
+      "context": "bestiary",
+      "type": "2",
+      "type_label": "",
+      "tier": 1,
+      "sprite": "img/shops/bestiary.png",
+      "lat": 51.660010843831,
+      "lon": 35.655265299117,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1778775012,
+      "last_seen": 1779672228
+    },
+    {
+      "id": 164,
+      "uuid": "1549dfc7-f89e-477d-a800-d6d027da6cc4",
+      "name": "Питомник вл. Drake479",
+      "context": "bestiary",
+      "type": "2",
+      "type_label": "",
+      "tier": 1,
+      "sprite": "img/shops/bestiary.png",
+      "lat": 51.659671256893,
+      "lon": 35.655256768282,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1778775012,
+      "last_seen": 1779672228
+    },
+    {
+      "id": 163,
+      "uuid": "7b2938f9-c557-4632-95d7-0b9e71c757c2",
+      "name": "Магазин",
+      "context": "shop",
+      "type": "0",
+      "type_label": "",
+      "tier": 1,
+      "sprite": "img/shops/shop.png",
+      "lat": 51.657632036358,
+      "lon": 35.655255984277,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1778775012,
+      "last_seen": 1779672228
+    },
+    {
+      "id": 162,
+      "uuid": "dc78e9fa-daac-4106-96e2-833ba7dd9721",
+      "name": "Питомник вл. Geistraja",
+      "context": "bestiary",
+      "type": "2",
+      "type_label": "",
+      "tier": 1,
+      "sprite": "img/shops/bestiary.png",
+      "lat": 51.659366251707,
+      "lon": 35.655252861305,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1778775012,
+      "last_seen": 1779672228
+    },
+    {
+      "id": 161,
+      "uuid": "bee2e635-ab53-471e-b996-989e9f343ec9",
+      "name": "Питомник вл. Drake479",
+      "context": "bestiary",
+      "type": "2",
+      "type_label": "",
+      "tier": 1,
+      "sprite": "img/shops/bestiary.png",
+      "lat": 51.659866589395,
+      "lon": 35.655219890606,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1778775012,
+      "last_seen": 1779672228
+    },
+    {
+      "id": 156,
+      "uuid": "f78a474c-a4c7-4d31-8d68-0fcae8607734",
+      "name": "Питомник вл. Geistraja",
+      "context": "bestiary",
+      "type": "2",
+      "type_label": "",
+      "tier": 1,
+      "sprite": "img/shops/bestiary.png",
+      "lat": 51.659142522396,
+      "lon": 35.655057668555,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1778775012,
+      "last_seen": 1779672228
+    },
+    {
+      "id": 153,
+      "uuid": "459114e1-9865-4150-8b58-ca2dfda85fde",
+      "name": "Питомник вл. Drake479",
+      "context": "bestiary",
+      "type": "2",
+      "type_label": "",
+      "tier": 1,
+      "sprite": "img/shops/bestiary.png",
+      "lat": 51.660106815435,
+      "lon": 35.654966939947,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1778775012,
+      "last_seen": 1779672228
+    },
+    {
+      "id": 152,
+      "uuid": "47ae0168-030a-4348-b0c9-644552ff16ee",
+      "name": "Питомник вл. Drake479",
+      "context": "bestiary",
+      "type": "2",
+      "type_label": "",
+      "tier": 1,
+      "sprite": "img/shops/bestiary.png",
+      "lat": 51.659583085093,
+      "lon": 35.654952079272,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1778775012,
+      "last_seen": 1779672228
+    },
+    {
+      "id": 151,
+      "uuid": "19582d83-4017-4c56-8ddf-1499d225d49c",
+      "name": "Питомник вл. Geistraja",
+      "context": "bestiary",
+      "type": "2",
+      "type_label": "",
+      "tier": 1,
+      "sprite": "img/shops/bestiary.png",
+      "lat": 51.658930726068,
+      "lon": 35.654945374783,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1778775012,
+      "last_seen": 1779672228
+    },
+    {
+      "id": 149,
+      "uuid": "2628ba32-383a-4f3d-aed7-cecad82e09d8",
+      "name": "Питомник вл. Geistraja",
+      "context": "bestiary",
+      "type": "2",
+      "type_label": "",
+      "tier": 1,
+      "sprite": "img/shops/bestiary.png",
+      "lat": 51.659247798996,
+      "lon": 35.654893863118,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1778775012,
+      "last_seen": 1779672228
+    },
+    {
+      "id": 148,
+      "uuid": "f2fea8aa-e549-4d5d-ade1-137c05a4d8e9",
+      "name": "Питомник вл. Geistraja",
+      "context": "bestiary",
+      "type": "2",
+      "type_label": "",
+      "tier": 1,
+      "sprite": "img/shops/bestiary.png",
+      "lat": 51.658736699803,
+      "lon": 35.654885317157,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1778775012,
+      "last_seen": 1779672228
+    },
+    {
+      "id": 147,
+      "uuid": "50173703-f35f-40c2-b961-d31e811e3d3f",
+      "name": "Питомник вл. Drake479",
+      "context": "bestiary",
+      "type": "2",
+      "type_label": "",
+      "tier": 1,
+      "sprite": "img/shops/bestiary.png",
+      "lat": 51.659799467392,
+      "lon": 35.654883918221,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1778775012,
+      "last_seen": 1779672228
+    },
+    {
+      "id": 145,
+      "uuid": "db92f7ef-21ab-44f5-88e2-7fc854cc4814",
+      "name": "Питомник вл. Drake479",
+      "context": "bestiary",
+      "type": "2",
+      "type_label": "",
+      "tier": 1,
+      "sprite": "img/shops/bestiary.png",
+      "lat": 51.659959893372,
+      "lon": 35.654837311923,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1778775012,
+      "last_seen": 1779672228
+    },
+    {
+      "id": 166,
+      "uuid": "352c212d-4561-4965-b57c-b893e7e3703c",
+      "name": "Ювелир вл. ImSorry",
+      "context": "jeweller",
+      "type": "11",
+      "type_label": "",
+      "tier": 1,
+      "sprite": "img/shops/jeweller.png",
+      "lat": 51.66441130956,
+      "lon": 35.655285178241,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1778775012,
+      "last_seen": 1779672228
+    },
+    {
+      "id": 157,
+      "uuid": "300c0034-7ebf-42e8-80bf-34d018c9e4c5",
+      "name": "Магазин вл. Moredungeons",
+      "context": "shop",
+      "type": "0",
+      "type_label": "",
+      "tier": 1,
+      "sprite": "img/shops/shop.png",
+      "lat": 51.662267761268,
+      "lon": 35.655059463898,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1778775012,
+      "last_seen": 1779672228
+    },
+    {
+      "id": 167,
+      "uuid": "cfd609ab-271a-4ef2-86c0-297c4aaaddb0",
+      "name": "Травник вл. Midirion",
+      "context": "herbalist",
+      "type": "17",
+      "type_label": "",
+      "tier": 1,
+      "sprite": "img/shops/herbalist.png",
+      "lat": 51.6630522,
+      "lon": 35.6553065,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1778775012,
+      "last_seen": 1779672228
     },
     {
       "id": 17,
@@ -2224,7 +3040,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 16,
@@ -2240,7 +3056,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 18,
@@ -2256,7 +3072,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 140,
@@ -2272,7 +3088,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 138,
@@ -2288,7 +3104,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 134,
@@ -2304,7 +3120,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 129,
@@ -2320,7 +3136,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 127,
@@ -2336,7 +3152,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 126,
@@ -2352,7 +3168,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 120,
@@ -2368,7 +3184,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 117,
@@ -2384,7 +3200,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 104,
@@ -2400,7 +3216,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 99,
@@ -2416,7 +3232,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 96,
@@ -2432,7 +3248,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 90,
@@ -2448,7 +3264,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 86,
@@ -2464,7 +3280,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 74,
@@ -2480,7 +3296,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 47,
@@ -2496,7 +3312,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 24,
@@ -2512,7 +3328,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 22,
@@ -2528,7 +3344,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 20,
@@ -2544,7 +3360,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 19,
@@ -2560,7 +3376,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 143,
@@ -2576,7 +3392,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 142,
@@ -2592,7 +3408,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 141,
@@ -2608,7 +3424,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 139,
@@ -2624,7 +3440,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 137,
@@ -2640,7 +3456,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 135,
@@ -2656,7 +3472,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 133,
@@ -2672,7 +3488,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 130,
@@ -2688,7 +3504,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 128,
@@ -2704,7 +3520,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 125,
@@ -2720,7 +3536,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 124,
@@ -2736,7 +3552,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 123,
@@ -2752,7 +3568,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 122,
@@ -2768,7 +3584,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 121,
@@ -2784,7 +3600,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 119,
@@ -2800,7 +3616,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 118,
@@ -2816,7 +3632,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 116,
@@ -2832,7 +3648,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 115,
@@ -2848,7 +3664,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 114,
@@ -2864,7 +3680,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 113,
@@ -2880,7 +3696,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 112,
@@ -2896,7 +3712,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 111,
@@ -2912,7 +3728,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 110,
@@ -2928,7 +3744,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 107,
@@ -2944,7 +3760,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 106,
@@ -2960,7 +3776,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 105,
@@ -2976,7 +3792,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 103,
@@ -2992,7 +3808,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 102,
@@ -3008,7 +3824,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 101,
@@ -3024,7 +3840,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 98,
@@ -3040,7 +3856,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 95,
@@ -3056,7 +3872,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 94,
@@ -3072,7 +3888,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 93,
@@ -3088,7 +3904,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 91,
@@ -3104,7 +3920,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 88,
@@ -3120,7 +3936,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 87,
@@ -3136,7 +3952,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 84,
@@ -3152,7 +3968,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 69,
@@ -3168,7 +3984,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 68,
@@ -3184,7 +4000,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 67,
@@ -3200,7 +4016,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 66,
@@ -3216,7 +4032,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 65,
@@ -3232,7 +4048,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 64,
@@ -3248,7 +4064,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 63,
@@ -3264,7 +4080,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 62,
@@ -3280,7 +4096,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 61,
@@ -3296,7 +4112,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 60,
@@ -3312,7 +4128,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 59,
@@ -3328,7 +4144,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 58,
@@ -3344,7 +4160,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 56,
@@ -3360,7 +4176,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 55,
@@ -3376,7 +4192,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 54,
@@ -3392,7 +4208,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 53,
@@ -3408,7 +4224,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 52,
@@ -3424,7 +4240,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 51,
@@ -3440,7 +4256,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 50,
@@ -3456,7 +4272,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 43,
@@ -3472,7 +4288,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 41,
@@ -3488,7 +4304,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 40,
@@ -3504,7 +4320,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 35,
@@ -3520,7 +4336,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 108,
@@ -3536,7 +4352,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 131,
@@ -3552,7 +4368,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 100,
@@ -3568,7 +4384,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 97,
@@ -3584,7 +4400,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 89,
@@ -3600,7 +4416,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 83,
@@ -3616,7 +4432,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 82,
@@ -3632,7 +4448,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 81,
@@ -3648,7 +4464,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 80,
@@ -3664,7 +4480,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 79,
@@ -3680,7 +4496,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 78,
@@ -3696,7 +4512,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 77,
@@ -3712,7 +4528,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 76,
@@ -3728,7 +4544,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 75,
@@ -3744,7 +4560,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 1034,
@@ -3760,7 +4576,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778776251,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 1033,
@@ -3776,7 +4592,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778776251,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 985,
@@ -3792,7 +4608,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778776233,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 984,
@@ -3808,7 +4624,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778776233,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 73,
@@ -3824,7 +4640,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 72,
@@ -3840,7 +4656,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 71,
@@ -3856,7 +4672,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 70,
@@ -3872,7 +4688,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 57,
@@ -3888,7 +4704,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 39,
@@ -3904,7 +4720,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 36,
@@ -3920,7 +4736,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 34,
@@ -3936,7 +4752,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 32,
@@ -3952,7 +4768,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 31,
@@ -3968,7 +4784,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 30,
@@ -3984,7 +4800,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 29,
@@ -4000,7 +4816,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 28,
@@ -4016,7 +4832,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 27,
@@ -4032,7 +4848,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 26,
@@ -4048,7 +4864,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 25,
@@ -4064,7 +4880,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
     },
     {
       "id": 136,
@@ -4080,7 +4896,279 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779672196
+      "last_seen": 1779672228
+    },
+    {
+      "id": 14,
+      "uuid": "85395d56-0468-4286-8c18-e59719849e36",
+      "name": "Магазин вл. Drake479",
+      "context": "shop",
+      "type": "0",
+      "type_label": "",
+      "tier": 1,
+      "sprite": "img/shops/shop.png",
+      "lat": 51.662985991179,
+      "lon": 35.643414156349,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1778775012,
+      "last_seen": 1779672228
+    },
+    {
+      "id": 12,
+      "uuid": "21e81289-bb6b-4006-b5ae-aec01df1cde6",
+      "name": "Гостиница",
+      "context": "inn",
+      "type": "4",
+      "type_label": "",
+      "tier": 1,
+      "sprite": "img/shops/inn.png",
+      "lat": 51.660398303206,
+      "lon": 35.642218245624,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1778775012,
+      "last_seen": 1779672228
+    },
+    {
+      "id": 10,
+      "uuid": "04cc68c7-eb34-4efb-a7df-f3e3a09c7c67",
+      "name": "Магазин",
+      "context": "shop",
+      "type": "0",
+      "type_label": "",
+      "tier": 1,
+      "sprite": "img/shops/shop.png",
+      "lat": 51.657029826233,
+      "lon": 35.641394804141,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1778775012,
+      "last_seen": 1779672228
+    },
+    {
+      "id": 9,
+      "uuid": "8e438645-d5e8-4636-bd75-5c443cff6c77",
+      "name": "Магазин",
+      "context": "shop",
+      "type": "0",
+      "type_label": "",
+      "tier": 1,
+      "sprite": "img/shops/shop.png",
+      "lat": 51.662668293034,
+      "lon": 35.641062963757,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1778775012,
+      "last_seen": 1779672228
+    },
+    {
+      "id": 1032,
+      "uuid": "0f068554-c16d-4541-ae7d-819086d5c01a",
+      "name": "Пограничная Заимка Магазин",
+      "context": "shop",
+      "type": "0",
+      "type_label": "",
+      "tier": 1,
+      "sprite": "img/shops/shop.png",
+      "lat": 51.668853394186,
+      "lon": 35.643616218637,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1778776251,
+      "last_seen": 1779672228
+    },
+    {
+      "id": 1031,
+      "uuid": "6df04411-fe63-4b7e-b4d7-07c12ee5083b",
+      "name": "Окраинная Гмина Кузница",
+      "context": "blacksmith",
+      "type": "1",
+      "type_label": "",
+      "tier": 1,
+      "sprite": "img/shops/blacksmith.png",
+      "lat": 51.667766347184,
+      "lon": 35.643586270429,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1778776251,
+      "last_seen": 1779672228
+    },
+    {
+      "id": 983,
+      "uuid": "8088f072-0d03-4b69-bc09-c5b783f659ce",
+      "name": "Окраинная Гмина Кузница",
+      "context": "blacksmith",
+      "type": "1",
+      "type_label": "",
+      "tier": 1,
+      "sprite": "img/shops/blacksmith.png",
+      "lat": 51.665110105884,
+      "lon": 35.643544272042,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1778776233,
+      "last_seen": 1779672228
+    },
+    {
+      "id": 1067,
+      "uuid": "5c24a8f9-33d0-4800-815d-fa52541a726f",
+      "name": "Звериное логово",
+      "context": "beast_den",
+      "type": "5",
+      "type_label": "",
+      "tier": 5,
+      "sprite": "img/shops/beast_den.png",
+      "lat": 51.669312076534,
+      "lon": 35.641125764356,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1778776263,
+      "last_seen": 1779672228
+    },
+    {
+      "id": 1030,
+      "uuid": "c842182d-39a3-4e8e-ab33-f8164b35c8cc",
+      "name": "Подземелье",
+      "context": "dungeon",
+      "type": "5",
+      "type_label": "",
+      "tier": 1,
+      "sprite": "img/shops/dungeon.png",
+      "lat": 51.66666316806,
+      "lon": 35.641227484385,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1778776251,
+      "last_seen": 1779672228
+    },
+    {
+      "id": 21,
+      "uuid": "4edf98ec-74b6-4685-868e-fe6ae4908fbf",
+      "name": "Магазин",
+      "context": "shop",
+      "type": "0",
+      "type_label": "",
+      "tier": 1,
+      "sprite": "img/shops/shop.png",
+      "lat": 51.656297614162,
+      "lon": 35.646415925352,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1778775012,
+      "last_seen": 1779672228
+    },
+    {
+      "id": 13,
+      "uuid": "0ff980b6-2dfe-440f-a564-27c1c3ecc854",
+      "name": "Северная Фазенда Питомник",
+      "context": "bestiary",
+      "type": "2",
+      "type_label": "",
+      "tier": 1,
+      "sprite": "img/shops/bestiary.png",
+      "lat": 51.655953406947,
+      "lon": 35.642992333542,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1778775012,
+      "last_seen": 1779672228
+    },
+    {
+      "id": 132,
+      "uuid": "cd32f338-78d5-42c8-8a51-cbb749266840",
+      "name": "Кузница вл. Drake479",
+      "context": "blacksmith",
+      "type": "1",
+      "type_label": "",
+      "tier": 1,
+      "sprite": "img/shops/blacksmith.png",
+      "lat": 51.6575413,
+      "lon": 35.6545157,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1778775012,
+      "last_seen": 1779672228
+    },
+    {
+      "id": 92,
+      "uuid": "8d15dd25-6805-47c5-b0f2-1c7b70454711",
+      "name": "Магазин",
+      "context": "shop",
+      "type": "0",
+      "type_label": "",
+      "tier": 1,
+      "sprite": "img/shops/shop.png",
+      "lat": 51.656087643511,
+      "lon": 35.65348389202,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1778775012,
+      "last_seen": 1779672228
+    },
+    {
+      "id": 49,
+      "uuid": "04f13e75-d953-46e3-9b23-2ee0449f5bf1",
+      "name": "Застава вл. Drake479",
+      "context": "outpost",
+      "type": "9",
+      "type_label": "",
+      "tier": 1,
+      "sprite": "img/shops/outpost.png",
+      "lat": 51.655294241329,
+      "lon": 35.651901774108,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1778775012,
+      "last_seen": 1779672228
+    },
+    {
+      "id": 38,
+      "uuid": "9f0e6297-8437-4fac-9aaa-af86c53af9a8",
+      "name": "Великое Гномье Староселье Магазин",
+      "context": "shop",
+      "type": "0",
+      "type_label": "",
+      "tier": 1,
+      "sprite": "img/shops/shop.png",
+      "lat": 51.656509726042,
+      "lon": 35.649821685732,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1778775012,
+      "last_seen": 1779672228
+    },
+    {
+      "id": 1783,
+      "uuid": "0e7ae0a7-3c16-4eb5-b4e6-34583b59fa93",
+      "name": "Ювелир вл. Drake479",
+      "context": "jeweller",
+      "type": "11",
+      "type_label": "",
+      "tier": 1,
+      "sprite": "img/shops/jeweller.png",
+      "lat": 51.669462186342,
+      "lon": 35.653621070087,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1778800284,
+      "last_seen": 1779672228
+    },
+    {
+      "id": 1767,
+      "uuid": "3a077f2e-37f3-4d12-9b42-87ba609a946d",
+      "name": "Аванпост Лагувуми Гостиница",
+      "context": "inn",
+      "type": "4",
+      "type_label": "",
+      "tier": 1,
+      "sprite": "img/shops/inn.png",
+      "lat": 51.668957660991,
+      "lon": 35.652251503225,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1778796661,
+      "last_seen": 1779672228
     },
     {
       "id": 668,
@@ -13465,70 +14553,6 @@
       "last_seen": 1779403679
     },
     {
-      "id": 14,
-      "uuid": "85395d56-0468-4286-8c18-e59719849e36",
-      "name": "Магазин вл. Drake479",
-      "context": "shop",
-      "type": "0",
-      "type_label": "",
-      "tier": 1,
-      "sprite": "img/shops/shop.png",
-      "lat": 51.662985991179,
-      "lon": 35.643414156349,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1778775012,
-      "last_seen": 1779403679
-    },
-    {
-      "id": 12,
-      "uuid": "21e81289-bb6b-4006-b5ae-aec01df1cde6",
-      "name": "Гостиница",
-      "context": "inn",
-      "type": "4",
-      "type_label": "",
-      "tier": 1,
-      "sprite": "img/shops/inn.png",
-      "lat": 51.660398303206,
-      "lon": 35.642218245624,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1778775012,
-      "last_seen": 1779403679
-    },
-    {
-      "id": 10,
-      "uuid": "04cc68c7-eb34-4efb-a7df-f3e3a09c7c67",
-      "name": "Магазин",
-      "context": "shop",
-      "type": "0",
-      "type_label": "",
-      "tier": 1,
-      "sprite": "img/shops/shop.png",
-      "lat": 51.657029826233,
-      "lon": 35.641394804141,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1778775012,
-      "last_seen": 1779403679
-    },
-    {
-      "id": 9,
-      "uuid": "8e438645-d5e8-4636-bd75-5c443cff6c77",
-      "name": "Магазин",
-      "context": "shop",
-      "type": "0",
-      "type_label": "",
-      "tier": 1,
-      "sprite": "img/shops/shop.png",
-      "lat": 51.662668293034,
-      "lon": 35.641062963757,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1778775012,
-      "last_seen": 1779403679
-    },
-    {
       "id": 8,
       "uuid": "90891cd9-a43d-47a7-9284-3cf3eb00adff",
       "name": "Магазин вл. LiGhTeViL",
@@ -13574,86 +14598,6 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
-      "last_seen": 1779403679
-    },
-    {
-      "id": 1032,
-      "uuid": "0f068554-c16d-4541-ae7d-819086d5c01a",
-      "name": "Пограничная Заимка Магазин",
-      "context": "shop",
-      "type": "0",
-      "type_label": "",
-      "tier": 1,
-      "sprite": "img/shops/shop.png",
-      "lat": 51.668853394186,
-      "lon": 35.643616218637,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1778776251,
-      "last_seen": 1779403679
-    },
-    {
-      "id": 1031,
-      "uuid": "6df04411-fe63-4b7e-b4d7-07c12ee5083b",
-      "name": "Окраинная Гмина Кузница",
-      "context": "blacksmith",
-      "type": "1",
-      "type_label": "",
-      "tier": 1,
-      "sprite": "img/shops/blacksmith.png",
-      "lat": 51.667766347184,
-      "lon": 35.643586270429,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1778776251,
-      "last_seen": 1779403679
-    },
-    {
-      "id": 983,
-      "uuid": "8088f072-0d03-4b69-bc09-c5b783f659ce",
-      "name": "Окраинная Гмина Кузница",
-      "context": "blacksmith",
-      "type": "1",
-      "type_label": "",
-      "tier": 1,
-      "sprite": "img/shops/blacksmith.png",
-      "lat": 51.665110105884,
-      "lon": 35.643544272042,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1778776233,
-      "last_seen": 1779403679
-    },
-    {
-      "id": 1067,
-      "uuid": "5c24a8f9-33d0-4800-815d-fa52541a726f",
-      "name": "Гнездовье драконов",
-      "context": "dragon_roost",
-      "type": "5",
-      "type_label": "",
-      "tier": 5,
-      "sprite": "img/shops/dragon_roost.png",
-      "lat": 51.669312076534,
-      "lon": 35.641125764356,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1778776263,
-      "last_seen": 1779403679
-    },
-    {
-      "id": 1030,
-      "uuid": "c842182d-39a3-4e8e-ab33-f8164b35c8cc",
-      "name": "Крепость гоблинов",
-      "context": "fort",
-      "type": "5",
-      "type_label": "",
-      "tier": 2,
-      "sprite": "img/shops/fort.png",
-      "lat": 51.66666316806,
-      "lon": 35.641227484385,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1778776251,
       "last_seen": 1779403679
     },
     {
@@ -36137,22 +37081,6 @@
       "last_seen": 1779064046
     },
     {
-      "id": 21,
-      "uuid": "4edf98ec-74b6-4685-868e-fe6ae4908fbf",
-      "name": "Магазин",
-      "context": "shop",
-      "type": "0",
-      "type_label": "",
-      "tier": 1,
-      "sprite": "img/shops/shop.png",
-      "lat": 51.656297614162,
-      "lon": 35.646415925352,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1778775012,
-      "last_seen": 1779064046
-    },
-    {
       "id": 15,
       "uuid": "ef8ad163-29bb-44a5-be09-72b0072d5b5c",
       "name": "Северный Аванпост Подземелье",
@@ -36163,22 +37091,6 @@
       "sprite": "img/shops/dungeon.png",
       "lat": 51.653384434423,
       "lon": 35.643810898981,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1778775012,
-      "last_seen": 1779064046
-    },
-    {
-      "id": 13,
-      "uuid": "0ff980b6-2dfe-440f-a564-27c1c3ecc854",
-      "name": "Северная Фазенда Питомник",
-      "context": "bestiary",
-      "type": "2",
-      "type_label": "",
-      "tier": 1,
-      "sprite": "img/shops/bestiary.png",
-      "lat": 51.655953406947,
-      "lon": 35.642992333542,
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
@@ -36569,38 +37481,6 @@
       "last_seen": 1779064017
     },
     {
-      "id": 132,
-      "uuid": "cd32f338-78d5-42c8-8a51-cbb749266840",
-      "name": "Кузница вл. Drake479",
-      "context": "blacksmith",
-      "type": "1",
-      "type_label": "",
-      "tier": 1,
-      "sprite": "img/shops/blacksmith.png",
-      "lat": 51.6575413,
-      "lon": 35.6545157,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1778775012,
-      "last_seen": 1779064017
-    },
-    {
-      "id": 92,
-      "uuid": "8d15dd25-6805-47c5-b0f2-1c7b70454711",
-      "name": "Магазин",
-      "context": "shop",
-      "type": "0",
-      "type_label": "",
-      "tier": 1,
-      "sprite": "img/shops/shop.png",
-      "lat": 51.656087643511,
-      "lon": 35.65348389202,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1778775012,
-      "last_seen": 1779064017
-    },
-    {
       "id": 85,
       "uuid": "7329f04f-286a-4b33-90e1-0e4fecac4322",
       "name": "Ювелир вл. Drake479",
@@ -36873,22 +37753,6 @@
       "last_seen": 1779064016
     },
     {
-      "id": 49,
-      "uuid": "04f13e75-d953-46e3-9b23-2ee0449f5bf1",
-      "name": "Застава вл. Drake479",
-      "context": "outpost",
-      "type": "9",
-      "type_label": "",
-      "tier": 1,
-      "sprite": "img/shops/outpost.png",
-      "lat": 51.655294241329,
-      "lon": 35.651901774108,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1778775012,
-      "last_seen": 1779064016
-    },
-    {
       "id": 48,
       "uuid": "e438981f-64de-454d-8f93-7d53bc7c233c",
       "name": "Застава вл. Drake479",
@@ -36947,22 +37811,6 @@
       "sprite": "img/shops/blacksmith.png",
       "lat": 51.653380532778,
       "lon": 35.650549937777,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1778775012,
-      "last_seen": 1779064016
-    },
-    {
-      "id": 38,
-      "uuid": "9f0e6297-8437-4fac-9aaa-af86c53af9a8",
-      "name": "Великое Гномье Староселье Магазин",
-      "context": "shop",
-      "type": "0",
-      "type_label": "",
-      "tier": 1,
-      "sprite": "img/shops/shop.png",
-      "lat": 51.656509726042,
-      "lon": 35.649821685732,
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775012,
@@ -39689,22 +40537,6 @@
       "last_seen": 1779064005
     },
     {
-      "id": 1877,
-      "uuid": "8dc0d132-2ac3-4aeb-ab80-e8d8b8a08b39",
-      "name": "Арканист",
-      "context": "arcanist",
-      "type": "7",
-      "type_label": "",
-      "tier": 1,
-      "sprite": "img/shops/arcanist.png",
-      "lat": 51.655417744328,
-      "lon": 35.662025884288,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1778804790,
-      "last_seen": 1779064005
-    },
-    {
       "id": 494,
       "uuid": "52538f45-9c80-4b62-9276-5507373662d1",
       "name": "Восставшая Морриган",
@@ -41401,38 +42233,6 @@
       "last_seen": 1779064005
     },
     {
-      "id": 269,
-      "uuid": "3067cc82-7bdb-4f58-a0b1-f0bd98294a7f",
-      "name": "Питомник",
-      "context": "bestiary",
-      "type": "2",
-      "type_label": "",
-      "tier": 1,
-      "sprite": "img/shops/bestiary.png",
-      "lat": 51.65737360109,
-      "lon": 35.661742768063,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1778775013,
-      "last_seen": 1779064005
-    },
-    {
-      "id": 268,
-      "uuid": "5494b37a-08ea-4724-91ff-8a6f59e28761",
-      "name": "Арканист",
-      "context": "arcanist",
-      "type": "7",
-      "type_label": "",
-      "tier": 1,
-      "sprite": "img/shops/arcanist.png",
-      "lat": 51.656655115167,
-      "lon": 35.661674830256,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1778775013,
-      "last_seen": 1779064005
-    },
-    {
       "id": 265,
       "uuid": "6e636c0a-38ac-4a9e-a6da-409d05472ae2",
       "name": "Алхимик",
@@ -41443,38 +42243,6 @@
       "sprite": "img/shops/alchemist.png",
       "lat": 51.651470018516,
       "lon": 35.661197604676,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1778775013,
-      "last_seen": 1779064005
-    },
-    {
-      "id": 263,
-      "uuid": "6c85457d-af02-457e-9dfa-3e2be566e6f1",
-      "name": "Вышний Озёрный Улус Магазин",
-      "context": "shop",
-      "type": "0",
-      "type_label": "",
-      "tier": 1,
-      "sprite": "img/shops/shop.png",
-      "lat": 51.655324087488,
-      "lon": 35.660710599574,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1778775013,
-      "last_seen": 1779064005
-    },
-    {
-      "id": 261,
-      "uuid": "c732808a-6bf8-46d8-af05-c4bed5fb9f8d",
-      "name": "Резервация Шушохенус Магазин",
-      "context": "shop",
-      "type": "0",
-      "type_label": "",
-      "tier": 1,
-      "sprite": "img/shops/shop.png",
-      "lat": 51.656732969515,
-      "lon": 35.660294627904,
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778775013,
@@ -43878,38 +44646,6 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1778804760,
-      "last_seen": 1779063987
-    },
-    {
-      "id": 1780,
-      "uuid": "8773ed7a-f1bc-473c-b91f-52cc014950bc",
-      "name": "Подземелье",
-      "context": "dungeon",
-      "type": "5",
-      "type_label": "",
-      "tier": 1,
-      "sprite": "img/shops/dungeon.png",
-      "lat": 51.66081249102,
-      "lon": 35.664253123497,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1778796662,
-      "last_seen": 1779063987
-    },
-    {
-      "id": 1776,
-      "uuid": "9c8d2d1e-047b-48ce-8a96-e771fa15d96b",
-      "name": "Кузница",
-      "context": "blacksmith",
-      "type": "1",
-      "type_label": "",
-      "tier": 1,
-      "sprite": "img/shops/blacksmith.png",
-      "lat": 51.660229965283,
-      "lon": 35.662879161415,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1778796662,
       "last_seen": 1779063987
     },
     {
@@ -50169,38 +50905,6 @@
       "last_seen": 1779063488
     },
     {
-      "id": 1868,
-      "uuid": "1bdbcf37-991e-4cdb-a5d2-bc376ac4eaaf",
-      "name": "Восточный Слизнячий Улус Гостиница",
-      "context": "inn",
-      "type": "4",
-      "type_label": "",
-      "tier": 1,
-      "sprite": "img/shops/inn.png",
-      "lat": 51.67011643614,
-      "lon": 35.665694784126,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1778804760,
-      "last_seen": 1779063488
-    },
-    {
-      "id": 1781,
-      "uuid": "2a48b41f-639a-4b2a-b58a-424b4eecabd2",
-      "name": "Пограничное Местечко Магазин",
-      "context": "shop",
-      "type": "0",
-      "type_label": "",
-      "tier": 1,
-      "sprite": "img/shops/shop.png",
-      "lat": 51.662126075151,
-      "lon": 35.664444825081,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1778796662,
-      "last_seen": 1779063488
-    },
-    {
       "id": 1970,
       "uuid": "ab75eb56-9d79-415d-9fda-39bcb9abae93",
       "name": "Высшая эльфийка Сала",
@@ -50249,38 +50953,6 @@
       "last_seen": 1779063471
     },
     {
-      "id": 1779,
-      "uuid": "af9a37bf-e925-4b29-b410-8910efd0c8bd",
-      "name": "Усадьба Шуабрзаэс Алхимик",
-      "context": "alchemist",
-      "type": "6",
-      "type_label": "",
-      "tier": 1,
-      "sprite": "img/shops/alchemist.png",
-      "lat": 51.668445342415,
-      "lon": 35.663866361497,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1778796662,
-      "last_seen": 1779063471
-    },
-    {
-      "id": 1778,
-      "uuid": "9df04d7e-15a8-4746-ad13-f1ca80929fb2",
-      "name": "Пограничное Местечко Кузница",
-      "context": "blacksmith",
-      "type": "1",
-      "type_label": "",
-      "tier": 1,
-      "sprite": "img/shops/blacksmith.png",
-      "lat": 51.662415493307,
-      "lon": 35.66327540077,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1778796662,
-      "last_seen": 1779063471
-    },
-    {
       "id": 1952,
       "uuid": "poi:2ab36ad9-8f06-499f-8ed5-c369c9596511",
       "name": "Монумент Тора",
@@ -50310,38 +50982,6 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779063392,
-      "last_seen": 1779063470
-    },
-    {
-      "id": 1777,
-      "uuid": "b5b22d5d-c252-4875-9239-13225a7a1ee4",
-      "name": "Пограничное Местечко Магазин",
-      "context": "shop",
-      "type": "0",
-      "type_label": "",
-      "tier": 1,
-      "sprite": "img/shops/shop.png",
-      "lat": 51.662502967458,
-      "lon": 35.663057805978,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1778796662,
-      "last_seen": 1779063470
-    },
-    {
-      "id": 1775,
-      "uuid": "53681da1-9428-4f42-9e90-09cd32592932",
-      "name": "Пограничное Местечко Гостиница",
-      "context": "inn",
-      "type": "4",
-      "type_label": "",
-      "tier": 1,
-      "sprite": "img/shops/inn.png",
-      "lat": 51.662801815415,
-      "lon": 35.662706639365,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1778796662,
       "last_seen": 1779063470
     },
     {
@@ -50455,38 +51095,6 @@
       "is_raid": 0,
       "first_seen": 1779063396,
       "last_seen": 1779063441
-    },
-    {
-      "id": 1783,
-      "uuid": "0e7ae0a7-3c16-4eb5-b4e6-34583b59fa93",
-      "name": "Ювелир вл. Drake479",
-      "context": "jeweller",
-      "type": "11",
-      "type_label": "",
-      "tier": 1,
-      "sprite": "img/shops/jeweller.png",
-      "lat": 51.669462186342,
-      "lon": 35.653621070087,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1778800284,
-      "last_seen": 1779063441
-    },
-    {
-      "id": 1767,
-      "uuid": "3a077f2e-37f3-4d12-9b42-87ba609a946d",
-      "name": "Аванпост Лагувуми Гостиница",
-      "context": "inn",
-      "type": "4",
-      "type_label": "",
-      "tier": 1,
-      "sprite": "img/shops/inn.png",
-      "lat": 51.668957660991,
-      "lon": 35.652251503225,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1778796661,
-      "last_seen": 1779063440
     },
     {
       "id": 1983,
