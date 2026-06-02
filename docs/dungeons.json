@@ -1,7 +1,217 @@
 {
-  "generated": 1780356897,
-  "count": 4432,
+  "generated": 1780423480,
+  "count": 4434,
   "objects": [
+    {
+      "uuid": "f6aa2ca1-0759-4b93-9c02-dea9fce0d64f",
+      "name": "Гермес",
+      "context": "npc",
+      "type": "npc",
+      "type_label": "",
+      "tier": 1,
+      "sprite": "img/npcs/merchant.png",
+      "lat": 51.68193483227079,
+      "lon": 35.60328935035997,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1780423471,
+      "last_seen": 1780423471
+    },
+    {
+      "uuid": "8c651f35-7f1a-4adf-9d9f-38e3922e50b7",
+      "name": "Легионер Булыга",
+      "context": "npc",
+      "type": "npc",
+      "type_label": "",
+      "tier": 4,
+      "sprite": "img/npcs/legionnaire_boulder.png",
+      "lat": 51.67597500760856,
+      "lon": 35.58430600839798,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1780423471,
+      "last_seen": 1780423471
+    },
+    {
+      "uuid": "poi:932be00e-b03d-40bc-ac35-90bf3e389adf",
+      "name": "Монумент Деметры",
+      "context": "monument",
+      "type": "monument",
+      "type_label": "",
+      "tier": 0,
+      "sprite": "img/shops/monument_demeter.png",
+      "lat": 51.67838171539321,
+      "lon": 35.59187705088908,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1780423471,
+      "last_seen": 1780423471
+    },
+    {
+      "uuid": "58feb5c6-3c32-44ee-9e60-3643ba7a084a",
+      "name": "Борр",
+      "context": "npc",
+      "type": "npc",
+      "type_label": "",
+      "tier": 10,
+      "sprite": "img/npcs/borr.png",
+      "lat": 51.6798985948419,
+      "lon": 35.58995302439369,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1780423471,
+      "last_seen": 1780423471
+    },
+    {
+      "uuid": "poi:7453737b-d16c-4f2e-afc2-72ef522f8904",
+      "name": "Монумент Тора",
+      "context": "monument",
+      "type": "monument",
+      "type_label": "",
+      "tier": 0,
+      "sprite": "img/shops/monument_thor.png",
+      "lat": 51.68240452914005,
+      "lon": 35.58698180050286,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1780423471,
+      "last_seen": 1780423471
+    },
+    {
+      "uuid": "poi:24bf7936-6127-44ec-b5a6-f7f0f8abecd1",
+      "name": "Монумент Итры",
+      "context": "monument",
+      "type": "monument",
+      "type_label": "",
+      "tier": 0,
+      "sprite": "img/shops/monument_ithra.png",
+      "lat": 51.687663311143105,
+      "lon": 35.582504711079565,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1780423471,
+      "last_seen": 1780423471
+    },
+    {
+      "uuid": "poi:dc89963f-2e6a-4347-abc6-a415a9faa662",
+      "name": "Башня Темис",
+      "context": "tower",
+      "type": "tower",
+      "type_label": "",
+      "tier": 0,
+      "sprite": "img/towers/2_3.png",
+      "lat": 51.687879013653266,
+      "lon": 35.604001800697816,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1780423471,
+      "last_seen": 1780423471
+    },
+    {
+      "uuid": "poi:d0a2d5c9-d679-43f4-a4c9-96c202dc3cb9",
+      "name": "Башня Эос",
+      "context": "tower",
+      "type": "tower",
+      "type_label": "",
+      "tier": 0,
+      "sprite": "img/towers/4_3.png",
+      "lat": 51.68544044071572,
+      "lon": 35.58376012236478,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1780423471,
+      "last_seen": 1780423471
+    },
+    {
+      "uuid": "84dbda75-aa01-4a3c-8485-4b27e4a19222",
+      "name": "Гермес",
+      "context": "npc",
+      "type": "npc",
+      "type_label": "",
+      "tier": 1,
+      "sprite": "img/npcs/merchant.png",
+      "lat": 51.689127547091545,
+      "lon": 35.5941878617692,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1780423471,
+      "last_seen": 1780423471
+    },
+    {
+      "uuid": "f7234e44-178a-4a52-919d-154ada49257c",
+      "name": "Бореал из Стражей Льда",
+      "context": "npc",
+      "type": "npc",
+      "type_label": "",
+      "tier": 4,
+      "sprite": "img/npcs/frost_mage_boreal.png",
+      "lat": 51.690304622230705,
+      "lon": 35.579733639059754,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1780423471,
+      "last_seen": 1780423471
+    },
+    {
+      "uuid": "ce1dcc9f-47f3-4f66-b708-119054a5977b",
+      "name": "Бард Алдон",
+      "context": "npc",
+      "type": "npc",
+      "type_label": "",
+      "tier": 2,
+      "sprite": "img/npcs/bard.png",
+      "lat": 51.68257604080772,
+      "lon": 35.57717565900761,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1780423471,
+      "last_seen": 1780423471
+    },
+    {
+      "uuid": "poi:bd463e78-54a4-44a8-8cf4-daee73c4a013",
+      "name": "Монумент Деметры",
+      "context": "monument",
+      "type": "monument",
+      "type_label": "",
+      "tier": 0,
+      "sprite": "img/shops/monument_demeter.png",
+      "lat": 51.678123655945264,
+      "lon": 35.580146653078984,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1780423471,
+      "last_seen": 1780423471
+    },
+    {
+      "uuid": "b64b20b5-62a9-4e68-9bc3-824cbafcef25",
+      "name": "Головастик-легенда",
+      "context": "discovery_item",
+      "type": "discovery_item",
+      "type_label": "",
+      "tier": 0,
+      "sprite": "img/useables/aspect14.png",
+      "lat": 51.66215807356769,
+      "lon": 35.65646327838837,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1780423471,
+      "last_seen": 1780423471
+    },
+    {
+      "uuid": "ephemeral:5e4c63cb-8718-4657-b493-65448e85ff2f",
+      "name": "Nimue's Lake",
+      "context": "monument",
+      "type": "monument",
+      "type_label": "",
+      "tier": 0,
+      "sprite": "img/shops/monument_avalon.png",
+      "lat": 51.65396288119736,
+      "lon": 35.69419105517594,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1780423471,
+      "last_seen": 1780423471
+    },
     {
       "id": 4081,
       "uuid": "c131c899-34f2-4a8c-97e0-5f06032072f6",
@@ -67,22 +277,6 @@
       "last_seen": 1780356895
     },
     {
-      "id": 4181,
-      "uuid": "f6aa2ca1-0759-4b93-9c02-dea9fce0d64f",
-      "name": "Гермес",
-      "context": "npc",
-      "type": "npc",
-      "type_label": "",
-      "tier": 1,
-      "sprite": "img/npcs/merchant.png",
-      "lat": 51.68193483227079,
-      "lon": 35.60328935035997,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1780356710,
-      "last_seen": 1780356895
-    },
-    {
       "id": 4241,
       "uuid": "f3c840fd-0241-4d42-b1a2-cd8290cd1df1",
       "name": "Энид из Аннуна",
@@ -93,22 +287,6 @@
       "sprite": "img/npcs/enid.png",
       "lat": 51.687730217088905,
       "lon": 35.60792594957664,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1780356753,
-      "last_seen": 1780356895
-    },
-    {
-      "id": 4240,
-      "uuid": "8c651f35-7f1a-4adf-9d9f-38e3922e50b7",
-      "name": "Легионер Булыга",
-      "context": "npc",
-      "type": "npc",
-      "type_label": "",
-      "tier": 4,
-      "sprite": "img/npcs/legionnaire_boulder.png",
-      "lat": 51.67597500760856,
-      "lon": 35.58430600839798,
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1780356753,
@@ -355,22 +533,6 @@
       "last_seen": 1780356895
     },
     {
-      "id": 4203,
-      "uuid": "poi:932be00e-b03d-40bc-ac35-90bf3e389adf",
-      "name": "Монумент Деметры",
-      "context": "monument",
-      "type": "monument",
-      "type_label": "",
-      "tier": 0,
-      "sprite": "img/shops/monument_demeter.png",
-      "lat": 51.67838171539321,
-      "lon": 35.59187705088908,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1780356729,
-      "last_seen": 1780356895
-    },
-    {
       "id": 4238,
       "uuid": "7898f152-f268-4e71-87b2-d943b8308c01",
       "name": "Беатрис",
@@ -384,102 +546,6 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1780356753,
-      "last_seen": 1780356895
-    },
-    {
-      "id": 4234,
-      "uuid": "58feb5c6-3c32-44ee-9e60-3643ba7a084a",
-      "name": "Борр",
-      "context": "npc",
-      "type": "npc",
-      "type_label": "",
-      "tier": 10,
-      "sprite": "img/npcs/borr.png",
-      "lat": 51.6798985948419,
-      "lon": 35.58995302439369,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1780356753,
-      "last_seen": 1780356895
-    },
-    {
-      "id": 4232,
-      "uuid": "poi:7453737b-d16c-4f2e-afc2-72ef522f8904",
-      "name": "Монумент Тора",
-      "context": "monument",
-      "type": "monument",
-      "type_label": "",
-      "tier": 0,
-      "sprite": "img/shops/monument_thor.png",
-      "lat": 51.68240452914005,
-      "lon": 35.58698180050286,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1780356753,
-      "last_seen": 1780356895
-    },
-    {
-      "id": 4231,
-      "uuid": "poi:24bf7936-6127-44ec-b5a6-f7f0f8abecd1",
-      "name": "Монумент Итры",
-      "context": "monument",
-      "type": "monument",
-      "type_label": "",
-      "tier": 0,
-      "sprite": "img/shops/monument_ithra.png",
-      "lat": 51.687663311143105,
-      "lon": 35.582504711079565,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1780356753,
-      "last_seen": 1780356895
-    },
-    {
-      "id": 4229,
-      "uuid": "poi:dc89963f-2e6a-4347-abc6-a415a9faa662",
-      "name": "Башня Темис",
-      "context": "tower",
-      "type": "tower",
-      "type_label": "",
-      "tier": 0,
-      "sprite": "img/towers/2_3.png",
-      "lat": 51.687879013653266,
-      "lon": 35.604001800697816,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1780356753,
-      "last_seen": 1780356895
-    },
-    {
-      "id": 4228,
-      "uuid": "poi:d0a2d5c9-d679-43f4-a4c9-96c202dc3cb9",
-      "name": "Башня Эос",
-      "context": "tower",
-      "type": "tower",
-      "type_label": "",
-      "tier": 0,
-      "sprite": "img/towers/4_2.png",
-      "lat": 51.68544044071572,
-      "lon": 35.58376012236478,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1780356753,
-      "last_seen": 1780356895
-    },
-    {
-      "id": 4251,
-      "uuid": "84dbda75-aa01-4a3c-8485-4b27e4a19222",
-      "name": "Гермес",
-      "context": "npc",
-      "type": "npc",
-      "type_label": "",
-      "tier": 1,
-      "sprite": "img/npcs/merchant.png",
-      "lat": 51.689127547091545,
-      "lon": 35.5941878617692,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1780356776,
       "last_seen": 1780356895
     },
     {
@@ -509,54 +575,6 @@
       "sprite": "img/npcs/man1.png",
       "lat": 51.69423365197852,
       "lon": 35.59414979156795,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1780356776,
-      "last_seen": 1780356895
-    },
-    {
-      "id": 4248,
-      "uuid": "f7234e44-178a-4a52-919d-154ada49257c",
-      "name": "Бореал из Стражей Льда",
-      "context": "npc",
-      "type": "npc",
-      "type_label": "",
-      "tier": 4,
-      "sprite": "img/npcs/frost_mage_boreal.png",
-      "lat": 51.690304622230705,
-      "lon": 35.579733639059754,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1780356776,
-      "last_seen": 1780356895
-    },
-    {
-      "id": 4247,
-      "uuid": "ce1dcc9f-47f3-4f66-b708-119054a5977b",
-      "name": "Бард Алдон",
-      "context": "npc",
-      "type": "npc",
-      "type_label": "",
-      "tier": 2,
-      "sprite": "img/npcs/bard.png",
-      "lat": 51.68257604080772,
-      "lon": 35.57717565900761,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1780356776,
-      "last_seen": 1780356895
-    },
-    {
-      "id": 4246,
-      "uuid": "poi:bd463e78-54a4-44a8-8cf4-daee73c4a013",
-      "name": "Монумент Деметры",
-      "context": "monument",
-      "type": "monument",
-      "type_label": "",
-      "tier": 0,
-      "sprite": "img/shops/monument_demeter.png",
-      "lat": 51.678123655945264,
-      "lon": 35.580146653078984,
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1780356776,
@@ -43743,7 +43761,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566503
+      "last_seen": 1779566562
     },
     {
       "uuid": "804e1b7a-5d60-4668-8faf-21f35484cb0c",
@@ -43758,7 +43776,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566503
+      "last_seen": 1779566562
     },
     {
       "uuid": "e8520599-0dfb-4cda-8e23-cc915c136022",
@@ -43773,7 +43791,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566503
+      "last_seen": 1779566562
     },
     {
       "uuid": "f89d0104-a004-45e4-b7d5-43bbc907e9e8",
@@ -43788,7 +43806,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566503
+      "last_seen": 1779566562
     },
     {
       "uuid": "d8dccb8f-3778-4dae-9ed8-7bbcd0dd0e0d",
@@ -43803,7 +43821,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566503
+      "last_seen": 1779566562
     },
     {
       "uuid": "297c5b7c-5ef3-4c7b-b405-ce6bf12e29b0",
@@ -43818,7 +43836,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566503
+      "last_seen": 1779566562
     },
     {
       "uuid": "ca2362c8-4093-4168-9ae7-2cce3765b5e0",
@@ -43833,7 +43851,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566503
+      "last_seen": 1779566562
     },
     {
       "uuid": "b2d03e15-83ee-4c5e-a2cf-aaeb55fb8cd0",
@@ -43848,7 +43866,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566503
+      "last_seen": 1779566562
     },
     {
       "uuid": "51ba77ba-aad5-4c9c-82e9-312d5c885e3f",
@@ -43863,7 +43881,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566503
+      "last_seen": 1779566562
     },
     {
       "uuid": "e9d5d015-5300-48bb-ac02-5beb8ec3579c",
@@ -43878,7 +43896,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566503
+      "last_seen": 1779566562
     },
     {
       "uuid": "bdbb06b9-8b41-4884-807c-f7a9b823c605",
@@ -43893,7 +43911,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566503
+      "last_seen": 1779566562
     },
     {
       "uuid": "91b9505a-1c48-4c23-b6e6-3f4db0959ab4",
@@ -43908,7 +43926,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566503
+      "last_seen": 1779566562
     },
     {
       "uuid": "a778dd00-8f49-4f6f-bd2d-b6c8ee09288e",
@@ -43923,7 +43941,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566503
+      "last_seen": 1779566562
     },
     {
       "uuid": "1ff1e8d1-c205-48d2-8e05-3576947dda94",
@@ -43938,7 +43956,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566503
+      "last_seen": 1779566562
     },
     {
       "uuid": "f2a8a406-6f84-48f8-921f-9a59588945fd",
@@ -43953,7 +43971,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566503
+      "last_seen": 1779566562
     },
     {
       "uuid": "7f61d2cc-2305-449b-8f11-8bec705c6273",
@@ -43968,7 +43986,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566503
+      "last_seen": 1779566562
     },
     {
       "uuid": "e53bfc94-3ec9-4088-a9fc-8fd009e72d57",
@@ -43983,7 +44001,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566503
+      "last_seen": 1779566562
     },
     {
       "uuid": "8ba885ea-82e7-44f3-a011-57a9364d289c",
@@ -43998,7 +44016,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566503
+      "last_seen": 1779566562
     },
     {
       "uuid": "b11b1817-6297-4de5-b27b-e5ab6dd6a7f2",
@@ -44013,7 +44031,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566503
+      "last_seen": 1779566562
     },
     {
       "uuid": "b93fbe58-c03d-4ed6-b8f1-6e12f4479ac2",
@@ -44028,7 +44046,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566503
+      "last_seen": 1779566562
     },
     {
       "uuid": "747bc706-5c46-404f-be9b-2a78ebf52422",
@@ -44043,7 +44061,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566503
+      "last_seen": 1779566562
     },
     {
       "uuid": "174fc7ad-2ff3-49f0-b40b-f80a8d04c928",
@@ -44058,7 +44076,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566503
+      "last_seen": 1779566562
     },
     {
       "uuid": "300f3cbf-15df-4eb1-be19-91954f5ea02d",
@@ -44073,7 +44091,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566503
+      "last_seen": 1779566562
     },
     {
       "uuid": "d7b76682-fb54-4d97-bc15-d5452327c6c5",
@@ -44088,7 +44106,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566503
+      "last_seen": 1779566562
     },
     {
       "uuid": "e24d62ac-bb64-4ecb-8a89-fdffb9c2695a",
@@ -44103,7 +44121,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566503
+      "last_seen": 1779566562
     },
     {
       "uuid": "4a2281ec-7d3e-4164-a28f-646257a7a1e2",
@@ -44118,7 +44136,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566503
+      "last_seen": 1779566562
     },
     {
       "uuid": "06c1680d-97a2-4668-816f-e915bf07d13a",
@@ -44133,7 +44151,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566503
+      "last_seen": 1779566562
     },
     {
       "uuid": "6d5e5b67-585a-4536-8300-7629e51e4917",
@@ -44148,7 +44166,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566503
+      "last_seen": 1779566562
     },
     {
       "uuid": "6aa98c8a-ee87-4702-85c9-936e6e743044",
@@ -44163,7 +44181,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566503
+      "last_seen": 1779566562
     },
     {
       "uuid": "492ad127-74bd-4955-9553-5b6f4d539d75",
@@ -44178,7 +44196,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566503
+      "last_seen": 1779566562
     },
     {
       "uuid": "f731060f-7c27-450f-b77f-e12ad8b7146f",
@@ -44193,7 +44211,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566503
+      "last_seen": 1779566562
     },
     {
       "uuid": "ddf59ec8-7535-4bdb-bbf0-d9f2bdd50b20",
@@ -44208,7 +44226,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566503
+      "last_seen": 1779566562
     },
     {
       "uuid": "e39e3bb6-e07b-4761-84a2-b820488f990a",
@@ -44223,7 +44241,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566503
+      "last_seen": 1779566562
     },
     {
       "uuid": "9ba8366d-5025-47ad-b79f-bf50ddc1680e",
@@ -44238,7 +44256,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566503
+      "last_seen": 1779566562
     },
     {
       "uuid": "0210b7a0-c75e-4377-aa4f-3e77bdef1178",
@@ -44253,7 +44271,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566503
+      "last_seen": 1779566562
     },
     {
       "uuid": "b6cee305-35b0-48a5-b2b8-fdb9100fa025",
@@ -44268,7 +44286,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566503
+      "last_seen": 1779566562
     },
     {
       "uuid": "39c3765d-0999-4af5-981a-dc103941aaf9",
@@ -44283,7 +44301,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566503
+      "last_seen": 1779566562
     },
     {
       "uuid": "aebae4d1-20e7-476b-9561-5b0132bc9c3c",
@@ -44298,7 +44316,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566503
+      "last_seen": 1779566562
     },
     {
       "uuid": "bf71f301-e012-43e9-8196-7130ca774380",
@@ -44313,7 +44331,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566503
+      "last_seen": 1779566562
     },
     {
       "uuid": "1df702ce-8105-478d-bc52-b79ba9b144d1",
@@ -44328,7 +44346,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566503
+      "last_seen": 1779566562
     },
     {
       "uuid": "f246c162-833f-4128-8ec3-f2be8b1248bd",
@@ -44343,7 +44361,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566503
+      "last_seen": 1779566562
     },
     {
       "uuid": "c85fbe56-829d-4b11-b2e8-057256fe7d41",
@@ -44358,7 +44376,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566503
+      "last_seen": 1779566562
     },
     {
       "uuid": "bcba75b9-8621-4ed0-995f-20b16b3853f0",
@@ -44373,7 +44391,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566503
+      "last_seen": 1779566562
     },
     {
       "uuid": "1a88b4f2-a0b2-4a3b-8166-6cd723fac412",
@@ -44388,7 +44406,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566503
+      "last_seen": 1779566562
     },
     {
       "uuid": "651ff630-7a17-42e7-b2be-d1d7815ca232",
@@ -44403,7 +44421,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566503
+      "last_seen": 1779566562
     },
     {
       "uuid": "74e28072-addb-49e3-a1e1-5a1a3c07d815",
@@ -44418,7 +44436,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566503
+      "last_seen": 1779566562
     },
     {
       "uuid": "94649e3d-2c9d-4b62-9f4b-7d9599d96993",
@@ -44433,7 +44451,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566503
+      "last_seen": 1779566562
     },
     {
       "uuid": "d557261b-6d5e-42e4-b6fa-b492bab041b2",
@@ -44448,7 +44466,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566503
+      "last_seen": 1779566562
     },
     {
       "uuid": "15215226-c9f8-44a5-8ccb-6c5a9c83166a",
@@ -44463,7 +44481,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566503
+      "last_seen": 1779566562
     },
     {
       "uuid": "ff5df0fb-6928-41ee-ae10-d8602b7de611",
@@ -44478,7 +44496,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566503
+      "last_seen": 1779566562
     },
     {
       "uuid": "5fdc2287-08da-442f-9f96-6ed13dc66836",
@@ -44493,7 +44511,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566503
+      "last_seen": 1779566562
     },
     {
       "uuid": "06bb28dd-bce3-453d-b9bb-79071f0ca58e",
@@ -44508,7 +44526,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566503
+      "last_seen": 1779566562
     },
     {
       "uuid": "eaa32adc-51eb-4176-92aa-448df87a1f24",
@@ -44523,7 +44541,7 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566503
+      "last_seen": 1779566562
     },
     {
       "uuid": "ae7b6c57-70bb-460b-abad-acf04019f698",
@@ -44538,7 +44556,217 @@
       "is_boss": 0,
       "is_raid": 0,
       "first_seen": 1779566446,
-      "last_seen": 1779566502
+      "last_seen": 1779566562
+    },
+    {
+      "uuid": "48579815-beeb-4a14-9fd8-9a8ca30b01fb",
+      "name": "Гермес",
+      "context": "npc",
+      "type": "npc",
+      "type_label": "",
+      "tier": 1,
+      "sprite": "img/npcs/merchant.png",
+      "lat": 51.66122114465288,
+      "lon": 35.68148401238913,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1779566442,
+      "last_seen": 1779566562
+    },
+    {
+      "uuid": "348b7583-2c0f-4f74-9122-3bbb996f1ab4",
+      "name": "Бард Алдон",
+      "context": "npc",
+      "type": "npc",
+      "type_label": "",
+      "tier": 2,
+      "sprite": "img/npcs/bard.png",
+      "lat": 51.652994189552224,
+      "lon": 35.67628582545511,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1779566442,
+      "last_seen": 1779566562
+    },
+    {
+      "uuid": "3cc7041d-8e79-49be-a71f-12a14e740feb",
+      "name": "Дадли",
+      "context": "npc",
+      "type": "npc",
+      "type_label": "",
+      "tier": 3,
+      "sprite": "img/npcs/dwarf.png",
+      "lat": 51.655062740407374,
+      "lon": 35.687868257301204,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1779566442,
+      "last_seen": 1779566562
+    },
+    {
+      "uuid": "ebba92a0-52a7-4812-a151-986eb7cfb2ef",
+      "name": "Рыцарь Артифис",
+      "context": "npc",
+      "type": "npc",
+      "type_label": "",
+      "tier": 6,
+      "sprite": "img/npcs/artifice.png",
+      "lat": 51.65942049339283,
+      "lon": 35.686067805837496,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1779566442,
+      "last_seen": 1779566562
+    },
+    {
+      "uuid": "cbd74f91-161e-41aa-a79a-5a5717711cdb",
+      "name": "Бард Алдон",
+      "context": "npc",
+      "type": "npc",
+      "type_label": "",
+      "tier": 2,
+      "sprite": "img/npcs/bard.png",
+      "lat": 51.659406553479194,
+      "lon": 35.69347403800859,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1779566442,
+      "last_seen": 1779566562
+    },
+    {
+      "uuid": "poi:767c6f5f-b3a0-42a8-8fbc-8aee0a75ca74",
+      "name": "Монумент Вулкана",
+      "context": "monument",
+      "type": "monument",
+      "type_label": "",
+      "tier": 0,
+      "sprite": "img/shops/monument_vulcan.png",
+      "lat": 51.650930415129835,
+      "lon": 35.6965998934218,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1779566442,
+      "last_seen": 1779566562
+    },
+    {
+      "uuid": "0bbae3a5-f9ef-49c6-a3dd-d5d83fb110ea",
+      "name": "Энид из Аннуна",
+      "context": "npc",
+      "type": "npc",
+      "type_label": "",
+      "tier": 8,
+      "sprite": "img/npcs/enid.png",
+      "lat": 51.642507720436036,
+      "lon": 35.70708891362976,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1779566442,
+      "last_seen": 1779566562
+    },
+    {
+      "uuid": "445be39d-d242-460d-949f-f6c1193a36a8",
+      "name": "Сэр Балин",
+      "context": "npc",
+      "type": "npc",
+      "type_label": "",
+      "tier": 7,
+      "sprite": "img/npcs/balin.png",
+      "lat": 51.649220200199906,
+      "lon": 35.706809212001204,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1779566442,
+      "last_seen": 1779566562
+    },
+    {
+      "uuid": "853bf032-bb90-4dac-9f10-5b7c6775ce2f",
+      "name": "Беатрис",
+      "context": "npc",
+      "type": "npc",
+      "type_label": "",
+      "tier": 2,
+      "sprite": "img/npcs/magic_woman1.png",
+      "lat": 51.644512538115976,
+      "lon": 35.70439677092346,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1779566442,
+      "last_seen": 1779566562
+    },
+    {
+      "uuid": "0f603d4e-3d37-4b20-a3ad-5c18843107bc",
+      "name": "Руж",
+      "context": "npc",
+      "type": "npc",
+      "type_label": "",
+      "tier": 6,
+      "sprite": "img/npcs/rouge.png",
+      "lat": 51.64818943971189,
+      "lon": 35.70347924193018,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1779566442,
+      "last_seen": 1779566562
+    },
+    {
+      "uuid": "1e429777-d8aa-46bc-bdd0-534af28b2136",
+      "name": "Хорус",
+      "context": "npc",
+      "type": "npc",
+      "type_label": "",
+      "tier": 7,
+      "sprite": "img/npcs/winged_m.png",
+      "lat": 51.66120632097996,
+      "lon": 35.701176433929,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1779566442,
+      "last_seen": 1779566562
+    },
+    {
+      "uuid": "poi:80607490-f18c-4432-97e2-8d9217b03e39",
+      "name": "Монумент Тора",
+      "context": "monument",
+      "type": "monument",
+      "type_label": "",
+      "tier": 0,
+      "sprite": "img/shops/monument_thor.png",
+      "lat": 51.66044496132145,
+      "lon": 35.70230925585669,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1779566442,
+      "last_seen": 1779566562
+    },
+    {
+      "uuid": "f624e2af-67f0-410a-b86b-8d3a87acf3ef",
+      "name": "Гейл из Воителей Бури",
+      "context": "npc",
+      "type": "npc",
+      "type_label": "",
+      "tier": 4,
+      "sprite": "img/npcs/storm_knight_gale.png",
+      "lat": 51.64594682019327,
+      "lon": 35.71072003993175,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1779566442,
+      "last_seen": 1779566562
+    },
+    {
+      "uuid": "4e29c35a-038e-4b92-b7a8-c2f51b07df40",
+      "name": "Пиролит",
+      "context": "discovery_item",
+      "type": "discovery_item",
+      "type_label": "",
+      "tier": 0,
+      "sprite": "img/materials/fire_stone.png",
+      "lat": 51.65484958158164,
+      "lon": 35.69354120572221,
+      "is_boss": 0,
+      "is_raid": 0,
+      "first_seen": 1779566442,
+      "last_seen": 1779566562
     },
     {
       "uuid": "20a39577-d02a-42aa-a3d5-922591660aea",
@@ -45993,216 +46221,6 @@
       "is_boss": 1,
       "is_raid": 1,
       "first_seen": 1779566490,
-      "last_seen": 1779566502
-    },
-    {
-      "uuid": "48579815-beeb-4a14-9fd8-9a8ca30b01fb",
-      "name": "Гермес",
-      "context": "npc",
-      "type": "npc",
-      "type_label": "",
-      "tier": 1,
-      "sprite": "img/npcs/merchant.png",
-      "lat": 51.66122114465288,
-      "lon": 35.68148401238913,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1779566442,
-      "last_seen": 1779566502
-    },
-    {
-      "uuid": "348b7583-2c0f-4f74-9122-3bbb996f1ab4",
-      "name": "Бард Алдон",
-      "context": "npc",
-      "type": "npc",
-      "type_label": "",
-      "tier": 2,
-      "sprite": "img/npcs/bard.png",
-      "lat": 51.652994189552224,
-      "lon": 35.67628582545511,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1779566442,
-      "last_seen": 1779566502
-    },
-    {
-      "uuid": "3cc7041d-8e79-49be-a71f-12a14e740feb",
-      "name": "Дадли",
-      "context": "npc",
-      "type": "npc",
-      "type_label": "",
-      "tier": 3,
-      "sprite": "img/npcs/dwarf.png",
-      "lat": 51.655062740407374,
-      "lon": 35.687868257301204,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1779566442,
-      "last_seen": 1779566502
-    },
-    {
-      "uuid": "ebba92a0-52a7-4812-a151-986eb7cfb2ef",
-      "name": "Рыцарь Артифис",
-      "context": "npc",
-      "type": "npc",
-      "type_label": "",
-      "tier": 6,
-      "sprite": "img/npcs/artifice.png",
-      "lat": 51.65942049339283,
-      "lon": 35.686067805837496,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1779566442,
-      "last_seen": 1779566502
-    },
-    {
-      "uuid": "cbd74f91-161e-41aa-a79a-5a5717711cdb",
-      "name": "Бард Алдон",
-      "context": "npc",
-      "type": "npc",
-      "type_label": "",
-      "tier": 2,
-      "sprite": "img/npcs/bard.png",
-      "lat": 51.659406553479194,
-      "lon": 35.69347403800859,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1779566442,
-      "last_seen": 1779566502
-    },
-    {
-      "uuid": "poi:767c6f5f-b3a0-42a8-8fbc-8aee0a75ca74",
-      "name": "Монумент Вулкана",
-      "context": "monument",
-      "type": "monument",
-      "type_label": "",
-      "tier": 0,
-      "sprite": "img/shops/monument_vulcan.png",
-      "lat": 51.650930415129835,
-      "lon": 35.6965998934218,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1779566442,
-      "last_seen": 1779566502
-    },
-    {
-      "uuid": "0bbae3a5-f9ef-49c6-a3dd-d5d83fb110ea",
-      "name": "Энид из Аннуна",
-      "context": "npc",
-      "type": "npc",
-      "type_label": "",
-      "tier": 8,
-      "sprite": "img/npcs/enid.png",
-      "lat": 51.642507720436036,
-      "lon": 35.70708891362976,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1779566442,
-      "last_seen": 1779566502
-    },
-    {
-      "uuid": "445be39d-d242-460d-949f-f6c1193a36a8",
-      "name": "Сэр Балин",
-      "context": "npc",
-      "type": "npc",
-      "type_label": "",
-      "tier": 7,
-      "sprite": "img/npcs/balin.png",
-      "lat": 51.649220200199906,
-      "lon": 35.706809212001204,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1779566442,
-      "last_seen": 1779566502
-    },
-    {
-      "uuid": "853bf032-bb90-4dac-9f10-5b7c6775ce2f",
-      "name": "Беатрис",
-      "context": "npc",
-      "type": "npc",
-      "type_label": "",
-      "tier": 2,
-      "sprite": "img/npcs/magic_woman1.png",
-      "lat": 51.644512538115976,
-      "lon": 35.70439677092346,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1779566442,
-      "last_seen": 1779566502
-    },
-    {
-      "uuid": "0f603d4e-3d37-4b20-a3ad-5c18843107bc",
-      "name": "Руж",
-      "context": "npc",
-      "type": "npc",
-      "type_label": "",
-      "tier": 6,
-      "sprite": "img/npcs/rouge.png",
-      "lat": 51.64818943971189,
-      "lon": 35.70347924193018,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1779566442,
-      "last_seen": 1779566502
-    },
-    {
-      "uuid": "1e429777-d8aa-46bc-bdd0-534af28b2136",
-      "name": "Хорус",
-      "context": "npc",
-      "type": "npc",
-      "type_label": "",
-      "tier": 7,
-      "sprite": "img/npcs/winged_m.png",
-      "lat": 51.66120632097996,
-      "lon": 35.701176433929,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1779566442,
-      "last_seen": 1779566502
-    },
-    {
-      "uuid": "poi:80607490-f18c-4432-97e2-8d9217b03e39",
-      "name": "Монумент Тора",
-      "context": "monument",
-      "type": "monument",
-      "type_label": "",
-      "tier": 0,
-      "sprite": "img/shops/monument_thor.png",
-      "lat": 51.66044496132145,
-      "lon": 35.70230925585669,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1779566442,
-      "last_seen": 1779566502
-    },
-    {
-      "uuid": "f624e2af-67f0-410a-b86b-8d3a87acf3ef",
-      "name": "Гейл из Воителей Бури",
-      "context": "npc",
-      "type": "npc",
-      "type_label": "",
-      "tier": 4,
-      "sprite": "img/npcs/storm_knight_gale.png",
-      "lat": 51.64594682019327,
-      "lon": 35.71072003993175,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1779566442,
-      "last_seen": 1779566502
-    },
-    {
-      "uuid": "4e29c35a-038e-4b92-b7a8-c2f51b07df40",
-      "name": "Пиролит",
-      "context": "discovery_item",
-      "type": "discovery_item",
-      "type_label": "",
-      "tier": 0,
-      "sprite": "img/materials/fire_stone.png",
-      "lat": 51.65484958158164,
-      "lon": 35.69354120572221,
-      "is_boss": 0,
-      "is_raid": 0,
-      "first_seen": 1779566442,
       "last_seen": 1779566502
     },
     {
