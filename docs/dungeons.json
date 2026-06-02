@@ -1,7 +1,22 @@
 {
-  "generated": 1780423522,
+  "generated": 1780423533,
   "count": 4434,
   "objects": [
+    {
+      "uuid": "977dc141-1f3d-4b54-902d-0fd6a4e5a3ca",
+      "name": "Пепельный Феникс",
+      "context": "worldraid",
+      "type": "",
+      "type_label": "",
+      "tier": 10,
+      "sprite": "img/bosses/ashen_phoenix.png",
+      "lat": 51.682698750683,
+      "lon": 35.611990659003,
+      "is_boss": 1,
+      "is_raid": 1,
+      "first_seen": 1780423530,
+      "last_seen": 1780423530
+    },
     {
       "uuid": "feecb30c-96e0-4f84-9880-ff47c72f6fe9",
       "name": "Южный Монастырь Магазин",
@@ -4868,22 +4883,6 @@
       "is_boss": 1,
       "is_raid": 1,
       "first_seen": 1780356746,
-      "last_seen": 1780356869
-    },
-    {
-      "id": 4242,
-      "uuid": "977dc141-1f3d-4b54-902d-0fd6a4e5a3ca",
-      "name": "Пепельный Феникс",
-      "context": "worldraid",
-      "type": "",
-      "type_label": "",
-      "tier": 10,
-      "sprite": "img/bosses/ashen_phoenix.png",
-      "lat": 51.682698750683,
-      "lon": 35.611990659003,
-      "is_boss": 1,
-      "is_raid": 1,
-      "first_seen": 1780356770,
       "last_seen": 1780356869
     },
     {
